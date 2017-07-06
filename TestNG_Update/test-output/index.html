@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Batch_Execution">
+              <span class="suite-name border-skipped">Batch Execution</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Batch_Execution">
+                    <span>C:\Users\Maneesh\workspace\CNet_Global_Updated\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Batch_Execution">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Batch_Execution">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Batch_Execution">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Batch_Execution">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Batch_Execution">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Batch_Execution">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,  4 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Batch_Execution" class="hide-methods skipped suite-Batch_Execution"> (hide)</a> <!-- hide-methods skipped suite-Batch_Execution -->
+                      <a href="#" panel-name="suite-Batch_Execution" class="show-methods skipped suite-Batch_Execution"> (show)</a> <!-- show-methods skipped suite-Batch_Execution -->
+                    </span>
+                    <div class="method-list-content skipped suite-Batch_Execution">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Batch_Execution" title="BatchExecution.Script_Execution_Transpose" hash-for-method="UpdateVirtualMachine(Y, UpdateVM_NewYork_AWS_Dev59, Update, PRJ0010232, New York, AWS, , , AWS-AIMS-CNET-01, DEV-LNX-APAC...)">UpdateVirtualMachine(Y, UpdateVM_NewYork_AWS_Dev59, Update, PRJ0010232, New York, AWS, , , AWS-AIMS-CNET-01, DEV-LNX-APAC...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Batch_Execution" title="BatchExecution.Script_Execution_Transpose" hash-for-method="UpdateVirtualMachine(Y, UpdateVM_NewYork_VMWare_Dev59, Update, PRJ0010232, New York, VMWare, 192.168.20.85, 192.168.10.22...)">UpdateVirtualMachine(Y, UpdateVM_NewYork_VMWare_Dev59, Update, PRJ0010232, New York, VMWare, 192.168.20.85, 192.168.10.22...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Batch_Execution" title="BatchExecution.Script_Execution_Transpose" hash-for-method="cNetLoginScenario">cNetLoginScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Batch_Execution" title="BatchExecution.Script_Execution_Transpose" hash-for-method="cNetLogoutScenario">cNetLogoutScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Batch_Execution -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Batch_Execution" class="panel Batch_Execution">
+          <div class="suite-Batch_Execution-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">BatchExecution.Script_Execution_Transpose</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateVirtualMachine(Y, UpdateVM_NewYork_AWS_Dev59, Update, PRJ0010232, New York, AWS, , , AWS-AIMS-CNET-01, DEV-LNX-APAC...)">
+                  </a> <!-- UpdateVirtualMachine(Y, UpdateVM_NewYork_AWS_Dev59, Update, PRJ0010232, New York, AWS, , , AWS-AIMS-CNET-01, DEV-LNX-APAC...) -->
+                  <span class="method-name">UpdateVirtualMachine</span>
+                  <span class="parameters">(Y, UpdateVM_NewYork_AWS_Dev59, Update, PRJ0010232, New York, AWS, , , AWS-AIMS-CNET-01, DEV-LNX-APACHE-59, m1.large, Yes, NetApp, StorageName13, AggregateName13, Vserver13, 23, MB, TCP, Port Range, , Any, , 34, 32, , , Yes, Yes, Yes, No, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateVirtualMachine(Y, UpdateVM_NewYork_VMWare_Dev59, Update, PRJ0010232, New York, VMWare, 192.168.20.85, 192.168.10.22...)">
+                  </a> <!-- UpdateVirtualMachine(Y, UpdateVM_NewYork_VMWare_Dev59, Update, PRJ0010232, New York, VMWare, 192.168.20.85, 192.168.10.22...) -->
+                  <span class="method-name">UpdateVirtualMachine</span>
+                  <span class="parameters">(Y, UpdateVM_NewYork_VMWare_Dev59, Update, PRJ0010232, New York, VMWare, 192.168.20.85, 192.168.10.227, VMWare-AIMS-CNET-01, DEV-LNX-APACHE-59, t2.nano, No, , , , , , , ICMP, Port, 6423, Any, , , , , , Yes, Yes, No, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cNetLoginScenario">
+                  </a> <!-- cNetLoginScenario -->
+                  <span class="method-name">cNetLoginScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cNetLogoutScenario">
+                  </a> <!-- cNetLogoutScenario -->
+                  <span class="method-name">cNetLogoutScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Batch_Execution-class-skipped -->
+        </div> <!-- panel Batch_Execution -->
+        <div panel-name="test-xml-Batch_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Maneesh\workspace\CNet_Global_Updated\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Batch Execution&quot;&gt;
+  &lt;test name=&quot;Script_Execution_Transpose&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BatchExecution.Script_Execution_Transpose&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Script_Execution_Transpose --&gt;
+&lt;/suite&gt; &lt;!-- Batch Execution --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Batch_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Batch Execution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Script_Execution_Transpose (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Batch_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Batch Execution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Batch_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Batch Execution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Batch_Execution');
+function tableData_Batch_Execution() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'cNetLoginScenario')
+data.setCell(0, 2, 'BatchExecution.Script_Execution_Transpose')
+data.setCell(0, 3, 3);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'cNetLogoutScenario')
+data.setCell(1, 2, 'BatchExecution.Script_Execution_Transpose')
+data.setCell(1, 3, 2);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'UpdateVirtualMachine')
+data.setCell(2, 2, 'BatchExecution.Script_Execution_Transpose')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'UpdateVirtualMachine')
+data.setCell(3, 2, 'BatchExecution.Script_Execution_Transpose')
+data.setCell(3, 3, 1);
+window.suiteTableData['Batch_Execution']= { tableData: data, tableDiv: 'times-div-Batch_Execution'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 ms</span>
+              <div id="times-div-Batch_Execution">
+              </div> <!-- times-div-Batch_Execution -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Batch_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Batch Execution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Batch_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Batch_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">BatchExecution.Script_Execution_Transpose</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">extractTestNameFromParameters(public void BatchExecution.Script_Execution_Transpose.cNetLoginScenario() throws java.awt.AWTExcepti...)</span>
+                <span class="method-start">7316 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cNetLoginScenario</span>
+                <span class="method-start">7319 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">extractTestNameFromParameters(public void BatchExecution.Script_Execution_Transpose.UpdateVirtualMachine(java.lang.String,java.lan...)</span>
+                <span class="method-start">8404 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UpdateVirtualMachine(Y, UpdateVM_NewYork_AWS_Dev59, Update, PRJ0010232, New York, AWS, , , AWS-AIMS-CNET-01, DEV-LNX-APAC...)</span>
+                <span class="method-start">8405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UpdateVirtualMachine(Y, UpdateVM_NewYork_VMWare_Dev59, Update, PRJ0010232, New York, VMWare, 192.168.20.85, 192.168.10.22...)</span>
+                <span class="method-start">8409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">extractTestNameFromParameters(public void BatchExecution.Script_Execution_Transpose.UpdateVirtualMachine(java.lang.String,java.lan...)</span>
+                <span class="method-start">8409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">extractTestNameFromParameters(public void BatchExecution.Script_Execution_Transpose.cNetLogoutScenario() throws java.awt.AWTExcept...)</span>
+                <span class="method-start">8412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cNetLogoutScenario</span>
+                <span class="method-start">8413 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
