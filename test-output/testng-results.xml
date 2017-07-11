@@ -170,16 +170,16 @@
       <![CDATA[STEP56]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="98845" started-at="2017-07-11T18:58:19Z" finished-at="2017-07-11T18:59:58Z">
+  <suite name="Batch Execution" duration-ms="115684" started-at="2017-07-11T19:24:17Z" finished-at="2017-07-11T19:26:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="98845" started-at="2017-07-11T18:58:19Z" finished-at="2017-07-11T18:59:58Z">
+    <test name="Script_Execution_Transpose" duration-ms="115684" started-at="2017-07-11T19:24:17Z" finished-at="2017-07-11T19:26:12Z">
       <class name="BatchExecution.Script_Execution_Transpose">
-        <test-method status="PASS" signature="setup()[pri:0, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" name="setup" is-config="true" duration-ms="5379" started-at="2017-07-11T13:58:19Z" finished-at="2017-07-11T13:58:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" name="setup" is-config="true" duration-ms="4329" started-at="2017-07-11T14:24:17Z" finished-at="2017-07-11T14:24:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="3" started-at="2017-07-11T13:58:25Z" finished-at="2017-07-11T13:58:25Z">
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="3" started-at="2017-07-11T14:24:21Z" finished-at="2017-07-11T14:24:21Z">
           <params>
             <param index="0">
               <value>
@@ -188,14 +188,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@626c44e7]]>
+                <![CDATA[[Ljava.lang.Object;@48e92c5c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="PASS" signature="cNetLoginScenario()[pri:0, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" test-instance-name="cNetLogoutScenario" name="cNetLoginScenario" duration-ms="11828" started-at="2017-07-11T13:58:25Z" finished-at="2017-07-11T13:58:37Z">
+        <test-method status="PASS" signature="cNetLoginScenario()[pri:0, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" test-instance-name="cNetLogoutScenario" name="cNetLoginScenario" duration-ms="13251" started-at="2017-07-11T14:24:21Z" finished-at="2017-07-11T14:24:34Z">
           <reporter-output>
             <line>
               <![CDATA[STEP1]]>
@@ -220,7 +220,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- cNetLoginScenario -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-11T13:58:38Z" finished-at="2017-07-11T13:58:38Z">
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="2" started-at="2017-07-11T14:24:35Z" finished-at="2017-07-11T14:24:35Z">
           <params>
             <param index="0">
               <value>
@@ -229,14 +229,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@4dc8caa7]]>
+                <![CDATA[[Ljava.lang.Object;@2e1ef60]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="PASS" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="47972" started-at="2017-07-11T13:58:38Z" data-provider="UpdateVM" finished-at="2017-07-11T13:59:26Z">
+        <test-method status="PASS" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="64942" started-at="2017-07-11T14:24:35Z" data-provider="UpdateVM" finished-at="2017-07-11T14:25:40Z">
           <params>
             <param index="0">
               <value>
@@ -476,7 +476,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- UpdateVirtualMachine -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="0" started-at="2017-07-11T13:59:26Z" finished-at="2017-07-11T13:59:26Z">
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-11T14:25:40Z" finished-at="2017-07-11T14:25:40Z">
           <params>
             <param index="0">
               <value>
@@ -485,14 +485,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@1d730606]]>
+                <![CDATA[[Ljava.lang.Object;@22356acd]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="PASS" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="29969" started-at="2017-07-11T13:59:26Z" data-provider="UpdateVM" finished-at="2017-07-11T13:59:56Z">
+        <test-method status="PASS" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="29543" started-at="2017-07-11T14:25:40Z" data-provider="UpdateVM" finished-at="2017-07-11T14:26:10Z">
           <params>
             <param index="0">
               <value>
@@ -741,7 +741,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- UpdateVirtualMachine -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-11T13:59:56Z" finished-at="2017-07-11T13:59:56Z">
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-11T14:26:10Z" finished-at="2017-07-11T14:26:10Z">
           <params>
             <param index="0">
               <value>
@@ -750,22 +750,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@3bcbb589]]>
+                <![CDATA[[Ljava.lang.Object;@386f0da3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="PASS" signature="cNetLogoutScenario()[pri:2, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" test-instance-name="cNetLogoutScenario" name="cNetLogoutScenario" duration-ms="2051" started-at="2017-07-11T13:59:56Z" finished-at="2017-07-11T13:59:58Z">
+        <test-method status="PASS" signature="cNetLogoutScenario()[pri:2, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" test-instance-name="cNetLogoutScenario" name="cNetLogoutScenario" duration-ms="2104" started-at="2017-07-11T14:26:10Z" finished-at="2017-07-11T14:26:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cNetLogoutScenario -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" name="tearDown" is-config="true" duration-ms="209" started-at="2017-07-11T13:59:58Z" finished-at="2017-07-11T13:59:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" name="tearDown" is-config="true" duration-ms="193" started-at="2017-07-11T14:26:12Z" finished-at="2017-07-11T14:26:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- BatchExecution.Script_Execution_Transpose -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Script_Execution_Transpose -->
+  </suite> <!-- Batch Execution -->
 </testng-results>
