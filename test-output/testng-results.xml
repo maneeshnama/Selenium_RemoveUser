@@ -1,74 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="4" failed="0" total="4" passed="0">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
+    <line>
+      <![CDATA[STEP1]]>
+    </line>
+    <line>
+      <![CDATA[STEP2]]>
+    </line>
+    <line>
+      <![CDATA[STEP3]]>
+    </line>
+    <line>
+      <![CDATA[STEP4]]>
+    </line>
+    <line>
+      <![CDATA[STEP5]]>
+    </line>
+    <line>
+      <![CDATA[STEP6]]>
+    </line>
+    <line>
+      <![CDATA[STEP7]]>
+    </line>
+    <line>
+      <![CDATA[STEP8]]>
+    </line>
+    <line>
+      <![CDATA[STEP9]]>
+    </line>
+    <line>
+      <![CDATA[STEP10]]>
+    </line>
+    <line>
+      <![CDATA[STEP11]]>
+    </line>
+    <line>
+      <![CDATA[STEP12]]>
+    </line>
+    <line>
+      <![CDATA[STEP13]]>
+    </line>
+    <line>
+      <![CDATA[STEP14]]>
+    </line>
+    <line>
+      <![CDATA[STEP15]]>
+    </line>
+    <line>
+      <![CDATA[STEP16]]>
+    </line>
+    <line>
+      <![CDATA[STEP17]]>
+    </line>
+    <line>
+      <![CDATA[STEP18]]>
+    </line>
+    <line>
+      <![CDATA[STEP19]]>
+    </line>
+    <line>
+      <![CDATA[STEP20]]>
+    </line>
+    <line>
+      <![CDATA[STEP21]]>
+    </line>
+    <line>
+      <![CDATA[STEP22]]>
+    </line>
+    <line>
+      <![CDATA[STEP23]]>
+    </line>
+    <line>
+      <![CDATA[STEP24]]>
+    </line>
+    <line>
+      <![CDATA[STEP25]]>
+    </line>
+    <line>
+      <![CDATA[STEP26]]>
+    </line>
+    <line>
+      <![CDATA[STEP27]]>
+    </line>
+    <line>
+      <![CDATA[STEP28]]>
+    </line>
+    <line>
+      <![CDATA[STEP29]]>
+    </line>
+    <line>
+      <![CDATA[STEP30]]>
+    </line>
+    <line>
+      <![CDATA[STEP31]]>
+    </line>
+    <line>
+      <![CDATA[STEP32]]>
+    </line>
+    <line>
+      <![CDATA[STEP33]]>
+    </line>
+    <line>
+      <![CDATA[STEP34]]>
+    </line>
+    <line>
+      <![CDATA[STEP35]]>
+    </line>
+    <line>
+      <![CDATA[STEP36]]>
+    </line>
+    <line>
+      <![CDATA[STEP37]]>
+    </line>
+    <line>
+      <![CDATA[STEP38]]>
+    </line>
+    <line>
+      <![CDATA[STEP39]]>
+    </line>
+    <line>
+      <![CDATA[STEP40]]>
+    </line>
+    <line>
+      <![CDATA[STEP41]]>
+    </line>
+    <line>
+      <![CDATA[STEP42]]>
+    </line>
+    <line>
+      <![CDATA[STEP43]]>
+    </line>
+    <line>
+      <![CDATA[STEP44]]>
+    </line>
+    <line>
+      <![CDATA[STEP45]]>
+    </line>
+    <line>
+      <![CDATA[STEP46]]>
+    </line>
+    <line>
+      <![CDATA[STEP47]]>
+    </line>
+    <line>
+      <![CDATA[STEP48]]>
+    </line>
+    <line>
+      <![CDATA[STEP49]]>
+    </line>
+    <line>
+      <![CDATA[STEP50]]>
+    </line>
+    <line>
+      <![CDATA[STEP51]]>
+    </line>
+    <line>
+      <![CDATA[STEP52]]>
+    </line>
+    <line>
+      <![CDATA[STEP53]]>
+    </line>
+    <line>
+      <![CDATA[STEP54]]>
+    </line>
+    <line>
+      <![CDATA[STEP55]]>
+    </line>
+    <line>
+      <![CDATA[STEP56]]>
+    </line>
   </reporter-output>
-  <suite name="Batch Execution" duration-ms="8420" started-at="2017-07-06T15:44:10Z" finished-at="2017-07-06T15:44:18Z">
+  <suite name="Default suite" duration-ms="98845" started-at="2017-07-11T18:58:19Z" finished-at="2017-07-11T18:59:58Z">
     <groups>
     </groups>
-    <test name="Script_Execution_Transpose" duration-ms="8420" started-at="2017-07-06T15:44:10Z" finished-at="2017-07-06T15:44:18Z">
+    <test name="Default test" duration-ms="98845" started-at="2017-07-11T18:58:19Z" finished-at="2017-07-11T18:59:58Z">
       <class name="BatchExecution.Script_Execution_Transpose">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" name="setup" is-config="true" duration-ms="0" started-at="2017-07-06T10:44:10Z" finished-at="2017-07-06T10:44:10Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: cannot get automation extension
-from chrome not reachable
-  (Session info: chrome=59.0.3071.115)
-  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4.03 seconds
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
-System info: host: 'DESKTOP-QQACKJ4', ip: '192.168.10.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\Maneesh\AppData\Local\Temp\scoped_dir10168_29623}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: aa3e573d90d90de7af22741c81bed21c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
-from chrome not reachable
-  (Session info: chrome=59.0.3071.115)
-  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4.03 seconds
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
-System info: host: 'DESKTOP-QQACKJ4', ip: '192.168.10.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\Maneesh\AppData\Local\Temp\scoped_dir10168_29623}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: aa3e573d90d90de7af22741c81bed21c
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:945)
-	at Browser_Setup.BrowserConfig.setup(BrowserConfig.java:75)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" name="setup" is-config="true" duration-ms="5379" started-at="2017-07-11T13:58:19Z" finished-at="2017-07-11T13:58:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="3" started-at="2017-07-06T10:44:17Z" finished-at="2017-07-06T10:44:17Z">
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="3" started-at="2017-07-11T13:58:25Z" finished-at="2017-07-11T13:58:25Z">
           <params>
             <param index="0">
               <value>
@@ -77,34 +188,55 @@ Session ID: aa3e573d90d90de7af22741c81bed21c
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@5717c37]]>
+                <![CDATA[[Ljava.lang.Object;@626c44e7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="SKIP" signature="cNetLoginScenario()[pri:0, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" test-instance-name="cNetLogoutScenario" name="cNetLoginScenario" duration-ms="3" started-at="2017-07-06T10:44:17Z" finished-at="2017-07-06T10:44:17Z">
+        <test-method status="PASS" signature="cNetLoginScenario()[pri:0, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" test-instance-name="cNetLogoutScenario" name="cNetLoginScenario" duration-ms="11828" started-at="2017-07-11T13:58:25Z" finished-at="2017-07-11T13:58:37Z">
           <reporter-output>
+            <line>
+              <![CDATA[STEP1]]>
+            </line>
+            <line>
+              <![CDATA[STEP2]]>
+            </line>
+            <line>
+              <![CDATA[STEP3]]>
+            </line>
+            <line>
+              <![CDATA[STEP4]]>
+            </line>
+            <line>
+              <![CDATA[STEP5]]>
+            </line>
+            <line>
+              <![CDATA[STEP6]]>
+            </line>
+            <line>
+              <![CDATA[STEP7]]>
+            </line>
           </reporter-output>
         </test-method> <!-- cNetLoginScenario -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-06T10:44:18Z" finished-at="2017-07-06T10:44:18Z">
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-11T13:58:38Z" finished-at="2017-07-11T13:58:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void BatchExecution.Script_Execution_Transpose.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
+                <![CDATA[public void BatchExecution.Script_Execution_Transpose.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@68f4865]]>
+                <![CDATA[[Ljava.lang.Object;@4dc8caa7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="SKIP" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="1" started-at="2017-07-06T10:44:18Z" data-provider="UpdateVM" finished-at="2017-07-06T10:44:18Z">
+        <test-method status="PASS" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="47972" started-at="2017-07-11T13:58:38Z" data-provider="UpdateVM" finished-at="2017-07-11T13:59:26Z">
           <params>
             <param index="0">
               <value>
@@ -113,194 +245,12 @@ Session ID: aa3e573d90d90de7af22741c81bed21c
             </param>
             <param index="1">
               <value>
-                <![CDATA[UpdateVM_NewYork_AWS_Dev59]]>
+                <![CDATA[UpdateVM_Delete]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Update]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[PRJ0010232]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[New York]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[AWS]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[AWS-AIMS-CNET-01]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[DEV-LNX-APACHE-59]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[m1.large]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[NetApp]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[StorageName13]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[AggregateName13]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[Vserver13]]>
-              </value>
-            </param>
-            <param index="16">
-              <value>
-                <![CDATA[23]]>
-              </value>
-            </param>
-            <param index="17">
-              <value>
-                <![CDATA[MB]]>
-              </value>
-            </param>
-            <param index="18">
-              <value>
-                <![CDATA[TCP]]>
-              </value>
-            </param>
-            <param index="19">
-              <value>
-                <![CDATA[Port Range]]>
-              </value>
-            </param>
-            <param index="20">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="21">
-              <value>
-                <![CDATA[Any]]>
-              </value>
-            </param>
-            <param index="22">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="23">
-              <value>
-                <![CDATA[34]]>
-              </value>
-            </param>
-            <param index="24">
-              <value>
-                <![CDATA[32]]>
-              </value>
-            </param>
-            <param index="25">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="26">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="27">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="28">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="29">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="30">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="31">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UpdateVirtualMachine -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="0" started-at="2017-07-06T10:44:18Z" finished-at="2017-07-06T10:44:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void BatchExecution.Script_Execution_Transpose.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@4816278d]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="SKIP" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="1" started-at="2017-07-06T10:44:18Z" data-provider="UpdateVM" finished-at="2017-07-06T10:44:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[UpdateVM_NewYork_VMWare_Dev59]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Update]]>
+                <![CDATA[Delete]]>
               </value>
             </param>
             <param index="3">
@@ -320,32 +270,32 @@ Session ID: aa3e573d90d90de7af22741c81bed21c
             </param>
             <param index="6">
               <value>
-                <![CDATA[192.168.20.85]]>
+                <![CDATA[Cluster]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[192.168.10.227]]>
+                <![CDATA[192.168.20.85]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[VMWare-AIMS-CNET-01]]>
+                <![CDATA[192.168.10.227]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[DEV-LNX-APACHE-59]]>
+                <![CDATA[VMWare-AIMS-CNET-01]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[t2.nano]]>
+                <![CDATA[DEV-LNX-APACHE-91]]>
               </value>
             </param>
             <param index="11">
               <value>
-                <![CDATA[No]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="12">
@@ -380,22 +330,22 @@ Session ID: aa3e573d90d90de7af22741c81bed21c
             </param>
             <param index="18">
               <value>
-                <![CDATA[ICMP]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="19">
               <value>
-                <![CDATA[Port]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="20">
               <value>
-                <![CDATA[6423]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="21">
               <value>
-                <![CDATA[Any]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="22">
@@ -425,17 +375,17 @@ Session ID: aa3e573d90d90de7af22741c81bed21c
             </param>
             <param index="27">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="28">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="29">
               <value>
-                <![CDATA[No]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="30">
@@ -448,11 +398,350 @@ Session ID: aa3e573d90d90de7af22741c81bed21c
                 <![CDATA[]]>
               </value>
             </param>
+            <param index="32">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[STEP8]]>
+            </line>
+            <line>
+              <![CDATA[STEP9]]>
+            </line>
+            <line>
+              <![CDATA[STEP10]]>
+            </line>
+            <line>
+              <![CDATA[STEP11]]>
+            </line>
+            <line>
+              <![CDATA[STEP12]]>
+            </line>
+            <line>
+              <![CDATA[STEP13]]>
+            </line>
+            <line>
+              <![CDATA[STEP14]]>
+            </line>
+            <line>
+              <![CDATA[STEP15]]>
+            </line>
+            <line>
+              <![CDATA[STEP16]]>
+            </line>
+            <line>
+              <![CDATA[STEP17]]>
+            </line>
+            <line>
+              <![CDATA[STEP18]]>
+            </line>
+            <line>
+              <![CDATA[STEP19]]>
+            </line>
+            <line>
+              <![CDATA[STEP20]]>
+            </line>
+            <line>
+              <![CDATA[STEP21]]>
+            </line>
+            <line>
+              <![CDATA[STEP22]]>
+            </line>
+            <line>
+              <![CDATA[STEP23]]>
+            </line>
+            <line>
+              <![CDATA[STEP24]]>
+            </line>
+            <line>
+              <![CDATA[STEP25]]>
+            </line>
+            <line>
+              <![CDATA[STEP26]]>
+            </line>
+            <line>
+              <![CDATA[STEP27]]>
+            </line>
+            <line>
+              <![CDATA[STEP28]]>
+            </line>
+            <line>
+              <![CDATA[STEP29]]>
+            </line>
+            <line>
+              <![CDATA[STEP30]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UpdateVirtualMachine -->
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="0" started-at="2017-07-11T13:59:26Z" finished-at="2017-07-11T13:59:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BatchExecution.Script_Execution_Transpose.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1d730606]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- extractTestNameFromParameters -->
+        <test-method status="PASS" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="29969" started-at="2017-07-11T13:59:26Z" data-provider="UpdateVM" finished-at="2017-07-11T13:59:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UpdateVM_Delete]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delete]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PRJ0010232]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[VMWare]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Server]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[192.168.20.85]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[192.168.10.227]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[VMWare-AIMS-CNET-01]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[DEV-LNX-APACHE-59]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[STEP31]]>
+            </line>
+            <line>
+              <![CDATA[STEP32]]>
+            </line>
+            <line>
+              <![CDATA[STEP33]]>
+            </line>
+            <line>
+              <![CDATA[STEP34]]>
+            </line>
+            <line>
+              <![CDATA[STEP35]]>
+            </line>
+            <line>
+              <![CDATA[STEP36]]>
+            </line>
+            <line>
+              <![CDATA[STEP37]]>
+            </line>
+            <line>
+              <![CDATA[STEP38]]>
+            </line>
+            <line>
+              <![CDATA[STEP39]]>
+            </line>
+            <line>
+              <![CDATA[STEP40]]>
+            </line>
+            <line>
+              <![CDATA[STEP41]]>
+            </line>
+            <line>
+              <![CDATA[STEP42]]>
+            </line>
+            <line>
+              <![CDATA[STEP43]]>
+            </line>
+            <line>
+              <![CDATA[STEP44]]>
+            </line>
+            <line>
+              <![CDATA[STEP45]]>
+            </line>
+            <line>
+              <![CDATA[STEP46]]>
+            </line>
+            <line>
+              <![CDATA[STEP47]]>
+            </line>
+            <line>
+              <![CDATA[STEP48]]>
+            </line>
+            <line>
+              <![CDATA[STEP49]]>
+            </line>
+            <line>
+              <![CDATA[STEP50]]>
+            </line>
+            <line>
+              <![CDATA[STEP51]]>
+            </line>
+            <line>
+              <![CDATA[STEP52]]>
+            </line>
+            <line>
+              <![CDATA[STEP53]]>
+            </line>
+            <line>
+              <![CDATA[STEP54]]>
+            </line>
+            <line>
+              <![CDATA[STEP55]]>
+            </line>
+            <line>
+              <![CDATA[STEP56]]>
+            </line>
+          </reporter-output>
         </test-method> <!-- UpdateVirtualMachine -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-06T10:44:18Z" finished-at="2017-07-06T10:44:18Z">
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-11T13:59:56Z" finished-at="2017-07-11T13:59:56Z">
           <params>
             <param index="0">
               <value>
@@ -461,22 +750,22 @@ Session ID: aa3e573d90d90de7af22741c81bed21c
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@4eaf3684]]>
+                <![CDATA[[Ljava.lang.Object;@3bcbb589]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="SKIP" signature="cNetLogoutScenario()[pri:2, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" test-instance-name="cNetLogoutScenario" name="cNetLogoutScenario" duration-ms="2" started-at="2017-07-06T10:44:18Z" finished-at="2017-07-06T10:44:18Z">
+        <test-method status="PASS" signature="cNetLogoutScenario()[pri:2, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" test-instance-name="cNetLogoutScenario" name="cNetLogoutScenario" duration-ms="2051" started-at="2017-07-11T13:59:56Z" finished-at="2017-07-11T13:59:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cNetLogoutScenario -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:BatchExecution.Script_Execution_Transpose@3834d63f]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-06T10:44:18Z" finished-at="2017-07-06T10:44:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BatchExecution.Script_Execution_Transpose@14acaea5]" name="tearDown" is-config="true" duration-ms="209" started-at="2017-07-11T13:59:58Z" finished-at="2017-07-11T13:59:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- BatchExecution.Script_Execution_Transpose -->
-    </test> <!-- Script_Execution_Transpose -->
-  </suite> <!-- Batch Execution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
