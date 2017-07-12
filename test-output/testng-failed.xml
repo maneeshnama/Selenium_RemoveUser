@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Batch Execution]">
-  <test name="Script_Execution_Transpose(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="BatchExecution.Script_Execution_Transpose">
         <methods>
           <include name="setup"/>
-          <include name="cNetLogoutScenario"/>
-          <include name="cNetLoginScenario"/>
           <include name="extractTestNameFromParameters"/>
+          <include name="tearDown"/>
           <include name="UpdateVirtualMachine"/>
         </methods>
       </class> <!-- BatchExecution.Script_Execution_Transpose -->
     </classes>
-  </test> <!-- Script_Execution_Transpose(failed) -->
-</suite> <!-- Failed suite [Batch Execution] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
