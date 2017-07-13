@@ -6,15 +6,14 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
-
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriverException;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
 import Browser_Setup.BrowserConfig;
 import BusinessFunctions.Functional_Cases;
+import DynamicTestCaseName.UseAsTestName;
 import GenericFunctions.Functional_Libraries;
 import Utilities.DataInputProvider;
 import Utilities.ReadDataFromExcel;
@@ -25,7 +24,7 @@ import atu.testng.reports.listeners.MethodListener;
 import atu.testng.reports.utils.Utils;
 
 @Listeners({ATUReportsListener.class, ConfigurationListener.class, MethodListener.class})
-public class Script_Execution extends BrowserConfig {
+public class UpdateVirtualMachine_Delete extends BrowserConfig{
 	
 	Properties prop = new Properties();
 	InputStream input = null;
@@ -46,16 +45,18 @@ public class Script_Execution extends BrowserConfig {
 				prop.load(input);
 				
 				fC.CNetLogin(driver);
-									
+						
+				
 				} catch (NoSuchElementException exc) {
 					exc.printStackTrace();
 				} catch (WebDriverException e) {
 					e.printStackTrace();
 				}
 			}
-		    
-		@Test(dataProvider = "UpdateVM", priority=1)
-		public void UpdateVirtualMachine(String Control, String UpdateVM_Scenario, String ProjectInformation, String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String TypeofDecommission, String VcenterHost, String ESXIHOST, String SelectCluster, String	SelectServer, String Serversize, String Storage, String StorageProvier, String StorageName, String AggregateName, String VServer,	String Size, String SizeUnits, String Protocol, String	OpenPort, String Port,  String FromPort, String ToPort, String AllowForm, String IP, String FromIP, String ToIP, String AddMonitering,	String InstallAgentMonitering,	String InstandEnablSNMP, String ChangeDefaultCommString, String	CommunityString) throws AWTException, InterruptedException, IOException
+		
+	    @UseAsTestName(idx=1)
+		@Test(dataProvider = "UpdateVM_Delete", priority=1)
+		public void UpdateVirtualMachine(String Control, String UpdateVM_Scenario, String ProjectInformation, String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String TypeofDecommission, String VcenterHost, String ESXIHOST, String SelectCluster, String	SelectServer) throws AWTException, InterruptedException, IOException
 		{
 			setAuthorInfoReports();
 			try{
@@ -64,19 +65,21 @@ public class Script_Execution extends BrowserConfig {
 			
 			if(Control.equalsIgnoreCase("Y")){
 				fC.AIMSLaunchApplication(driver);
-				fC.UpdateVirtualMachine(driver, ProjectInformation, Project, PrimaryDatacenter, PrimaryCloudPlatform, TypeofDecommission, VcenterHost, ESXIHOST, SelectCluster, SelectServer, Serversize, Storage, StorageProvier,	StorageName,	AggregateName,	VServer,	Size,	SizeUnits,	Protocol,	OpenPort,	Port,	FromPort, ToPort, AllowForm, IP, FromIP,  ToIP, AddMonitering,	InstallAgentMonitering,	InstandEnablSNMP,	ChangeDefaultCommString,	CommunityString );
-				fC.getRequestNumber(driver);	
-				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "", "", "", "", "");
-				String RequestText = fC.getRequestID(driver, prop.getProperty("RequestLinkID"));
-				System.out.println(RequestText);
-				fC.ImpersonateUser(driver);
-				String replaceReqNum = fC.ReplaceRequestNumber(driver, RequestText);
-				System.out.println(replaceReqNum);
-				String finalreplaceReqNum = fC.getRITMNUMBEr(driver, replaceReqNum);
-				System.out.println(finalreplaceReqNum);
-				fC.RequestApproval(driver, RequestText, finalreplaceReqNum);
-				fC.ShowWorkFlow(driver);
-				fC.Search_cmdb_ci_server_list(driver);
+				fC.UpdateVirtualMachine_Delete(driver, ProjectInformation, Project, PrimaryDatacenter, PrimaryCloudPlatform, TypeofDecommission, VcenterHost, ESXIHOST, SelectCluster, SelectServer);
+//				fC.getRequestNumber(driver);	
+//				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "", "", "", "", "");
+//				String RequestText = fC.getRequestID(driver, prop.getProperty("RequestLinkID"));
+//				System.out.println(RequestText);
+//				fC.ImpersonateUser(driver);
+//				String replaceReqNum = fC.ReplaceRequestNumber(driver, RequestText);
+//				System.out.println(replaceReqNum);
+//				String finalreplaceReqNum = fC.getRITMNUMBEr(driver, replaceReqNum);
+//				System.out.println(finalreplaceReqNum);
+//				fC.RequestApproval(driver, RequestText, finalreplaceReqNum);
+//				fC.ShowWorkFlow(driver);
+//				fC.Search_cmdb_ci_server_list(driver);
+				
+			 getTestName().equals(UpdateVM_Scenario);
 				
 			}		
 			} catch (NoSuchElementException exc) {
@@ -103,9 +106,9 @@ public class Script_Execution extends BrowserConfig {
 				}
 			}
 	
-	@DataProvider(name ="UpdateVM")
+	@DataProvider(name ="UpdateVM_Delete")
 	  public Object[][]createData() throws Exception{
-		  Object[][] testObjArray = ReadDataFromExcel.getDataArray("Testdata\\UpdateVirtualMachine.xlsx","Sheet1");
+		  Object[][] testObjArray = DataInputProvider.getDataArray("Testdata\\UpdateVirtualMachine.xlsx","Delete");
 	       return (testObjArray);
 		}
 	 

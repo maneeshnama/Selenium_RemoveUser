@@ -26,7 +26,7 @@ import atu.testng.reports.listeners.MethodListener;
 import atu.testng.reports.utils.Utils;
 
 @Listeners({ATUReportsListener.class, ConfigurationListener.class, MethodListener.class})
-public class Script_Execution_Transpose extends BrowserConfig{
+public class UpdateVirtualMachine_Update extends BrowserConfig{
 	
 	Properties prop = new Properties();
 	InputStream input = null;
@@ -58,7 +58,7 @@ public class Script_Execution_Transpose extends BrowserConfig{
 		
 	    @UseAsTestName(idx=1)
 		@Test(dataProvider = "UpdateVM", priority=1)
-		public void UpdateVirtualMachine(String Control, String UpdateVM_Scenario, String ProjectInformation, String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String TypeofDecommission, String VcenterHost, String ESXIHOST, String SelectCluster, String	SelectServer, String Serversize, String Storage, String StorageProvier, String StorageName, String AggregateName, String VServer,	String Size, String SizeUnits, String Protocol, String	OpenPort, String Port,  String FromPort, String ToPort, String AllowForm, String IP, String FromIP, String ToIP, String AddMonitering,	String InstallAgentMonitering,	String InstandEnablSNMP, String ChangeDefaultCommString, String	CommunityString) throws AWTException, InterruptedException, IOException
+		public void UpdateVirtualMachine(String Control, String UpdateVM_Scenario, String ProjectInformation, String Project, String PrimaryDatacenter, String PrimaryCloudPlatform,  String VcenterHost, String ESXIHOST, String SelectCluster, String	SelectServer, String Serversize, String Storage, String StorageProvier, String StorageName, String AggregateName, String VServer,	String Size, String SizeUnits, String Protocol, String	OpenPort, String Port,  String FromPort, String ToPort, String AllowForm, String IP, String FromIP, String ToIP, String AddMonitering,	String InstallAgentMonitering,	String InstandEnablSNMP, String ChangeDefaultCommString, String	CommunityString) throws AWTException, InterruptedException, IOException
 		{
 			setAuthorInfoReports();
 			try{
@@ -67,7 +67,7 @@ public class Script_Execution_Transpose extends BrowserConfig{
 			
 			if(Control.equalsIgnoreCase("Y")){
 				fC.AIMSLaunchApplication(driver);
-				fC.UpdateVirtualMachine(driver, ProjectInformation, Project, PrimaryDatacenter, PrimaryCloudPlatform, TypeofDecommission, VcenterHost, ESXIHOST, SelectCluster, SelectServer, Serversize, Storage, StorageProvier,	StorageName,	AggregateName,	VServer,	Size,	SizeUnits,	Protocol,	OpenPort,	Port,	FromPort, ToPort, AllowForm, IP, FromIP,  ToIP, AddMonitering,	InstallAgentMonitering,	InstandEnablSNMP,	ChangeDefaultCommString,	CommunityString );
+				fC.UpdateVirtualMachine_Update(driver, ProjectInformation, Project, PrimaryDatacenter, PrimaryCloudPlatform, VcenterHost, ESXIHOST, SelectCluster, SelectServer, Serversize, Storage, StorageProvier,	StorageName,	AggregateName,	VServer,	Size,	SizeUnits,	Protocol,	OpenPort,	Port,	FromPort, ToPort, AllowForm, IP, FromIP,  ToIP, AddMonitering,	InstallAgentMonitering,	InstandEnablSNMP,	ChangeDefaultCommString,	CommunityString );
 //				fC.getRequestNumber(driver);	
 //				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "", "", "", "", "");
 //				String RequestText = fC.getRequestID(driver, prop.getProperty("RequestLinkID"));
@@ -110,7 +110,7 @@ public class Script_Execution_Transpose extends BrowserConfig{
 	
 	@DataProvider(name ="UpdateVM")
 	  public Object[][]createData() throws Exception{
-		  Object[][] testObjArray = DataInputProvider.getDataArray("Testdata\\UpdateVirtualMachine.xlsx","Sheet2");
+		  Object[][] testObjArray = DataInputProvider.getDataArray("Testdata\\UpdateVirtualMachine.xlsx","Update");
 	       return (testObjArray);
 		}
 	 

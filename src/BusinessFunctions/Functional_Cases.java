@@ -103,7 +103,7 @@ public class Functional_Cases {
 	 		}	
 	}
 	
-	public void UpdateVirtualMachine(WebDriver driver, String ProjectInformation, String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String TypeofDecommission, String VcenterHost, String ESXIHOST, String SelectCluster, String	SelectServer, String Serversize, String Storage, String StorageProvier, String StorageName, String AggregateName, String VServer,	String Size, String SizeUnits, String Protocol, String	OpenPort, String Port,  String FromPort, String ToPort, String AllowForm, String IP, String FromIP, String ToIP, String AddMonitering,	String InstallAgentMonitering,	String InstandEnablSNMP, String ChangeDefaultCommString, String	CommunityString ) throws AWTException, InterruptedException, IOException
+	public void UpdateVirtualMachine_Update(WebDriver driver, String ProjectInformation, String Project, String PrimaryDatacenter, String PrimaryCloudPlatform,  String VcenterHost, String ESXIHOST, String SelectCluster, String	SelectServer, String Serversize, String Storage, String StorageProvier, String StorageName, String AggregateName, String VServer,	String Size, String SizeUnits, String Protocol, String	OpenPort, String Port,  String FromPort, String ToPort, String AllowForm, String IP, String FromIP, String ToIP, String AddMonitering,	String InstallAgentMonitering,	String InstandEnablSNMP, String ChangeDefaultCommString, String	CommunityString ) throws AWTException, InterruptedException, IOException
 	{
 		try{
 			
@@ -113,8 +113,7 @@ public class Functional_Cases {
 			SwitchToMainFrame(driver, prop.getProperty("MainframeID"));
 			
 			fL.clickByxpath(driver, prop.getProperty("UpdateVM"),prop.getProperty("UpdateVM") ,"Clicked the UpdateVM", "Select UpdateVM from AIMS", "Successfully Selected", "N");
-					
-			if(ProjectInformation.equalsIgnoreCase("Update")){
+
 				
 				fL.selectDropdownbyID(driver, prop.getProperty("ProjectInformationID"), ProjectInformation, prop.getProperty("ProjectInformationID"), "Type of ServerOperation Field Choosen", "Select Update Field", "ServerOperation field was successfully selected ", "N");
 				
@@ -197,8 +196,29 @@ public class Functional_Cases {
 					
 					fL.clickByID(driver, prop.getProperty("OrderNow"),prop.getProperty("OrderNow") ,"Clicked OrderNow", "Place Your order", "Successful", "N");
 				}
-			} else if(ProjectInformation.equalsIgnoreCase("Delete")){
+							
+				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 				
+				fL.clickByID(driver, prop.getProperty("OrderNow"),prop.getProperty("OrderNow") ,"Clicked OrderNow", "Place Your order", "Successful", "N");
+	
+								
+		 } catch (WebDriverException e) {
+			System.out.println(e.getMessage());
+	 	}	
+	}
+	
+	
+	public void UpdateVirtualMachine_Delete(WebDriver driver, String ProjectInformation, String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String TypeofDecommission, String VcenterHost, String ESXIHOST, String SelectCluster, String	SelectServer ) throws AWTException, InterruptedException, IOException
+	{
+		try{
+			
+			input = new FileInputStream("Configuration\\Object_Repository.properties");
+			prop.load(input);
+			
+			SwitchToMainFrame(driver, prop.getProperty("MainframeID"));
+			
+			fL.clickByxpath(driver, prop.getProperty("UpdateVM"),prop.getProperty("UpdateVM") ,"Clicked the UpdateVM", "Select UpdateVM from AIMS", "Successfully Selected", "N");
+					
 				fL.selectDropdownbyID(driver, prop.getProperty("ProjectInformationID"), ProjectInformation, prop.getProperty("ProjectInformationID"), "Type of ServerOperation Field Choosen", "Select Update Field", "ServerOperation field was successfully selected ", "N");
 				
 				fL.clickByxpath(driver, prop.getProperty("ProjectFiledXpath"),prop.getProperty("ProjectFiledXpath"), "Selected Project lookup field", "Hit the Project LookupField", "Successfully selected", "N");
@@ -261,7 +281,7 @@ public class Functional_Cases {
 				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 				
 				fL.clickByID(driver, prop.getProperty("OrderNow"),prop.getProperty("OrderNow") ,"Clicked OrderNow", "Place Your order", "Successful", "N");
-			}
+			
 								
 		 } catch (WebDriverException e) {
 			System.out.println(e.getMessage());
@@ -269,6 +289,8 @@ public class Functional_Cases {
 	}
 	
 	
+
+
 
 	
 
