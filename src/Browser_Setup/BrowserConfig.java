@@ -135,7 +135,7 @@ public class BrowserConfig extends UseAsTestName_TestBase{
 		@AfterTest
 		public void tearDown() throws Exception {
 		
-			driver.close();
+			//driver.close();
 			//recorder.stop();
 			
 		}

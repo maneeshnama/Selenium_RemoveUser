@@ -6,7 +6,7 @@
       <class name="BatchExecution.UpdateVirtualMachine_Delete">
         <methods>
           <include name="setup"/>
-          <include name="UpdateVirtualMachine" invocation-numbers="0"/>
+          <include name="UpdateVirtualMachine" invocation-numbers="2"/>
           <include name="extractTestNameFromParameters"/>
           <include name="tearDown"/>
         </methods>

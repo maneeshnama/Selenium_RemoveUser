@@ -3,8 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="BatchExecution.UpdateVirtualMachine_Delete"/>
-      <class name="BatchExecution.UpdateVirtualMachine_Update"/>
+      <class name="BatchExecution.UpdateVMScenario"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
