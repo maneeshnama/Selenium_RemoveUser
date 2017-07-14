@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="BatchExecution.UpdateVirtualMachine_Delete">
+      <class name="BatchExecution.UpdateVMScenario">
         <methods>
           <include name="setup"/>
-          <include name="UpdateVirtualMachine" invocation-numbers="2"/>
+          <include name="UpdateVirtualMachine" invocation-numbers="0"/>
           <include name="extractTestNameFromParameters"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- BatchExecution.UpdateVirtualMachine_Delete -->
+      </class> <!-- BatchExecution.UpdateVMScenario -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

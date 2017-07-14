@@ -151,7 +151,7 @@ public class Functional_Libraries {
 		{
 			try {
 			driver.switchTo().defaultContent();
-			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.switchTo().frame(frame);
 			input=frame;
 			reportStep(input, Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);
