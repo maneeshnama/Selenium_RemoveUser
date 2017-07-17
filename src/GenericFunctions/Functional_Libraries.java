@@ -47,7 +47,7 @@ public class Functional_Libraries {
 			} catch (WebDriverException e) {
 				e.printStackTrace();
 				reportStep(input, Description, "FAILED", ExpectedResult, ActualResults, Screenshot);
-				System.out.println(e.getMessage());
+				//System.out.println(e.getMessage());
 			}
 		}
 	
@@ -63,7 +63,7 @@ public class Functional_Libraries {
 				} catch (WebDriverException e) {
 					e.printStackTrace();
 					reportStep(input, Description, "FAILED", ExpectedResult, ActualResults, Screenshot);
-					System.out.println(e.getMessage());
+					//System.out.println(e.getMessage());
 				}
 			}
 		
@@ -151,14 +151,14 @@ public class Functional_Libraries {
 		{
 			try {
 			driver.switchTo().defaultContent();
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			driver.switchTo().frame(frame);
 			input=frame;
 			reportStep(input, Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);
 			} catch (NoSuchElementException e) {
 				e.printStackTrace();
 				reportStep(input, Description, "FAILED", ExpectedResult, ActualResults, Screenshot);
-				System.out.println(e.getMessage());
+				//System.out.println(e.getMessage());
 			}
 		}
 		
@@ -166,8 +166,8 @@ public class Functional_Libraries {
 		{
 			try {
 				FluentWait<WebDriver> waitforelement  = new FluentWait<WebDriver>(driver)
-					       .withTimeout(60, TimeUnit.SECONDS)
-					       .pollingEvery(10, TimeUnit.SECONDS)
+					       .withTimeout(10, TimeUnit.SECONDS)
+					       .pollingEvery(2, TimeUnit.MILLISECONDS)
 					       .ignoring(NoSuchElementException.class);
 				waitforelement.until(ExpectedConditions.elementToBeClickable(By.id(id)));
 			driver.findElement(By.id(id)).clear();
@@ -179,7 +179,7 @@ public class Functional_Libraries {
 			} catch (Exception e) {
 				e.printStackTrace();
 				reportStep(input, Description, "FAILED", ExpectedResult, ActualResults, Screenshot);
-				System.out.println(e.getMessage());
+				//System.out.println(e.getMessage());
 			}
 		}
 		
@@ -200,7 +200,7 @@ public class Functional_Libraries {
 			} catch (Exception e) {
 				e.printStackTrace();
 				reportStep(input, Description, "FAILED", ExpectedResult, ActualResults, Screenshot);
-				System.out.println(e.getMessage());
+				//System.out.println(e.getMessage());
 			}
 		}
 		public void selectDropdownbyID(WebDriver driver, String id, String text, String input, String Description, String ExpectedResult, String ActualResults,String Screenshot ) throws IOException
@@ -233,16 +233,16 @@ public class Functional_Libraries {
 				// To get the main window handle
 				String mainWindow= driver.getWindowHandle();
 				
-				System.out.println("Current Window Page Window Handler ="+ mainWindow );
+				//System.out.println("Current Window Page Window Handler ="+ mainWindow );
 						
 				String windowTitle  = driver.getTitle();
 				
-				System.out.println("Current Page Tile ="+ windowTitle );
+				//System.out.println("Current Page Tile ="+ windowTitle );
 				
 				// To get all windows handles 
 				Set<String> allWindowHandles = driver.getWindowHandles();
 				
-				System.out.println("ALL Window Page Window Handler ="+ allWindowHandles );
+				//System.out.println("ALL Window Page Window Handler ="+ allWindowHandles );
 				
 				for (String currentWindowHandle : allWindowHandles) {
 					
@@ -290,16 +290,16 @@ public class Functional_Libraries {
 				// To get the main window handle
 				String mainWindow= driver.getWindowHandle();
 				
-				System.out.println("Current Window Page Window Handler ="+ mainWindow );
+				//System.out.println("Current Window Page Window Handler ="+ mainWindow );
 						
 				String windowTitle  = driver.getTitle();
 				
-				System.out.println("Current Page Tile ="+ windowTitle );
+				//System.out.println("Current Page Tile ="+ windowTitle );
 				
 				// To get all windows handles 
 				Set<String> allWindowHandles = driver.getWindowHandles();
 				
-				System.out.println("ALL Window Page Window Handler ="+ allWindowHandles );
+				//System.out.println("ALL Window Page Window Handler ="+ allWindowHandles );
 				
 				for (String currentWindowHandle : allWindowHandles) {
 					
@@ -332,16 +332,16 @@ public class Functional_Libraries {
 				// To get the main window handle
 				String mainWindow= driver.getWindowHandle();
 				
-				System.out.println("Current Window Page Window Handler ="+ mainWindow );
+				//System.out.println("Current Window Page Window Handler ="+ mainWindow );
 						
 				String windowTitle  = driver.getTitle();
 				
-				System.out.println("Current Page Tile ="+ windowTitle );
+				//System.out.println("Current Page Tile ="+ windowTitle );
 				
 				// To get all windows handles 
 				Set<String> allWindowHandles = driver.getWindowHandles();
 				
-				System.out.println("ALL Window Page Window Handler ="+ allWindowHandles );
+				//System.out.println("ALL Window Page Window Handler ="+ allWindowHandles );
 				
 				for (String currentWindowHandle : allWindowHandles) {
 					
@@ -351,16 +351,16 @@ public class Functional_Libraries {
 						
 						//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 						
-						System.out.println(currentWindowHandle);
+						//System.out.println(currentWindowHandle);
 						
 						try {
 							//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 							
-							clickByxpath(driver, prop.getProperty("UpdateServerxpath"),prop.getProperty("UpdateServerxpath") ,"", "", "", "");
+						    clickByxpath(driver, prop.getProperty("UpdateServerxpath"),prop.getProperty("UpdateServerxpath") ,"", "", "", "");
 							
-							WaitForSpinner(driver, prop.getProperty("Spinner"));
+							//WaitForSpinner(driver, prop.getProperty("Spinner"));
 							
-							WaitForLoader(driver, prop.getProperty("Loader"));
+							//WaitForLoader(driver, prop.getProperty("Loader"));
 													
 							RefreshButton(driver, prop.getProperty("RefreshButtonXpath"), "", "", "", "", "");
 							//RefreshButtonuntilEndButtonEnable(driver);
@@ -407,7 +407,7 @@ public class Functional_Libraries {
 				// now execute query which actually will scroll until that element is not appeared on pa
 				je.executeScript("arguments[0].scrollIntoView(true);",element);
 				
-				Thread.sleep(10000);
+				//Thread.sleep(10000);
 							
 			} catch (WebDriverException e) {
 				e.printStackTrace();
@@ -488,16 +488,13 @@ public class Functional_Libraries {
 			try {
 				Actions action = new Actions(driver).contextClick(element);
 				action.build().perform();
-				System.out.println("Sucessfully Right clicked on the element");
+				//System.out.println("Sucessfully Right clicked on the element");
 			} catch (StaleElementReferenceException e) {
-				System.out.println("Element is not attached to the page document "
-						+ e.getStackTrace());
+				//System.out.println("Element is not attached to the page document " + e.getStackTrace());
 			} catch (NoSuchElementException e) {
-				System.out.println("Element " + element + " was not found in DOM "
-						+ e.getStackTrace());
+				//System.out.println("Element " + element + " was not found in DOM " + e.getStackTrace());
 			} catch (Exception e) {
-				System.out.println("Element " + element + " was not clickable "
-						+ e.getStackTrace());
+				//System.out.println("Element " + element + " was not clickable " + e.getStackTrace());
 			}
 		}
 		

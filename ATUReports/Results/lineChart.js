@@ -1,9 +1,9 @@
             $(document).ready(function(){
-                var line1 = [5,10,0,3,7,0,0,2,2,33];
-                var line2 = [5,0,0,4,0,0,0,32,32,0];
-                var line3 = [0,0,0,0,0,0,0,0,0,0];
+                var line1 = [2,2,2,2,4,2,3,4];
+                var line2 = [31,31,1,1,0,2,1,0];
+                var line3 = [0,0,0,0,0,0,0,0];
 
-var ticks = [1,2,3,4,5,6,7,8,9,10];$.jqplot('line', [line1, line2, line3], {
+var ticks = [1,2,3,4,5,6,7,8];$.jqplot('line', [line1, line2, line3], {
         animate: true,
 axesDefaults:{min:0,tickInterval: 3},        seriesDefaults: {
             rendererOptions: {

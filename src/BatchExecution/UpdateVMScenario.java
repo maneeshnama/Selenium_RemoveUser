@@ -76,7 +76,7 @@ public class UpdateVMScenario extends BrowserConfig{
 				System.out.println(replaceReqNum);
 				String finalreplaceReqNum = fC.getRITMNUMBEr(driver, replaceReqNum);
 				System.out.println(finalreplaceReqNum);
-				fC.RequestApproval(driver,RequestText, finalreplaceReqNum);
+				fC.RequestApproval(driver, RequestText, finalreplaceReqNum);
 				fC.ShowWorkFlow(driver);
 				fC.Search_cmdb_ci_server_list(driver);
 				
@@ -101,7 +101,7 @@ public class UpdateVMScenario extends BrowserConfig{
 			
 			if(Control.equalsIgnoreCase("Y")){
 //				fC.AIMSLaunchApplication(driver);
-//				fC.UpdateVirtualMachine_Delete(driver, ProjectInformation, Project, PrimaryDatacenter, PrimaryCloudPlatform, TypeofDecommission, VcenterHost, ESXIHOST, SelectCluster, SelectServer);
+				fC.UpdateVirtualMachine_Delete(driver, ProjectInformation, Project, PrimaryDatacenter, PrimaryCloudPlatform, TypeofDecommission, VcenterHost, ESXIHOST, SelectCluster, SelectServer);
 //				fC.getRequestNumber(driver);	
 //				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "", "", "", "", "");
 //				String RequestText = fC.getRequestID(driver, prop.getProperty("RequestLinkID"));
