@@ -307,128 +307,17 @@
     <line>
       <![CDATA[STEP102]]>
     </line>
-    <line>
-      <![CDATA[STEP103]]>
-    </line>
-    <line>
-      <![CDATA[STEP104]]>
-    </line>
-    <line>
-      <![CDATA[STEP105]]>
-    </line>
-    <line>
-      <![CDATA[STEP106]]>
-    </line>
-    <line>
-      <![CDATA[STEP107]]>
-    </line>
-    <line>
-      <![CDATA[STEP108]]>
-    </line>
-    <line>
-      <![CDATA[STEP109]]>
-    </line>
-    <line>
-      <![CDATA[STEP110]]>
-    </line>
-    <line>
-      <![CDATA[STEP111]]>
-    </line>
-    <line>
-      <![CDATA[STEP112]]>
-    </line>
-    <line>
-      <![CDATA[STEP113]]>
-    </line>
-    <line>
-      <![CDATA[STEP114]]>
-    </line>
-    <line>
-      <![CDATA[STEP115]]>
-    </line>
-    <line>
-      <![CDATA[STEP116]]>
-    </line>
-    <line>
-      <![CDATA[STEP117]]>
-    </line>
-    <line>
-      <![CDATA[STEP118]]>
-    </line>
-    <line>
-      <![CDATA[STEP119]]>
-    </line>
-    <line>
-      <![CDATA[STEP120]]>
-    </line>
-    <line>
-      <![CDATA[STEP121]]>
-    </line>
-    <line>
-      <![CDATA[STEP122]]>
-    </line>
-    <line>
-      <![CDATA[STEP123]]>
-    </line>
-    <line>
-      <![CDATA[STEP124]]>
-    </line>
-    <line>
-      <![CDATA[STEP125]]>
-    </line>
-    <line>
-      <![CDATA[STEP126]]>
-    </line>
-    <line>
-      <![CDATA[STEP127]]>
-    </line>
-    <line>
-      <![CDATA[STEP128]]>
-    </line>
-    <line>
-      <![CDATA[STEP129]]>
-    </line>
-    <line>
-      <![CDATA[STEP130]]>
-    </line>
-    <line>
-      <![CDATA[STEP131]]>
-    </line>
-    <line>
-      <![CDATA[STEP132]]>
-    </line>
-    <line>
-      <![CDATA[STEP133]]>
-    </line>
-    <line>
-      <![CDATA[STEP134]]>
-    </line>
-    <line>
-      <![CDATA[STEP135]]>
-    </line>
-    <line>
-      <![CDATA[STEP136]]>
-    </line>
-    <line>
-      <![CDATA[STEP137]]>
-    </line>
-    <line>
-      <![CDATA[STEP138]]>
-    </line>
-    <line>
-      <![CDATA[STEP139]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="233601" started-at="2017-07-17T19:23:34Z" finished-at="2017-07-17T19:27:28Z">
+  <suite name="Default suite" duration-ms="302366" started-at="2017-07-18T05:45:57Z" finished-at="2017-07-18T05:50:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="233601" started-at="2017-07-17T19:23:34Z" finished-at="2017-07-17T19:27:28Z">
+    <test name="Default test" duration-ms="302366" started-at="2017-07-18T05:45:57Z" finished-at="2017-07-18T05:50:59Z">
       <class name="BatchExecution.UpdateVMScenario">
-        <test-method status="PASS" signature="setup()[pri:0, instance:BatchExecution.UpdateVMScenario@14acaea5]" name="setup" is-config="true" duration-ms="4753" started-at="2017-07-17T14:23:34Z" finished-at="2017-07-17T14:23:39Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:BatchExecution.UpdateVMScenario@14acaea5]" name="setup" is-config="true" duration-ms="6563" started-at="2017-07-18T00:45:57Z" finished-at="2017-07-18T00:46:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@14acaea5]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="3" started-at="2017-07-17T14:23:39Z" finished-at="2017-07-17T14:23:39Z">
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@14acaea5]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="52" started-at="2017-07-18T00:46:03Z" finished-at="2017-07-18T00:46:03Z">
           <params>
             <param index="0">
               <value>
@@ -437,14 +326,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@3efe7086]]>
+                <![CDATA[[Ljava.lang.Object;@f001896]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="PASS" signature="cNetLoginScenario()[pri:0, instance:BatchExecution.UpdateVMScenario@14acaea5]" test-instance-name="cNetLogoutScenario" name="cNetLoginScenario" duration-ms="10177" started-at="2017-07-17T14:23:39Z" finished-at="2017-07-17T14:23:49Z">
+        <test-method status="PASS" signature="cNetLoginScenario()[pri:0, instance:BatchExecution.UpdateVMScenario@14acaea5]" test-instance-name="cNetLogoutScenario" name="cNetLoginScenario" duration-ms="14809" started-at="2017-07-18T00:46:03Z" finished-at="2017-07-18T00:46:18Z">
           <reporter-output>
             <line>
               <![CDATA[STEP1]]>
@@ -469,23 +358,23 @@
             </line>
           </reporter-output>
         </test-method> <!-- cNetLoginScenario -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@14acaea5]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-17T14:23:51Z" finished-at="2017-07-17T14:23:51Z">
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@14acaea5]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="2" started-at="2017-07-18T00:46:21Z" finished-at="2017-07-18T00:46:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void BatchExecution.UpdateVMScenario.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
+                <![CDATA[public void BatchExecution.UpdateVMScenario.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@675d8c96]]>
+                <![CDATA[[Ljava.lang.Object;@13f17eb4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="PASS" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:BatchExecution.UpdateVMScenario@14acaea5]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="111665" started-at="2017-07-17T14:23:51Z" data-provider="UpdateVM_Update" finished-at="2017-07-17T14:25:43Z">
+        <test-method status="FAIL" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@14acaea5]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="138468" started-at="2017-07-18T00:46:21Z" data-provider="UpdateVM_Delete" finished-at="2017-07-18T00:48:40Z">
           <params>
             <param index="0">
               <value>
@@ -494,12 +383,12 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[UpdateVM_Dallas_OpenStack_Dev59]]>
+                <![CDATA[UpdateVM_NewYork_Delete_VMWare_DEV63]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Update]]>
+                <![CDATA[Delete]]>
               </value>
             </param>
             <param index="3">
@@ -509,145 +398,68 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[Dallas]]>
+                <![CDATA[New York]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[OpenStack]]>
+                <![CDATA[VMWare]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Cluster]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[]]>
+                <![CDATA[192.168.20.85]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[OpenStack-AIMS-CNET-01]]>
+                <![CDATA[192.168.10.227]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[DEV-LNX-APACHE-59]]>
+                <![CDATA[VMWare-AIMS-CNET-01]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[t2.nano]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[EMC]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[StorageName1]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[AggregateName1]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[Vserver1]]>
-              </value>
-            </param>
-            <param index="16">
-              <value>
-                <![CDATA[40]]>
-              </value>
-            </param>
-            <param index="17">
-              <value>
-                <![CDATA[MB]]>
-              </value>
-            </param>
-            <param index="18">
-              <value>
-                <![CDATA[TCP]]>
-              </value>
-            </param>
-            <param index="19">
-              <value>
-                <![CDATA[Port]]>
-              </value>
-            </param>
-            <param index="20">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-            <param index="21">
-              <value>
-                <![CDATA[IP]]>
-              </value>
-            </param>
-            <param index="22">
-              <value>
-                <![CDATA[56]]>
-              </value>
-            </param>
-            <param index="23">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="24">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="25">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="26">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="27">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="28">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="29">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="30">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="31">
-              <value>
-                <![CDATA[98]]>
+                <![CDATA[DEV-LNX-APACHE-63]]>
               </value>
             </param>
           </params>
+          <exception class="atu.testng.reports.exceptions.ATUReporterStepFailedException">
+            <full-stacktrace>
+              <![CDATA[[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- atu.testng.reports.exceptions.ATUReporterStepFailedException -->
           <reporter-output>
             <line>
               <![CDATA[STEP8]]>
@@ -760,6 +572,83 @@
             <line>
               <![CDATA[STEP44]]>
             </line>
+          </reporter-output>
+        </test-method> <!-- UpdateVirtualMachine -->
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@14acaea5]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-18T00:48:40Z" finished-at="2017-07-18T00:48:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BatchExecution.UpdateVMScenario.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1d0d6318]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractTestNameFromParameters -->
+        <test-method status="PASS" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@14acaea5]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="134146" started-at="2017-07-18T00:48:40Z" data-provider="UpdateVM_Delete" finished-at="2017-07-18T00:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UpdateVM_NewYork_Delete_Azure_DEV91]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delete]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PRJ0010232]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Dallas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Azure]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Server]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Azure-AIMS-CNET-01]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[DEV-LNX-APACHE-91]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
             <line>
               <![CDATA[STEP45]]>
             </line>
@@ -847,188 +736,6 @@
             <line>
               <![CDATA[STEP73]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- UpdateVirtualMachine -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@14acaea5]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-17T14:25:43Z" finished-at="2017-07-17T14:25:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void BatchExecution.UpdateVMScenario.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@741b3bc3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="PASS" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:BatchExecution.UpdateVMScenario@14acaea5]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="101915" started-at="2017-07-17T14:25:43Z" data-provider="UpdateVM_Update" finished-at="2017-07-17T14:27:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[UpdateVM_Dallas_OpenStack_Prod32]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Update]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[PRJ0010232]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Dallas]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[OpenStack]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[OpenStack-AIMS-CNET-01]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[PRD-WIN-NGNX-32]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[t2.2xlarge]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[EMC]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[StorageName7]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[AggregateName7]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[Vserver7]]>
-              </value>
-            </param>
-            <param index="16">
-              <value>
-                <![CDATA[54]]>
-              </value>
-            </param>
-            <param index="17">
-              <value>
-                <![CDATA[MB]]>
-              </value>
-            </param>
-            <param index="18">
-              <value>
-                <![CDATA[UDP]]>
-              </value>
-            </param>
-            <param index="19">
-              <value>
-                <![CDATA[Port Range]]>
-              </value>
-            </param>
-            <param index="20">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="21">
-              <value>
-                <![CDATA[IP Range]]>
-              </value>
-            </param>
-            <param index="22">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="23">
-              <value>
-                <![CDATA[67]]>
-              </value>
-            </param>
-            <param index="24">
-              <value>
-                <![CDATA[64]]>
-              </value>
-            </param>
-            <param index="25">
-              <value>
-                <![CDATA[69]]>
-              </value>
-            </param>
-            <param index="26">
-              <value>
-                <![CDATA[87]]>
-              </value>
-            </param>
-            <param index="27">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="28">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="29">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="30">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="31">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
             <line>
               <![CDATA[STEP74]]>
             </line>
@@ -1116,120 +823,9 @@
             <line>
               <![CDATA[STEP102]]>
             </line>
-            <line>
-              <![CDATA[STEP103]]>
-            </line>
-            <line>
-              <![CDATA[STEP104]]>
-            </line>
-            <line>
-              <![CDATA[STEP105]]>
-            </line>
-            <line>
-              <![CDATA[STEP106]]>
-            </line>
-            <line>
-              <![CDATA[STEP107]]>
-            </line>
-            <line>
-              <![CDATA[STEP108]]>
-            </line>
-            <line>
-              <![CDATA[STEP109]]>
-            </line>
-            <line>
-              <![CDATA[STEP110]]>
-            </line>
-            <line>
-              <![CDATA[STEP111]]>
-            </line>
-            <line>
-              <![CDATA[STEP112]]>
-            </line>
-            <line>
-              <![CDATA[STEP113]]>
-            </line>
-            <line>
-              <![CDATA[STEP114]]>
-            </line>
-            <line>
-              <![CDATA[STEP115]]>
-            </line>
-            <line>
-              <![CDATA[STEP116]]>
-            </line>
-            <line>
-              <![CDATA[STEP117]]>
-            </line>
-            <line>
-              <![CDATA[STEP118]]>
-            </line>
-            <line>
-              <![CDATA[STEP119]]>
-            </line>
-            <line>
-              <![CDATA[STEP120]]>
-            </line>
-            <line>
-              <![CDATA[STEP121]]>
-            </line>
-            <line>
-              <![CDATA[STEP122]]>
-            </line>
-            <line>
-              <![CDATA[STEP123]]>
-            </line>
-            <line>
-              <![CDATA[STEP124]]>
-            </line>
-            <line>
-              <![CDATA[STEP125]]>
-            </line>
-            <line>
-              <![CDATA[STEP126]]>
-            </line>
-            <line>
-              <![CDATA[STEP127]]>
-            </line>
-            <line>
-              <![CDATA[STEP128]]>
-            </line>
-            <line>
-              <![CDATA[STEP129]]>
-            </line>
-            <line>
-              <![CDATA[STEP130]]>
-            </line>
-            <line>
-              <![CDATA[STEP131]]>
-            </line>
-            <line>
-              <![CDATA[STEP132]]>
-            </line>
-            <line>
-              <![CDATA[STEP133]]>
-            </line>
-            <line>
-              <![CDATA[STEP134]]>
-            </line>
-            <line>
-              <![CDATA[STEP135]]>
-            </line>
-            <line>
-              <![CDATA[STEP136]]>
-            </line>
-            <line>
-              <![CDATA[STEP137]]>
-            </line>
-            <line>
-              <![CDATA[STEP138]]>
-            </line>
-            <line>
-              <![CDATA[STEP139]]>
-            </line>
           </reporter-output>
         </test-method> <!-- UpdateVirtualMachine -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@14acaea5]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-17T14:27:25Z" finished-at="2017-07-17T14:27:25Z">
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@14acaea5]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-18T00:50:54Z" finished-at="2017-07-18T00:50:54Z">
           <params>
             <param index="0">
               <value>
@@ -1238,18 +834,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@2ed3b1f5]]>
+                <![CDATA[[Ljava.lang.Object;@4bc28c33]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="PASS" signature="cNetLogoutScenario()[pri:3, instance:BatchExecution.UpdateVMScenario@14acaea5]" test-instance-name="cNetLogoutScenario" name="cNetLogoutScenario" duration-ms="3242" started-at="2017-07-17T14:27:25Z" finished-at="2017-07-17T14:27:28Z">
+        <test-method status="PASS" signature="cNetLogoutScenario()[pri:3, instance:BatchExecution.UpdateVMScenario@14acaea5]" test-instance-name="cNetLogoutScenario" name="cNetLogoutScenario" duration-ms="5069" started-at="2017-07-18T00:50:54Z" finished-at="2017-07-18T00:50:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cNetLogoutScenario -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:BatchExecution.UpdateVMScenario@14acaea5]" name="tearDown" is-config="true" duration-ms="2" started-at="2017-07-17T14:27:28Z" finished-at="2017-07-17T14:27:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BatchExecution.UpdateVMScenario@14acaea5]" name="tearDown" is-config="true" duration-ms="2" started-at="2017-07-18T00:50:59Z" finished-at="2017-07-18T00:50:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

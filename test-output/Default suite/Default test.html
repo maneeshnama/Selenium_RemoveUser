@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 17 14:23:34 CDT 2017</td>
+<td>Started on:</td><td>Tue Jul 18 00:45:57 CDT 2017</td>
 </tr>
-<tr><td>Total time:</td><td>233 seconds (233601 ms)</td>
+<tr><td>Total time:</td><td>302 seconds (302366 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,19 +67,19 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='BatchExecution.UpdateVMScenario.UpdateVirtualMachine()'><b>UpdateVirtualMachine</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)<br>Parameters: Y, UpdateVM_Dallas_OpenStack_Dev59, Update, PRJ0010232, Dallas, OpenStack, , , OpenStack-AIMS-CNET-01, DEV-LNX-APACHE-59, t2.nano, Yes, EMC, StorageName1, AggregateName1, Vserver1, 40, MB, TCP, Port, 1234, IP, 56, , , , , Yes, Yes, Yes, Yes, 98<br/>
-<a href="#Output-434437292" onClick='toggleBox("Output-434437292", this, "Show output", "Hide output");'>Show output</a>
+<td title='BatchExecution.UpdateVMScenario.UpdateVirtualMachine()'><b>UpdateVirtualMachine</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)<br>Parameters: Y, UpdateVM_NewYork_Delete_VMWare_DEV63, Delete, PRJ0010232, New York, VMWare, Cluster, 192.168.20.85, 192.168.10.227, VMWare-AIMS-CNET-01, DEV-LNX-APACHE-63<br/>
+<a href="#Output-1828868503" onClick='toggleBox("Output-1828868503", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-434437292" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-434437292">
+<a href="#Output-1828868503" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1828868503">
 STEP8<br/>
 STEP9<br/>
 STEP10<br/>
@@ -117,6 +117,72 @@ STEP41<br/>
 STEP42<br/>
 STEP43<br/>
 STEP44<br/>
+</div>
+</td>
+<td><div><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1828868503", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1828868503'><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>138</td>
+<td>BatchExecution.UpdateVMScenario@14acaea5</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='BatchExecution.UpdateVMScenario.UpdateVirtualMachine()'><b>UpdateVirtualMachine</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)<br>Parameters: Y, UpdateVM_NewYork_Delete_Azure_DEV91, Delete, PRJ0010232, Dallas, Azure, Server, , , Azure-AIMS-CNET-01, DEV-LNX-APACHE-91<br/>
+<a href="#Output-1026483832" onClick='toggleBox("Output-1026483832", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1026483832" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1026483832">
 STEP45<br/>
 STEP46<br/>
 STEP47<br/>
@@ -146,17 +212,6 @@ STEP70<br/>
 STEP71<br/>
 STEP72<br/>
 STEP73<br/>
-</div>
-</td>
-<td></td>
-<td>111</td>
-<td>BatchExecution.UpdateVMScenario@14acaea5</td></tr>
-<tr>
-<td title='BatchExecution.UpdateVMScenario.UpdateVirtualMachine()'><b>UpdateVirtualMachine</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)<br>Parameters: Y, UpdateVM_Dallas_OpenStack_Prod32, Update, PRJ0010232, Dallas, OpenStack, , , OpenStack-AIMS-CNET-01, PRD-WIN-NGNX-32, t2.2xlarge, Yes, EMC, StorageName7, AggregateName7, Vserver7, 54, MB, UDP, Port Range, , IP Range, , 67, 64, 69, 87, Yes, No, No, , <br/>
-<a href="#Output-1214133948" onClick='toggleBox("Output-1214133948", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1214133948" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1214133948">
 STEP74<br/>
 STEP75<br/>
 STEP76<br/>
@@ -186,54 +241,17 @@ STEP99<br/>
 STEP100<br/>
 STEP101<br/>
 STEP102<br/>
-STEP103<br/>
-STEP104<br/>
-STEP105<br/>
-STEP106<br/>
-STEP107<br/>
-STEP108<br/>
-STEP109<br/>
-STEP110<br/>
-STEP111<br/>
-STEP112<br/>
-STEP113<br/>
-STEP114<br/>
-STEP115<br/>
-STEP116<br/>
-STEP117<br/>
-STEP118<br/>
-STEP119<br/>
-STEP120<br/>
-STEP121<br/>
-STEP122<br/>
-STEP123<br/>
-STEP124<br/>
-STEP125<br/>
-STEP126<br/>
-STEP127<br/>
-STEP128<br/>
-STEP129<br/>
-STEP130<br/>
-STEP131<br/>
-STEP132<br/>
-STEP133<br/>
-STEP134<br/>
-STEP135<br/>
-STEP136<br/>
-STEP137<br/>
-STEP138<br/>
-STEP139<br/>
 </div>
 </td>
 <td></td>
-<td>101</td>
+<td>134</td>
 <td>BatchExecution.UpdateVMScenario@14acaea5</td></tr>
 <tr>
 <td title='BatchExecution.UpdateVMScenario.cNetLoginScenario()'><b>cNetLoginScenario</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)<br/>
-<a href="#Output-1116094714" onClick='toggleBox("Output-1116094714", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-767904468" onClick='toggleBox("Output-767904468", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1116094714" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1116094714">
+<a href="#Output-767904468" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-767904468">
 STEP1<br/>
 STEP2<br/>
 STEP3<br/>
@@ -244,12 +262,12 @@ STEP7<br/>
 </div>
 </td>
 <td></td>
-<td>10</td>
+<td>14</td>
 <td>BatchExecution.UpdateVMScenario@14acaea5</td></tr>
 <tr>
 <td title='BatchExecution.UpdateVMScenario.cNetLogoutScenario()'><b>cNetLogoutScenario</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)</td>
 <td></td>
-<td>3</td>
+<td>5</td>
 <td>BatchExecution.UpdateVMScenario@14acaea5</td></tr>
 </table><p>
 </body>

@@ -40,7 +40,7 @@ public class BrowserConfig extends UseAsTestName_TestBase{
 	public WebDriver setup()throws Exception{
 		 input = new FileInputStream("Configuration\\Object_Repository.properties");
 		 prop.load(input);
-		 System.out.println(prop.getProperty("Browser"));
+		 //System.out.println(prop.getProperty("Browser"));
 				 
 		// #################################### Browser Configuration Setup #########################################
 		 
@@ -127,7 +127,7 @@ public class BrowserConfig extends UseAsTestName_TestBase{
 			 ATUReports.indexPageDescription = "Sample Project";
 		 }
 			 
-			System.out.println(driver.manage().window().getSize());
+			////System.out.println(driver.manage().window().getSize());
 			return driver;
 			
 	}

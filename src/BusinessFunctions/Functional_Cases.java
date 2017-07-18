@@ -324,6 +324,7 @@ public class Functional_Cases {
 		}
 	}
 
+	
 	public void ImpersonateUser(WebDriver driver) throws AWTException, InterruptedException, IOException
 	{
 		try{
@@ -343,14 +344,15 @@ public class Functional_Cases {
 			
 			fL.enterValuebyID(driver, prop.getProperty("SearchUserID"), "Maneesh Nama", "Maneesh Nama", "Passed UserName", "Provide UserName", "Successfully Provided", "N");
 			
-			fL.clickByClass(driver, prop.getProperty("SearchLabelUserClasss"),prop.getProperty("SearchLabelUserClasss"), "Clicked SearchLabel", "Click search for user", "Successful", "N");
+			Thread.sleep(2000);
+			
+			fL.clickByClass(driver, prop.getProperty("SearchLabelUserClasss"), prop.getProperty("SearchLabelUserClasss"), "Clicked SearchLabel", "Click search for user", "Successful", "N");
 		
 			
 		 } catch (WebDriverException e) {
-			System.out.println(e.getMessage());
+			////System.out.println(e.getMessage());
 	 		}	
 	}
-	
 	
 	
 	
@@ -530,7 +532,7 @@ public class Functional_Cases {
 
 			//System.out.println("Last String to int : " + i1);
 
-			int add2AtLastString = i1 + 17;
+			int add2AtLastString = i1 + 18;
 
 			////System.out.println("Last int+2 : : " + add2AtLastString);
 

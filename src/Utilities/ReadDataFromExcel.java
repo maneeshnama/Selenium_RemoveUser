@@ -64,7 +64,7 @@ package Utilities;
 						   
 						   tabArray[ci][cj]=getCellData(i,j);
 
-						   System.out.println(tabArray[ci][cj]);  
+						   //System.out.println(tabArray[ci][cj]);  
 
 							}
 					   
@@ -74,7 +74,7 @@ package Utilities;
 
 			catch (FileNotFoundException e){
 
-				System.out.println("Could not read the Excel sheet");
+				//System.out.println("Could not read the Excel sheet");
 
 				e.printStackTrace();
 
@@ -82,7 +82,7 @@ package Utilities;
 
 			catch (IOException e){
 
-				System.out.println("Could not read the Excel sheet");
+				//System.out.println("Could not read the Excel sheet");
 
 				e.printStackTrace();
 
@@ -111,7 +111,7 @@ package Utilities;
 					}
 				}catch (Exception e){
  
-				System.out.println(e.getMessage());
+				//System.out.println(e.getMessage());
  
 				throw (e);
  

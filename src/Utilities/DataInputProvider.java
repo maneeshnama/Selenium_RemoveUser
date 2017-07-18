@@ -82,7 +82,7 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 									   
 									   tabArray[ci][cj]=getCellData(i,j);
 
-									   System.out.println(tabArray[ci][cj]);  
+									   //System.out.println(tabArray[ci][cj]);  
 									   
 									   ++cj;
 									   
@@ -100,7 +100,7 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 
 			catch (FileNotFoundException e){
 
-				System.out.println("Could not read the Excel sheet");
+				//System.out.println("Could not read the Excel sheet");
 
 				e.printStackTrace();
 
@@ -108,7 +108,7 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 
 			catch (IOException e){
 
-				System.out.println("Could not read the Excel sheet");
+				//System.out.println("Could not read the Excel sheet");
 
 				e.printStackTrace();
 
@@ -138,7 +138,7 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 					
 				}catch (Exception e){
  
-				System.out.println(e.getMessage());
+				//System.out.println(e.getMessage());
  
 				throw (e);
  
