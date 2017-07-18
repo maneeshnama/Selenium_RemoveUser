@@ -344,9 +344,7 @@ public class Functional_Cases {
 			
 			fL.enterValuebyID(driver, prop.getProperty("SearchUserID"), "Maneesh Nama", "Maneesh Nama", "Passed UserName", "Provide UserName", "Successfully Provided", "N");
 			
-			Thread.sleep(2000);
-			
-			fL.clickByClass(driver, prop.getProperty("SearchLabelUserClasss"), prop.getProperty("SearchLabelUserClasss"), "Clicked SearchLabel", "Click search for user", "Successful", "N");
+			fL.clickByClass(driver, prop.getProperty("SearchLabelUserClasss"),prop.getProperty("SearchLabelUserClasss"), "Clicked SearchLabel", "Click search for user", "Successful", "N");
 		
 			
 		 } catch (WebDriverException e) {
