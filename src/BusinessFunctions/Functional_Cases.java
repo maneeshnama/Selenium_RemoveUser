@@ -114,7 +114,6 @@ public class Functional_Cases {
 			
 			fL.clickByxpath(driver, prop.getProperty("UpdateVM"),prop.getProperty("UpdateVM") ,"Clicked the UpdateVM", "Select UpdateVM from AIMS", "Successfully Selected", "N");
 
-				
 				fL.selectDropdownbyID(driver, prop.getProperty("ProjectInformationID"), ProjectInformation, prop.getProperty("ProjectInformationID"), "Type of ServerOperation Field Choosen", "Select Update Field", "ServerOperation field was successfully selected ", "N");
 				
 				fL.clickByxpath(driver, prop.getProperty("ProjectFiledXpath"),prop.getProperty("ProjectFiledXpath"), "Selected Project lookup field", "Hit the Project LookupField", "Successfully selected", "N");
@@ -201,6 +200,7 @@ public class Functional_Cases {
 				
 				fL.clickByID(driver, prop.getProperty("OrderNow"),prop.getProperty("OrderNow") ,"Clicked OrderNow", "Place Your order", "Successful", "N");
 	
+				driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 								
 		 } catch (WebDriverException e) {
 			////System.out.println(e.getMessage());
@@ -332,6 +332,8 @@ public class Functional_Cases {
 			input = new FileInputStream("Configuration\\Object_Repository.properties");
 			prop.load(input);
 	
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 			
 			fL.SwitchtoWindows(driver, "", "", "", "");
@@ -342,7 +344,11 @@ public class Functional_Cases {
 			
 			fL.clickByxpath(driver, prop.getProperty("SearchUserButtonXpath"),prop.getProperty("SearchUserButtonXpath"), "Clicked Search Bar", "Slect Search for User", "Successful", "N");
 			
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			
 			fL.enterValuebyID(driver, prop.getProperty("SearchUserID"), "Maneesh Nama", "Maneesh Nama", "Passed UserName", "Provide UserName", "Successfully Provided", "N");
+			
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			
 			fL.clickByClass(driver, prop.getProperty("SearchLabelUserClasss"),prop.getProperty("SearchLabelUserClasss"), "Clicked SearchLabel", "Click search for user", "Successful", "N");
 		
@@ -361,7 +367,11 @@ public class Functional_Cases {
 			input = new FileInputStream("Configuration\\Object_Repository.properties");
 			prop.load(input);
 			
+			
+			
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
+			
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			
 			fL.enterValuebyID(driver, prop.getProperty("FilterID"), "Requests",prop.getProperty("FilterID"),  "passed the requests in FilterNavigator", "Search for requests", "Succesfully passed", "N");
 			
@@ -373,7 +383,11 @@ public class Functional_Cases {
 			
 			fL.enterValuebyXpath(driver, prop.getProperty("RequestSearchxpath"), RequestNumber,prop.getProperty("RequestSearchxpath"), "Passed The RequestNumber", "Search for Requests", "Successful", "N");
 			
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			
 			fL.PressEnterKeyUsingXpath(driver, prop.getProperty("RequestSearchxpath"));
+			
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			
 			fL.ClickByLinkText(driver, RequestNumber, RequestNumber,"Clicked RequestNumber", "Click on request Number", "Successful", "N");
 			
@@ -387,11 +401,15 @@ public class Functional_Cases {
 		
 			fL.ClickByLinkText(driver, replaceReqNum, replaceReqNum, "Clicking on Request Number Which contains RITM after replacing REQ to RITM", "Replace ReqNum", "Successful", "N");
 			
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			
 			//RITMNumber(driver);
 			
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 			
 			fL.selectDropdownbyID(driver, prop.getProperty("ApprovedID"), "Approved", prop.getProperty("ApprovedID"),"Changed request to approve","aprrove status","aproved successfully","N");
+			
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			
 			fL.clickByID(driver, prop.getProperty("UpdateButtonID"),prop.getProperty("UpdateButtonID"), "Updated form", "click update button", "Successfull", "N");
 			
@@ -405,12 +423,20 @@ public class Functional_Cases {
 			
 			fL.clickByxpath(driver, prop.getProperty("ApprovalTabxpath"),prop.getProperty("ApprovalTabxpath"), "Clicked on approval tab on RITM", "Manager Approval", "Successful", "N");
 	
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			
 			ApprovalRequestTabLinkText(driver, prop.getProperty("ApprovalStatusLink"));
 			
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			
 			fL.clickByxpath(driver, prop.getProperty("ApprovalTabxpath"),prop.getProperty("ApprovalTabxpath"), "Clicked on approval tab on RITM", "Manager Approval", "Successful", "N");
+				
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			
 			ApprovalRequestNewTab(driver, prop.getProperty("ApprovalStatusLink"));
 			
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
 		 } catch (WebDriverException e) {
 			////System.out.println(e.getMessage());
 	 	}	
@@ -420,8 +446,12 @@ public class Functional_Cases {
 	{
 		fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 		WebElement element=driver.findElement(By.linkText(locator));
+		
 		if(element.isDisplayed()){
 			fL.rightClick(driver, element);
+			
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			
 			WebElement elementEdit =driver.findElement(By.xpath(prop.getProperty("ApproveButtonXpath")));
 			elementEdit.click();
 			System.out.println("Success");
@@ -432,8 +462,12 @@ public class Functional_Cases {
 	{
 		fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 		WebElement element=driver.findElement(By.linkText(locator));
+		
 		if(element.isDisplayed()){
 			element.click();
+			
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			
 			//fL.ClickByLinkText(driver, prop.getProperty("Approvallink"), prop.getProperty("Approvallink"), "Replaced he request from REQ to RITM", "Replace RITM", "Successful", "N");
 			fL.selectDropdownbyID(driver, prop.getProperty("Approvaldropdown"), "Approved", prop.getProperty("Approvaldropdown"),"Changed request to approve","aprrove status","aproved successfully","N");
 			fL.clickByxpath(driver, prop.getProperty("UpdateXpath"),prop.getProperty("UpdateXpath"), "Clicked on approval tab on RITM", "Manager Approval", "Successful", "N");
@@ -451,8 +485,10 @@ public class Functional_Cases {
 	
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 			
-			fL.clickByID(driver, prop.getProperty("showworkflowID"),prop.getProperty("showworkflowID"), "Clicked on Workflow in RITM Form", "Show the workflow", "Workflow clicked Successful", "N");
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			
+			fL.clickByID(driver, prop.getProperty("showworkflowID"),prop.getProperty("showworkflowID"), "Clicked on Workflow in RITM Form", "Show the workflow", "Workflow clicked Successful", "N");
+						
 			fL.SwitchtoAnotherWindows(driver, prop.getProperty("UpdateServerxpath"), "Selected updateserver tab on workflow", "click on updateserver tab", "successful", "N");
 			
 		 } catch (WebDriverException e) {
@@ -468,7 +504,9 @@ public class Functional_Cases {
 				       .pollingEvery(10, TimeUnit.SECONDS)
 				       .ignoring(NoSuchElementException.class);
 			waitforelement.until(ExpectedConditions.presenceOfElementLocated(By.id(locator)));
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			String RequestID = fL.getTextByID(driver, locator);
+			
 			return RequestID;
 			
 	}
@@ -476,7 +514,8 @@ public class Functional_Cases {
 	public String ReplaceRequestNumber(WebDriver driver, String RequestNumber) throws IOException, InterruptedException{
 		fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 		String RequestText = RequestNumber;
-		String replaceReqNum  = RequestText.replace("REQ","RITM");  
+		String replaceReqNum  = RequestText.replace("REQ","RITM"); 
+		
 		////System.out.println(replaceReqNum); 
 		return replaceReqNum;
 	}  
@@ -505,6 +544,8 @@ public class Functional_Cases {
 			
 			fL.enterValuebyXpath(driver, prop.getProperty("FilterXpath"), "cmdb_ci_server.list", "cmdb_ci_server.list", "passed cmdb server list in filternavigator", "pass cmdb server table in search navigator", "Successfully passed and entered", "N");
 			
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			
 			fL.PressEnterKeyUsingXpath(driver, prop.getProperty("FilterXpath"));
 		
 						
@@ -530,7 +571,7 @@ public class Functional_Cases {
 
 			//System.out.println("Last String to int : " + i1);
 
-			int add2AtLastString = i1 + 18;
+			int add2AtLastString = i1 + 19;
 
 			////System.out.println("Last int+2 : : " + add2AtLastString);
 

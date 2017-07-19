@@ -6,6 +6,9 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+
+import org.jboss.netty.util.Timeout;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriverException;
 import org.testng.annotations.DataProvider;
@@ -38,15 +41,11 @@ public class UpdateVMScenario extends BrowserConfig{
 	    
 	    @Test
 		 public void cNetLoginScenario() throws AWTException, InterruptedException, IOException{
-			 
 			 setAuthorInfoReports();
 				try{
 				input = new FileInputStream("Configuration\\Object_Repository.properties");
 				prop.load(input);
-				
 				fC.CNetLogin(driver);
-						
-				
 				} catch (NoSuchElementException exc) {
 					exc.printStackTrace();
 				} catch (WebDriverException e) {
@@ -76,8 +75,11 @@ public class UpdateVMScenario extends BrowserConfig{
 				System.out.println(replaceReqNum);
 				String finalreplaceReqNum = fC.getRITMNUMBEr(driver, replaceReqNum);
 				System.out.println(finalreplaceReqNum);
+				
 				fC.RequestApproval(driver, RequestText, finalreplaceReqNum);
+				
 				fC.ShowWorkFlow(driver);
+				
 				fC.Search_cmdb_ci_server_list(driver);
 				
 			 getTestName().equals(UpdateVM_Scenario);
@@ -104,14 +106,17 @@ public class UpdateVMScenario extends BrowserConfig{
 				fC.UpdateVirtualMachine_Delete(driver, ProjectInformation, Project, PrimaryDatacenter, PrimaryCloudPlatform, TypeofDecommission, VcenterHost, ESXIHOST, SelectCluster, SelectServer);
 //				fC.getRequestNumber(driver);	
 //				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "", "", "", "", "");
+//				
 //				String RequestText = fC.getRequestID(driver, prop.getProperty("RequestLinkID"));
 //				System.out.println(RequestText);
 //				fC.ImpersonateUser(driver);
+//				
 //				String replaceReqNum = fC.ReplaceRequestNumber(driver, RequestText);
 //				System.out.println(replaceReqNum);
 //				String finalreplaceReqNum = fC.getRITMNUMBEr(driver, replaceReqNum);
 //				System.out.println(finalreplaceReqNum);
 //				fC.RequestApproval(driver, RequestText, finalreplaceReqNum);
+//				
 //				fC.ShowWorkFlow(driver);
 //				fC.Search_cmdb_ci_server_list(driver);
 //				

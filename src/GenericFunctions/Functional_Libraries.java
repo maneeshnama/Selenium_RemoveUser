@@ -19,7 +19,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
-
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import com.google.common.base.Function;
 import atu.testng.reports.ATUReports;
 import atu.testng.reports.logging.LogAs;
 import atu.testng.reports.utils.Utils;
@@ -40,6 +42,7 @@ public class Functional_Libraries {
 		public void Invokeapplication(WebDriver driver, String URL, String browser, String input, String Description, String ExpectedResult, String ActualResults,String Screenshot ) throws AWTException, InterruptedException, IOException
 		{
 			try {
+			
 			driver.get(URL);
 			reportStep(input, Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);
 	        driver.manage().window().maximize();
@@ -56,6 +59,7 @@ public class Functional_Libraries {
 		{
 			try {
 				driver.navigate().to(navURL);
+				
 				reportStep(input, Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);		       
 			    } catch (NoSuchElementException exc) {
 					exc.printStackTrace();
@@ -71,12 +75,14 @@ public class Functional_Libraries {
 		public void clickByID(WebDriver driver, String id, String input, String Description, String ExpectedResult, String ActualResults,String Screenshot ) throws IOException, InterruptedException
 		{
 			try {
+				
 				FluentWait<WebDriver> waitforelement  = new FluentWait<WebDriver>(driver)
 					       .withTimeout(60, TimeUnit.SECONDS)
 					       .pollingEvery(10, TimeUnit.SECONDS)
 					       .ignoring(NoSuchElementException.class);
 				waitforelement.until(ExpectedConditions.elementToBeClickable(By.id(id)));
 				driver.findElement(By.id(id)).click();
+				
 				reportStep(input, Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);
 				} catch (NoSuchElementException exc) {
 					exc.printStackTrace();
@@ -96,6 +102,7 @@ public class Functional_Libraries {
 					       .ignoring(NoSuchElementException.class);
 				waitforelement.until(ExpectedConditions.elementToBeClickable(By.className(classname)));
 				driver.findElement(By.className(classname)).click();
+				
 				reportStep(input, Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);
 				} catch (NoSuchElementException exc) {
 					exc.printStackTrace();
@@ -115,6 +122,7 @@ public class Functional_Libraries {
 					       .ignoring(NoSuchElementException.class);
 				waitforelement.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath)));
 				driver.findElement(By.xpath(xpath)).click();
+				
 				reportStep(input, Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);
 				} catch (NoSuchElementException exc) {
 					exc.printStackTrace();
@@ -135,6 +143,7 @@ public class Functional_Libraries {
 					       .ignoring(NoSuchElementException.class);
 				waitforelement.until(ExpectedConditions.elementToBeClickable(By.linkText(text)));
 				driver.findElement(By.linkText(text)).click();
+				
 				reportStep(input, Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);
 				} catch (NoSuchElementException exc) {
 					exc.printStackTrace();
@@ -151,8 +160,10 @@ public class Functional_Libraries {
 		{
 			try {
 			driver.switchTo().defaultContent();
+			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			driver.switchTo().frame(frame);
+			
 			input=frame;
 			reportStep(input, Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);
 			} catch (NoSuchElementException e) {
@@ -172,6 +183,7 @@ public class Functional_Libraries {
 				waitforelement.until(ExpectedConditions.elementToBeClickable(By.id(id)));
 			driver.findElement(By.id(id)).clear();
 			driver.findElement(By.id(id)).sendKeys(Value);
+			
 			reportStep(input, Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);
 			} catch (NoSuchElementException exc) {
 				exc.printStackTrace();
@@ -193,6 +205,7 @@ public class Functional_Libraries {
 				waitforelement.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath)));
 			driver.findElement(By.xpath(xpath)).clear();
 			driver.findElement(By.xpath(xpath)).sendKeys(Value);
+			
 			reportStep(input, Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);
 			} catch (NoSuchElementException exc) {
 				exc.printStackTrace();
@@ -214,9 +227,6 @@ public class Functional_Libraries {
 				WebElement element = driver.findElement(By.id(id));
 				Select dropDownElement = new Select(element);
 				dropDownElement.selectByVisibleText(text);
-				
-				
-				
 				
 				reportStep(input, Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);
 				} catch (NoSuchElementException exc) {
@@ -259,6 +269,7 @@ public class Functional_Libraries {
 								       .ignoring(NoSuchElementException.class);
 							waitforelement.until(ExpectedConditions.elementToBeClickable(By.linkText(text)));
 							driver.findElement(By.linkText(text)).click();
+							
 							reportStep(input, Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);
 							} catch (NoSuchElementException exc) {
 								exc.printStackTrace();
@@ -272,6 +283,7 @@ public class Functional_Libraries {
 				}
 				
 				driver.switchTo().window(mainWindow);
+				
 			
 			} catch (NoSuchElementException exc) {
 				exc.printStackTrace();
@@ -307,12 +319,14 @@ public class Functional_Libraries {
 						
 						driver.switchTo().window(currentWindowHandle);
 						
+						
 						driver.manage().window().maximize();
 					
 					}
 				}
 				
 				driver.switchTo().window(mainWindow);
+				
 			
 			} catch (NoSuchElementException exc) {
 				exc.printStackTrace();
@@ -358,16 +372,22 @@ public class Functional_Libraries {
 							
 						    clickByxpath(driver, prop.getProperty("UpdateServerxpath"),prop.getProperty("UpdateServerxpath") ,"", "", "", "");
 							
+						    
 							//WaitForSpinner(driver, prop.getProperty("Spinner"));
 							
 							//WaitForLoader(driver, prop.getProperty("Loader"));
 													
 							RefreshButton(driver, prop.getProperty("RefreshButtonXpath"), "", "", "", "", "");
 							//RefreshButtonuntilEndButtonEnable(driver);
-													
+								
+							
+							
 							Scroll_PageTo_BottomofAPage(driver, "", "", "", "");
 							
+							
+							
 							driver.switchTo().window(currentWindowHandle).close();
+							
 							
 						} catch (NoSuchElementException exc) {
 								exc.printStackTrace();
@@ -381,6 +401,7 @@ public class Functional_Libraries {
 				}
 			
 				driver.switchTo().window(mainWindow);
+				
 			
 			} catch (NoSuchElementException exc) {
 				exc.printStackTrace();
@@ -398,6 +419,8 @@ public class Functional_Libraries {
 				input1 = new FileInputStream("Configuration\\Object_Repository.properties");
 				prop.load(input1);
 		
+				
+				
 				// Create instance of Javascript executor
 				JavascriptExecutor je = (JavascriptExecutor) driver;
 				 
@@ -406,6 +429,7 @@ public class Functional_Libraries {
 				 
 				// now execute query which actually will scroll until that element is not appeared on pa
 				je.executeScript("arguments[0].scrollIntoView(true);",element);
+				
 				
 				//Thread.sleep(10000);
 							
@@ -425,6 +449,7 @@ public class Functional_Libraries {
 							       .ignoring(NoSuchElementException.class);
 						waitforelement.until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));
 						driver.findElement(By.xpath(locator)).click();
+						
 						reportStep("", Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);
 					} catch (NoSuchElementException exc) {
 						exc.printStackTrace();
@@ -441,8 +466,10 @@ public class Functional_Libraries {
 				prop.load(input1);
 				
 				String EndButton = driver.findElement(By.className(prop.getProperty("EndButtonClass"))).getAttribute("background-color");
+				
 				do {
 					RefreshButton(driver, prop.getProperty("RefreshButtonXpath"), "", "", "", "", "");
+					
 			      }while(!EndButton.equalsIgnoreCase(null));
 				} catch (NoSuchElementException exc) {
 					exc.printStackTrace();
@@ -463,6 +490,7 @@ public class Functional_Libraries {
 				waitforelement.until(ExpectedConditions.presenceOfElementLocated(By.id(id)));
 				WebElement element = driver.findElement(By.id(id));
 				Value = element.getText();
+				
 				} catch (NoSuchElementException exc) {
 					exc.printStackTrace();
 				} 
@@ -479,6 +507,7 @@ public class Functional_Libraries {
 				waitforelement.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));
 				WebElement element = driver.findElement(By.xpath(xpath));
 				element.sendKeys(Keys.ENTER);
+				
 				} catch (NoSuchElementException exc) {
 					exc.printStackTrace();
 				} 
@@ -488,6 +517,7 @@ public class Functional_Libraries {
 			try {
 				Actions action = new Actions(driver).contextClick(element);
 				action.build().perform();
+				
 				//System.out.println("Sucessfully Right clicked on the element");
 			} catch (StaleElementReferenceException e) {
 				//System.out.println("Element is not attached to the page document " + e.getStackTrace());
@@ -506,6 +536,7 @@ public class Functional_Libraries {
 					        .pollingEvery(5, TimeUnit.SECONDS)
 					       .ignoring(NoSuchElementException.class);
 				WaitForSpinner.until(ExpectedConditions.invisibilityOfElementLocated(By.id(locator)));
+				
 				} catch (NoSuchElementException exc) {
 					exc.printStackTrace();
 					
@@ -524,6 +555,7 @@ public class Functional_Libraries {
 					        .pollingEvery(5, TimeUnit.SECONDS)
 					       .ignoring(NoSuchElementException.class);
 				WaitForSpinner.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(locator)));
+				
 				} catch (NoSuchElementException exc) {
 					exc.printStackTrace();
 					
@@ -533,6 +565,19 @@ public class Functional_Libraries {
 				} 
 			}
 
+		public void waitForPageLoad(WebDriver driver) {
+
+		    Wait<WebDriver> wait = new WebDriverWait(driver, 30);
+		    wait.until(new Function<WebDriver, Boolean>() {
+		        public Boolean apply(WebDriver driver) {
+		            System.out.println("Current Window State       : "
+		                + String.valueOf(((JavascriptExecutor) driver).executeScript("return document.readyState")));
+		            return String
+		                .valueOf(((JavascriptExecutor) driver).executeScript("return document.readyState"))
+		                .equals("complete");
+		        }
+		    });
+		}
 		
 		public static void reportStep(String input, String Description, String Status, String ExpectedResult, String ActualResults,String Screenshot){
 		    
