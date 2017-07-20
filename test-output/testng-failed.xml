@@ -6,9 +6,9 @@
       <class name="BatchExecution.UpdateVMScenario">
         <methods>
           <include name="setup"/>
-          <include name="UpdateVirtualMachine" invocation-numbers="2"/>
+          <include name="UpdateVirtualMachine"/>
           <include name="extractTestNameFromParameters"/>
-          <include name="tearDown"/>
+          <include name="cNetLogoutScenario"/>
         </methods>
       </class> <!-- BatchExecution.UpdateVMScenario -->
     </classes>

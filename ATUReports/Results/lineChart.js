@@ -1,11 +1,11 @@
             $(document).ready(function(){
-                var line1 = [2,0,4,0,2,0,2,3,9];
-                var line2 = [31,0,29,0,2,0,1,0,0];
-                var line3 = [0,0,0,0,0,0,0,0,0];
+                var line1 = [2,0,4,0,2,0,2,3,9,33,2,0,4,0,7,31,8,1,3];
+                var line2 = [31,0,29,0,2,0,1,0,0,0,31,0,64,0,26,2,0,0,0];
+                var line3 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0];
 
-var ticks = [1,2,3,4,5,6,7,8,9];$.jqplot('line', [line1, line2, line3], {
+var ticks = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18];$.jqplot('line', [line1, line2, line3], {
         animate: true,
-axesDefaults:{min:0,tickInterval: 3},        seriesDefaults: {
+axesDefaults:{min:0,tickInterval: 6},        seriesDefaults: {
             rendererOptions: {
                 smooth: true
             }
@@ -18,7 +18,7 @@ axesDefaults:{min:0,tickInterval: 3},        seriesDefaults: {
                 label: "Run Number",
                 ticks: ticks,
                 tickOptions: {
-                    formatString: "%'d Run"
+                    formatString: "%'d "
                 },
                 pad: 1.2,
                 rendererOptions: {
