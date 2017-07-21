@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 20 11:53:15 CDT 2017</td>
+<td>Started on:</td><td>Fri Jul 21 13:19:22 CDT 2017</td>
 </tr>
-<tr><td>Total time:</td><td>122 seconds (122891 ms)</td>
+<tr><td>Total time:</td><td>47 seconds (47999 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,19 +67,19 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='BatchExecution.UpdateVMScenario.UpdateVirtualMachine()'><b>UpdateVirtualMachine</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)<br>Parameters: Y, UpdateVM_NewYork_VMWare_Dev84, Update, PRJ0010232, New York, VMWare, 192.168.20.85, 192.168.10.227, VMWare-AIMS-CNET-01, DEV-WIN-TOMCAT-84, t2.small, No, , , , , , , Custom, Port Range, , IP Range, , 63, 78, 96, 14, Yes, Yes, No, , <br/>
-<a href="#Output-862916729" onClick='toggleBox("Output-862916729", this, "Show output", "Hide output");'>Show output</a>
+<td title='BatchExecution.UpdateVMScenario.UpdateVirtualMachine()'><b>UpdateVirtualMachine</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)<br>Parameters: Y, UpdateVM_NewYork_Delete_VMWare_DEV84, Delete, PRJ0010232, New York, VMWare, Server, 192.168.20.85, 192.168.10.227, VMWare-AIMS-CNET-01, DEV-WIN-TOMCAT-84<br/>
+<a href="#Output-1828868503" onClick='toggleBox("Output-1828868503", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-862916729" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-862916729">
+<a href="#Output-1828868503" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1828868503">
 STEP8<br/>
 STEP9<br/>
 STEP10<br/>
@@ -105,49 +105,538 @@ STEP29<br/>
 STEP30<br/>
 STEP31<br/>
 STEP32<br/>
-STEP33<br/>
-STEP34<br/>
-STEP35<br/>
-STEP36<br/>
-STEP37<br/>
-STEP38<br/>
-STEP39<br/>
-STEP40<br/>
-STEP41<br/>
-STEP42<br/>
-STEP43<br/>
-STEP44<br/>
-STEP45<br/>
-STEP46<br/>
-STEP47<br/>
-STEP48<br/>
-STEP49<br/>
-STEP50<br/>
-STEP51<br/>
-STEP52<br/>
-STEP53<br/>
-STEP54<br/>
-STEP55<br/>
-STEP56<br/>
-STEP57<br/>
-STEP58<br/>
-STEP59<br/>
-STEP60<br/>
-STEP61<br/>
-STEP62<br/>
-STEP63<br/>
-STEP64<br/>
-STEP65<br/>
-STEP66<br/>
-STEP67<br/>
-STEP68<br/>
-STEP69<br/>
-STEP70<br/>
 </div>
 </td>
-<td></td>
-<td>103</td>
+<td><div><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1828868503", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1828868503'><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>30</td>
 <td>BatchExecution.UpdateVMScenario@d8355a8</td></tr>
+<tr>
+<td title='BatchExecution.UpdateVMScenario.UpdateVirtualMachine()'><b>UpdateVirtualMachine</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)<br>Parameters: Y, UpdateVM_NewYork_Delete_VMWare_PRD30, Delete, PRJ0010232, New York, VMWare, Server, 192.168.20.85, 192.168.10.227, VMWare-AIMS-CNET-01, PRD-LNX-NGNX-30<br/>
+<a href="#Output-774895395" onClick='toggleBox("Output-774895395", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-774895395" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-774895395">
+STEP33<br/>
+</div>
+</td>
+<td><div><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div><a href='#' onClick='toggleBox("stack-trace774895395", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace774895395'><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>BatchExecution.UpdateVMScenario@d8355a8</td></tr>
+<tr>
+<td title='BatchExecution.UpdateVMScenario.UpdateVirtualMachine()'><b>UpdateVirtualMachine</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)<br>Parameters: Y, UpdateVM_NewYork_Delete_VMWare_PRD32, Delete, PRJ0010232, New York, VMWare, Server, 192.168.20.85, 192.168.10.227, VMWare-AIMS-CNET-01, PRD-WIN-NGNX-32<br/>
+<a href="#Output-1450500594" onClick='toggleBox("Output-1450500594", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1450500594" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1450500594">
+STEP34<br/>
+</div>
+</td>
+<td><div><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1450500594", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1450500594'><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>BatchExecution.UpdateVMScenario@d8355a8</td></tr>
+<tr>
+<td title='BatchExecution.UpdateVMScenario.UpdateVirtualMachine()'><b>UpdateVirtualMachine</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)<br>Parameters: Y, UpdateVM_NewYork_Delete_AWS_DEV91, Delete, PRJ0010232, New York, AWS, Server, , , AWS-AIMS-CNET-01, DEV-LNX-APACHE-91<br/>
+<a href="#Output-317562294" onClick='toggleBox("Output-317562294", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-317562294" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-317562294">
+STEP35<br/>
+</div>
+</td>
+<td><div><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div><a href='#' onClick='toggleBox("stack-trace317562294", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace317562294'><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>BatchExecution.UpdateVMScenario@d8355a8</td></tr>
+<tr>
+<td title='BatchExecution.UpdateVMScenario.UpdateVirtualMachine()'><b>UpdateVirtualMachine</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)<br>Parameters: Y, UpdateVM_NewYork_Delete_AWS_DEV13, Delete, PRJ0010232, New York, AWS, Server, , , AWS-AIMS-CNET-01, DEV-LNX-GRAPAHANA-13<br/>
+<a href="#Output-23880693" onClick='toggleBox("Output-23880693", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23880693" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23880693">
+STEP36<br/>
+</div>
+</td>
+<td><div><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div><a href='#' onClick='toggleBox("stack-trace23880693", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace23880693'><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>BatchExecution.UpdateVMScenario@d8355a8</td></tr>
+<tr>
+<td title='BatchExecution.UpdateVMScenario.UpdateVirtualMachine()'><b>UpdateVirtualMachine</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)<br>Parameters: Y, UpdateVM_NewYork_Delete_AWS_DEV83, Delete, PRJ0010232, New York, AWS, Server, , , AWS-AIMS-CNET-01, DEV-WIN-TOMCAT-83<br/>
+<a href="#Output-1307950260" onClick='toggleBox("Output-1307950260", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1307950260" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1307950260">
+STEP37<br/>
+</div>
+</td>
+<td><div><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1307950260", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1307950260'><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>BatchExecution.UpdateVMScenario@d8355a8</td></tr>
+<tr>
+<td title='BatchExecution.UpdateVMScenario.UpdateVirtualMachine()'><b>UpdateVirtualMachine</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)<br>Parameters: Y, UpdateVM_NewYork_Delete_AWS_DEV84, Delete, PRJ0010232, New York, AWS, Server, , , AWS-AIMS-CNET-01, DEV-WIN-TOMCAT-84<br/>
+<a href="#Output-509832867" onClick='toggleBox("Output-509832867", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-509832867" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-509832867">
+STEP38<br/>
+</div>
+</td>
+<td><div><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div><a href='#' onClick='toggleBox("stack-trace509832867", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace509832867'><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>BatchExecution.UpdateVMScenario@d8355a8</td></tr>
+<tr>
+<td title='BatchExecution.UpdateVMScenario.UpdateVirtualMachine()'><b>UpdateVirtualMachine</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)<br>Parameters: Y, UpdateVM_NewYork_Delete_AWS_PRD30, Delete, PRJ0010232, New York, AWS, Server, , , AWS-AIMS-CNET-01, PRD-LNX-NGNX-30<br/>
+<a href="#Output-2044282225" onClick='toggleBox("Output-2044282225", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2044282225" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2044282225">
+STEP39<br/>
+</div>
+</td>
+<td><div><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2044282225", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2044282225'><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>BatchExecution.UpdateVMScenario@d8355a8</td></tr>
+<tr>
+<td title='BatchExecution.UpdateVMScenario.UpdateVirtualMachine()'><b>UpdateVirtualMachine</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)<br>Parameters: Y, UpdateVM_NewYork_Delete_VMWare_PRD32, Delete, PRJ0010232, New York, AWS, Server, , , AWS-AIMS-CNET-01, PRD-WIN-NGNX-32<br/>
+<a href="#Output-1176932104" onClick='toggleBox("Output-1176932104", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1176932104" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1176932104">
+STEP40<br/>
+</div>
+</td>
+<td><div><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1176932104", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1176932104'><pre>[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>BatchExecution.UpdateVMScenario@d8355a8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
 <td title='BatchExecution.UpdateVMScenario.cNetLoginScenario()'><b>cNetLoginScenario</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)<br/>
 <a href="#Output-1432569632" onClick='toggleBox("Output-1432569632", this, "Show output", "Hide output");'>Show output</a>
@@ -169,7 +658,7 @@ STEP7<br/>
 <tr>
 <td title='BatchExecution.UpdateVMScenario.cNetLogoutScenario()'><b>cNetLogoutScenario</b><br>Test class: BatchExecution.UpdateVMScenario (cNetLogoutScenario)</td>
 <td></td>
-<td>3</td>
+<td>0</td>
 <td>BatchExecution.UpdateVMScenario@d8355a8</td></tr>
 </table><p>
 </body>

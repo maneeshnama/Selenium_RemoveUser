@@ -154,6 +154,24 @@ public class Functional_Libraries {
 				} 
 			}
 		
+		public void ClickByPartialLinkText(WebDriver driver, String text,String input,  String Description, String ExpectedResult, String ActualResults,String Screenshot ) throws IOException, InterruptedException
+		{
+			try {
+				FluentWait<WebDriver> waitforelement  = new FluentWait<WebDriver>(driver)
+					       .withTimeout(60, TimeUnit.SECONDS)
+					       .pollingEvery(10, TimeUnit.SECONDS)
+					       .ignoring(NoSuchElementException.class);
+				waitforelement.until(ExpectedConditions.elementToBeClickable(By.partialLinkText(text)));
+				driver.findElement(By.partialLinkText(text)).click();
+				reportStep(input, Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);
+				} catch (NoSuchElementException exc) {
+					exc.printStackTrace();
+					reportStep(input, Description, "FAILED", ExpectedResult, ActualResults, Screenshot);
+				} catch (WebDriverException e) {
+					e.printStackTrace();
+					reportStep(input, Description, "FAILED", ExpectedResult, ActualResults, Screenshot);
+				} 
+			}
 		
 		
 		public void SwitchFrames(WebDriver driver, String frame, String input, String Description, String ExpectedResult, String ActualResults,String Screenshot ) throws IOException

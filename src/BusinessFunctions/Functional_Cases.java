@@ -278,6 +278,8 @@ public class Functional_Cases {
 
 				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"),
 						"Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
+				
+				Thread.sleep(5000);
 
 				fL.clickByxpath(driver, prop.getProperty("SelectCulsterxpath"), prop.getProperty("SelectCulsterxpath"),
 						"Selected cluster field", "click on Cluster Lookup field", "Successfully hit the field", "N");
@@ -367,8 +369,6 @@ public class Functional_Cases {
 			input = new FileInputStream("Configuration\\Object_Repository.properties");
 			prop.load(input);
 			
-			
-			
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -399,7 +399,9 @@ public class Functional_Cases {
 	
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 		
-			fL.ClickByLinkText(driver, replaceReqNum, replaceReqNum, "Clicking on Request Number Which contains RITM after replacing REQ to RITM", "Replace ReqNum", "Successful", "N");
+			fL.ClickByPartialLinkText(driver, "RITM", "RITM", "Clicking on Request Number Which contains RITM after replacing REQ to RITM", "Replace ReqNum", "Successful", "N");
+			
+			//fL.ClickByLinkText(driver, replaceReqNum, replaceReqNum, "Clicking on Request Number Which contains RITM after replacing REQ to RITM", "Replace ReqNum", "Successful", "N");
 			
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			
@@ -417,7 +419,9 @@ public class Functional_Cases {
 			
 			//RITMNumber(driver);
 			
-			fL.ClickByLinkText(driver, replaceReqNum, replaceReqNum, "Replaced he request from REQ to RITM", "Replace RITM", "Successful", "N");
+			fL.ClickByPartialLinkText(driver, "RITM", "RITM", "Clicking on Request Number Which contains RITM after replacing REQ to RITM", "Replace ReqNum", "Successful", "N");
+			
+			//fL.ClickByLinkText(driver, replaceReqNum, replaceReqNum, "Replaced he request from REQ to RITM", "Replace RITM", "Successful", "N");
 			
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 			
@@ -571,7 +575,7 @@ public class Functional_Cases {
 
 			//System.out.println("Last String to int : " + i1);
 
-			int add2AtLastString = i1 + 19;
+			int add2AtLastString = i1 + 200;
 
 			////System.out.println("Last int+2 : : " + add2AtLastString);
 

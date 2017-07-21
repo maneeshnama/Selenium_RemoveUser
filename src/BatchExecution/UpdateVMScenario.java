@@ -75,7 +75,6 @@ public class UpdateVMScenario extends BrowserConfig{
 //				System.out.println(replaceReqNum);
 //				String finalreplaceReqNum = fC.getRITMNUMBEr(driver, replaceReqNum);
 //				System.out.println(finalreplaceReqNum);
-//				
 //				fC.RequestApproval(driver, RequestText, finalreplaceReqNum);
 //				
 //				fC.ShowWorkFlow(driver);
@@ -119,7 +118,7 @@ public class UpdateVMScenario extends BrowserConfig{
 				
 				fC.ShowWorkFlow(driver);
 				fC.Search_cmdb_ci_server_list(driver);
-			
+				
 			 getTestName().equals(UpdateVM_Scenario);
 				
 			}		
