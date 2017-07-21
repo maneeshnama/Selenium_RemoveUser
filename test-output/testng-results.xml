@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="11" passed="11">
+<testng-results skipped="0" failed="0" total="10" passed="10">
   <reporter-output>
     <line>
       <![CDATA[STEP1]]>
@@ -121,17 +121,554 @@
     <line>
       <![CDATA[STEP40]]>
     </line>
+    <line>
+      <![CDATA[STEP41]]>
+    </line>
+    <line>
+      <![CDATA[STEP42]]>
+    </line>
+    <line>
+      <![CDATA[STEP43]]>
+    </line>
+    <line>
+      <![CDATA[STEP44]]>
+    </line>
+    <line>
+      <![CDATA[STEP45]]>
+    </line>
+    <line>
+      <![CDATA[STEP46]]>
+    </line>
+    <line>
+      <![CDATA[STEP47]]>
+    </line>
+    <line>
+      <![CDATA[STEP48]]>
+    </line>
+    <line>
+      <![CDATA[STEP49]]>
+    </line>
+    <line>
+      <![CDATA[STEP50]]>
+    </line>
+    <line>
+      <![CDATA[STEP51]]>
+    </line>
+    <line>
+      <![CDATA[STEP52]]>
+    </line>
+    <line>
+      <![CDATA[STEP53]]>
+    </line>
+    <line>
+      <![CDATA[STEP54]]>
+    </line>
+    <line>
+      <![CDATA[STEP55]]>
+    </line>
+    <line>
+      <![CDATA[STEP56]]>
+    </line>
+    <line>
+      <![CDATA[STEP57]]>
+    </line>
+    <line>
+      <![CDATA[STEP58]]>
+    </line>
+    <line>
+      <![CDATA[STEP59]]>
+    </line>
+    <line>
+      <![CDATA[STEP60]]>
+    </line>
+    <line>
+      <![CDATA[STEP61]]>
+    </line>
+    <line>
+      <![CDATA[STEP62]]>
+    </line>
+    <line>
+      <![CDATA[STEP63]]>
+    </line>
+    <line>
+      <![CDATA[STEP64]]>
+    </line>
+    <line>
+      <![CDATA[STEP65]]>
+    </line>
+    <line>
+      <![CDATA[STEP66]]>
+    </line>
+    <line>
+      <![CDATA[STEP67]]>
+    </line>
+    <line>
+      <![CDATA[STEP68]]>
+    </line>
+    <line>
+      <![CDATA[STEP69]]>
+    </line>
+    <line>
+      <![CDATA[STEP70]]>
+    </line>
+    <line>
+      <![CDATA[STEP71]]>
+    </line>
+    <line>
+      <![CDATA[STEP72]]>
+    </line>
+    <line>
+      <![CDATA[STEP73]]>
+    </line>
+    <line>
+      <![CDATA[STEP74]]>
+    </line>
+    <line>
+      <![CDATA[STEP75]]>
+    </line>
+    <line>
+      <![CDATA[STEP76]]>
+    </line>
+    <line>
+      <![CDATA[STEP77]]>
+    </line>
+    <line>
+      <![CDATA[STEP78]]>
+    </line>
+    <line>
+      <![CDATA[STEP79]]>
+    </line>
+    <line>
+      <![CDATA[STEP80]]>
+    </line>
+    <line>
+      <![CDATA[STEP81]]>
+    </line>
+    <line>
+      <![CDATA[STEP82]]>
+    </line>
+    <line>
+      <![CDATA[STEP83]]>
+    </line>
+    <line>
+      <![CDATA[STEP84]]>
+    </line>
+    <line>
+      <![CDATA[STEP85]]>
+    </line>
+    <line>
+      <![CDATA[STEP86]]>
+    </line>
+    <line>
+      <![CDATA[STEP87]]>
+    </line>
+    <line>
+      <![CDATA[STEP88]]>
+    </line>
+    <line>
+      <![CDATA[STEP89]]>
+    </line>
+    <line>
+      <![CDATA[STEP90]]>
+    </line>
+    <line>
+      <![CDATA[STEP91]]>
+    </line>
+    <line>
+      <![CDATA[STEP92]]>
+    </line>
+    <line>
+      <![CDATA[STEP93]]>
+    </line>
+    <line>
+      <![CDATA[STEP94]]>
+    </line>
+    <line>
+      <![CDATA[STEP95]]>
+    </line>
+    <line>
+      <![CDATA[STEP96]]>
+    </line>
+    <line>
+      <![CDATA[STEP97]]>
+    </line>
+    <line>
+      <![CDATA[STEP98]]>
+    </line>
+    <line>
+      <![CDATA[STEP99]]>
+    </line>
+    <line>
+      <![CDATA[STEP100]]>
+    </line>
+    <line>
+      <![CDATA[STEP101]]>
+    </line>
+    <line>
+      <![CDATA[STEP102]]>
+    </line>
+    <line>
+      <![CDATA[STEP103]]>
+    </line>
+    <line>
+      <![CDATA[STEP104]]>
+    </line>
+    <line>
+      <![CDATA[STEP105]]>
+    </line>
+    <line>
+      <![CDATA[STEP106]]>
+    </line>
+    <line>
+      <![CDATA[STEP107]]>
+    </line>
+    <line>
+      <![CDATA[STEP108]]>
+    </line>
+    <line>
+      <![CDATA[STEP109]]>
+    </line>
+    <line>
+      <![CDATA[STEP110]]>
+    </line>
+    <line>
+      <![CDATA[STEP111]]>
+    </line>
+    <line>
+      <![CDATA[STEP112]]>
+    </line>
+    <line>
+      <![CDATA[STEP113]]>
+    </line>
+    <line>
+      <![CDATA[STEP114]]>
+    </line>
+    <line>
+      <![CDATA[STEP115]]>
+    </line>
+    <line>
+      <![CDATA[STEP116]]>
+    </line>
+    <line>
+      <![CDATA[STEP117]]>
+    </line>
+    <line>
+      <![CDATA[STEP118]]>
+    </line>
+    <line>
+      <![CDATA[STEP119]]>
+    </line>
+    <line>
+      <![CDATA[STEP120]]>
+    </line>
+    <line>
+      <![CDATA[STEP121]]>
+    </line>
+    <line>
+      <![CDATA[STEP122]]>
+    </line>
+    <line>
+      <![CDATA[STEP123]]>
+    </line>
+    <line>
+      <![CDATA[STEP124]]>
+    </line>
+    <line>
+      <![CDATA[STEP125]]>
+    </line>
+    <line>
+      <![CDATA[STEP126]]>
+    </line>
+    <line>
+      <![CDATA[STEP127]]>
+    </line>
+    <line>
+      <![CDATA[STEP128]]>
+    </line>
+    <line>
+      <![CDATA[STEP129]]>
+    </line>
+    <line>
+      <![CDATA[STEP130]]>
+    </line>
+    <line>
+      <![CDATA[STEP131]]>
+    </line>
+    <line>
+      <![CDATA[STEP132]]>
+    </line>
+    <line>
+      <![CDATA[STEP133]]>
+    </line>
+    <line>
+      <![CDATA[STEP134]]>
+    </line>
+    <line>
+      <![CDATA[STEP135]]>
+    </line>
+    <line>
+      <![CDATA[STEP136]]>
+    </line>
+    <line>
+      <![CDATA[STEP137]]>
+    </line>
+    <line>
+      <![CDATA[STEP138]]>
+    </line>
+    <line>
+      <![CDATA[STEP139]]>
+    </line>
+    <line>
+      <![CDATA[STEP140]]>
+    </line>
+    <line>
+      <![CDATA[STEP141]]>
+    </line>
+    <line>
+      <![CDATA[STEP142]]>
+    </line>
+    <line>
+      <![CDATA[STEP143]]>
+    </line>
+    <line>
+      <![CDATA[STEP144]]>
+    </line>
+    <line>
+      <![CDATA[STEP145]]>
+    </line>
+    <line>
+      <![CDATA[STEP146]]>
+    </line>
+    <line>
+      <![CDATA[STEP147]]>
+    </line>
+    <line>
+      <![CDATA[STEP148]]>
+    </line>
+    <line>
+      <![CDATA[STEP149]]>
+    </line>
+    <line>
+      <![CDATA[STEP150]]>
+    </line>
+    <line>
+      <![CDATA[STEP151]]>
+    </line>
+    <line>
+      <![CDATA[STEP152]]>
+    </line>
+    <line>
+      <![CDATA[STEP153]]>
+    </line>
+    <line>
+      <![CDATA[STEP154]]>
+    </line>
+    <line>
+      <![CDATA[STEP155]]>
+    </line>
+    <line>
+      <![CDATA[STEP156]]>
+    </line>
+    <line>
+      <![CDATA[STEP157]]>
+    </line>
+    <line>
+      <![CDATA[STEP158]]>
+    </line>
+    <line>
+      <![CDATA[STEP159]]>
+    </line>
+    <line>
+      <![CDATA[STEP160]]>
+    </line>
+    <line>
+      <![CDATA[STEP161]]>
+    </line>
+    <line>
+      <![CDATA[STEP162]]>
+    </line>
+    <line>
+      <![CDATA[STEP163]]>
+    </line>
+    <line>
+      <![CDATA[STEP164]]>
+    </line>
+    <line>
+      <![CDATA[STEP165]]>
+    </line>
+    <line>
+      <![CDATA[STEP166]]>
+    </line>
+    <line>
+      <![CDATA[STEP167]]>
+    </line>
+    <line>
+      <![CDATA[STEP168]]>
+    </line>
+    <line>
+      <![CDATA[STEP169]]>
+    </line>
+    <line>
+      <![CDATA[STEP170]]>
+    </line>
+    <line>
+      <![CDATA[STEP171]]>
+    </line>
+    <line>
+      <![CDATA[STEP172]]>
+    </line>
+    <line>
+      <![CDATA[STEP173]]>
+    </line>
+    <line>
+      <![CDATA[STEP174]]>
+    </line>
+    <line>
+      <![CDATA[STEP175]]>
+    </line>
+    <line>
+      <![CDATA[STEP176]]>
+    </line>
+    <line>
+      <![CDATA[STEP177]]>
+    </line>
+    <line>
+      <![CDATA[STEP178]]>
+    </line>
+    <line>
+      <![CDATA[STEP179]]>
+    </line>
+    <line>
+      <![CDATA[STEP180]]>
+    </line>
+    <line>
+      <![CDATA[STEP181]]>
+    </line>
+    <line>
+      <![CDATA[STEP182]]>
+    </line>
+    <line>
+      <![CDATA[STEP183]]>
+    </line>
+    <line>
+      <![CDATA[STEP184]]>
+    </line>
+    <line>
+      <![CDATA[STEP185]]>
+    </line>
+    <line>
+      <![CDATA[STEP186]]>
+    </line>
+    <line>
+      <![CDATA[STEP187]]>
+    </line>
+    <line>
+      <![CDATA[STEP188]]>
+    </line>
+    <line>
+      <![CDATA[STEP189]]>
+    </line>
+    <line>
+      <![CDATA[STEP190]]>
+    </line>
+    <line>
+      <![CDATA[STEP191]]>
+    </line>
+    <line>
+      <![CDATA[STEP192]]>
+    </line>
+    <line>
+      <![CDATA[STEP193]]>
+    </line>
+    <line>
+      <![CDATA[STEP194]]>
+    </line>
+    <line>
+      <![CDATA[STEP195]]>
+    </line>
+    <line>
+      <![CDATA[STEP196]]>
+    </line>
+    <line>
+      <![CDATA[STEP197]]>
+    </line>
+    <line>
+      <![CDATA[STEP198]]>
+    </line>
+    <line>
+      <![CDATA[STEP199]]>
+    </line>
+    <line>
+      <![CDATA[STEP200]]>
+    </line>
+    <line>
+      <![CDATA[STEP201]]>
+    </line>
+    <line>
+      <![CDATA[STEP202]]>
+    </line>
+    <line>
+      <![CDATA[STEP203]]>
+    </line>
+    <line>
+      <![CDATA[STEP204]]>
+    </line>
+    <line>
+      <![CDATA[STEP205]]>
+    </line>
+    <line>
+      <![CDATA[STEP206]]>
+    </line>
+    <line>
+      <![CDATA[STEP207]]>
+    </line>
+    <line>
+      <![CDATA[STEP208]]>
+    </line>
+    <line>
+      <![CDATA[STEP209]]>
+    </line>
+    <line>
+      <![CDATA[STEP210]]>
+    </line>
+    <line>
+      <![CDATA[STEP211]]>
+    </line>
+    <line>
+      <![CDATA[STEP212]]>
+    </line>
+    <line>
+      <![CDATA[STEP213]]>
+    </line>
+    <line>
+      <![CDATA[STEP214]]>
+    </line>
+    <line>
+      <![CDATA[STEP215]]>
+    </line>
+    <line>
+      <![CDATA[STEP216]]>
+    </line>
+    <line>
+      <![CDATA[STEP217]]>
+    </line>
+    <line>
+      <![CDATA[STEP218]]>
+    </line>
+    <line>
+      <![CDATA[STEP219]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47999" started-at="2017-07-21T18:19:22Z" finished-at="2017-07-21T18:20:10Z">
+  <suite name="Default suite" duration-ms="753469" started-at="2017-07-21T19:53:16Z" finished-at="2017-07-21T20:05:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47999" started-at="2017-07-21T18:19:22Z" finished-at="2017-07-21T18:20:10Z">
+    <test name="Default test" duration-ms="753469" started-at="2017-07-21T19:53:16Z" finished-at="2017-07-21T20:05:49Z">
       <class name="BatchExecution.UpdateVMScenario">
-        <test-method status="PASS" signature="setup()[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" name="setup" is-config="true" duration-ms="4756" started-at="2017-07-21T13:19:22Z" finished-at="2017-07-21T13:19:27Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" name="setup" is-config="true" duration-ms="5290" started-at="2017-07-21T14:53:16Z" finished-at="2017-07-21T14:53:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="4" started-at="2017-07-21T13:19:27Z" finished-at="2017-07-21T13:19:27Z">
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="4" started-at="2017-07-21T14:53:21Z" finished-at="2017-07-21T14:53:21Z">
           <params>
             <param index="0">
               <value>
@@ -140,14 +677,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@5ef6ae06]]>
+                <![CDATA[[Ljava.lang.Object;@770d4269]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="PASS" signature="cNetLoginScenario()[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="cNetLoginScenario" duration-ms="9004" started-at="2017-07-21T13:19:27Z" finished-at="2017-07-21T13:19:36Z">
+        <test-method status="PASS" signature="cNetLoginScenario()[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="cNetLoginScenario" duration-ms="9436" started-at="2017-07-21T14:53:21Z" finished-at="2017-07-21T14:53:30Z">
           <reporter-output>
             <line>
               <![CDATA[STEP1]]>
@@ -172,7 +709,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- cNetLoginScenario -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-21T13:19:38Z" finished-at="2017-07-21T13:19:38Z">
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-21T14:53:32Z" finished-at="2017-07-21T14:53:32Z">
           <params>
             <param index="0">
               <value>
@@ -181,14 +718,1082 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@55dfebeb]]>
+                <![CDATA[[Ljava.lang.Object;@4a8ab068]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="FAIL" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="30769" started-at="2017-07-21T13:19:38Z" data-provider="UpdateVM_Delete" finished-at="2017-07-21T13:20:09Z">
+        <test-method status="PASS" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="251669" started-at="2017-07-21T14:53:32Z" data-provider="UpdateVM_Delete" finished-at="2017-07-21T14:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UpdateVM_NewYork_Delete_VMWare_DEV63]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delete]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PRJ0010232]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[VMWare]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Server]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[192.168.20.85]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[192.168.10.227]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[VMWare-AIMS-CNET-01]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[DEV-LNX-APACHE-63]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[STEP8]]>
+            </line>
+            <line>
+              <![CDATA[STEP9]]>
+            </line>
+            <line>
+              <![CDATA[STEP10]]>
+            </line>
+            <line>
+              <![CDATA[STEP11]]>
+            </line>
+            <line>
+              <![CDATA[STEP12]]>
+            </line>
+            <line>
+              <![CDATA[STEP13]]>
+            </line>
+            <line>
+              <![CDATA[STEP14]]>
+            </line>
+            <line>
+              <![CDATA[STEP15]]>
+            </line>
+            <line>
+              <![CDATA[STEP16]]>
+            </line>
+            <line>
+              <![CDATA[STEP17]]>
+            </line>
+            <line>
+              <![CDATA[STEP18]]>
+            </line>
+            <line>
+              <![CDATA[STEP19]]>
+            </line>
+            <line>
+              <![CDATA[STEP20]]>
+            </line>
+            <line>
+              <![CDATA[STEP21]]>
+            </line>
+            <line>
+              <![CDATA[STEP22]]>
+            </line>
+            <line>
+              <![CDATA[STEP23]]>
+            </line>
+            <line>
+              <![CDATA[STEP24]]>
+            </line>
+            <line>
+              <![CDATA[STEP25]]>
+            </line>
+            <line>
+              <![CDATA[STEP26]]>
+            </line>
+            <line>
+              <![CDATA[STEP27]]>
+            </line>
+            <line>
+              <![CDATA[STEP28]]>
+            </line>
+            <line>
+              <![CDATA[STEP29]]>
+            </line>
+            <line>
+              <![CDATA[STEP30]]>
+            </line>
+            <line>
+              <![CDATA[STEP31]]>
+            </line>
+            <line>
+              <![CDATA[STEP32]]>
+            </line>
+            <line>
+              <![CDATA[STEP33]]>
+            </line>
+            <line>
+              <![CDATA[STEP34]]>
+            </line>
+            <line>
+              <![CDATA[STEP35]]>
+            </line>
+            <line>
+              <![CDATA[STEP36]]>
+            </line>
+            <line>
+              <![CDATA[STEP37]]>
+            </line>
+            <line>
+              <![CDATA[STEP38]]>
+            </line>
+            <line>
+              <![CDATA[STEP39]]>
+            </line>
+            <line>
+              <![CDATA[STEP40]]>
+            </line>
+            <line>
+              <![CDATA[STEP41]]>
+            </line>
+            <line>
+              <![CDATA[STEP42]]>
+            </line>
+            <line>
+              <![CDATA[STEP43]]>
+            </line>
+            <line>
+              <![CDATA[STEP44]]>
+            </line>
+            <line>
+              <![CDATA[STEP45]]>
+            </line>
+            <line>
+              <![CDATA[STEP46]]>
+            </line>
+            <line>
+              <![CDATA[STEP47]]>
+            </line>
+            <line>
+              <![CDATA[STEP48]]>
+            </line>
+            <line>
+              <![CDATA[STEP49]]>
+            </line>
+            <line>
+              <![CDATA[STEP50]]>
+            </line>
+            <line>
+              <![CDATA[STEP51]]>
+            </line>
+            <line>
+              <![CDATA[STEP52]]>
+            </line>
+            <line>
+              <![CDATA[STEP53]]>
+            </line>
+            <line>
+              <![CDATA[STEP54]]>
+            </line>
+            <line>
+              <![CDATA[STEP55]]>
+            </line>
+            <line>
+              <![CDATA[STEP56]]>
+            </line>
+            <line>
+              <![CDATA[STEP57]]>
+            </line>
+            <line>
+              <![CDATA[STEP58]]>
+            </line>
+            <line>
+              <![CDATA[STEP59]]>
+            </line>
+            <line>
+              <![CDATA[STEP60]]>
+            </line>
+            <line>
+              <![CDATA[STEP61]]>
+            </line>
+            <line>
+              <![CDATA[STEP62]]>
+            </line>
+            <line>
+              <![CDATA[STEP63]]>
+            </line>
+            <line>
+              <![CDATA[STEP64]]>
+            </line>
+            <line>
+              <![CDATA[STEP65]]>
+            </line>
+            <line>
+              <![CDATA[STEP66]]>
+            </line>
+            <line>
+              <![CDATA[STEP67]]>
+            </line>
+            <line>
+              <![CDATA[STEP68]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UpdateVirtualMachine -->
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="2" started-at="2017-07-21T14:57:43Z" finished-at="2017-07-21T14:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BatchExecution.UpdateVMScenario.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1922e6d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractTestNameFromParameters -->
+        <test-method status="PASS" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="226413" started-at="2017-07-21T14:57:43Z" data-provider="UpdateVM_Delete" finished-at="2017-07-21T15:01:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UpdateVM_NewYork_Delete_VMWare_DEV59]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delete]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PRJ0010232]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[VMWare]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Server]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[192.168.20.85]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[192.168.10.227]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[VMWare-AIMS-CNET-01]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[DEV-LNX-APACHE-59]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[STEP69]]>
+            </line>
+            <line>
+              <![CDATA[STEP70]]>
+            </line>
+            <line>
+              <![CDATA[STEP71]]>
+            </line>
+            <line>
+              <![CDATA[STEP72]]>
+            </line>
+            <line>
+              <![CDATA[STEP73]]>
+            </line>
+            <line>
+              <![CDATA[STEP74]]>
+            </line>
+            <line>
+              <![CDATA[STEP75]]>
+            </line>
+            <line>
+              <![CDATA[STEP76]]>
+            </line>
+            <line>
+              <![CDATA[STEP77]]>
+            </line>
+            <line>
+              <![CDATA[STEP78]]>
+            </line>
+            <line>
+              <![CDATA[STEP79]]>
+            </line>
+            <line>
+              <![CDATA[STEP80]]>
+            </line>
+            <line>
+              <![CDATA[STEP81]]>
+            </line>
+            <line>
+              <![CDATA[STEP82]]>
+            </line>
+            <line>
+              <![CDATA[STEP83]]>
+            </line>
+            <line>
+              <![CDATA[STEP84]]>
+            </line>
+            <line>
+              <![CDATA[STEP85]]>
+            </line>
+            <line>
+              <![CDATA[STEP86]]>
+            </line>
+            <line>
+              <![CDATA[STEP87]]>
+            </line>
+            <line>
+              <![CDATA[STEP88]]>
+            </line>
+            <line>
+              <![CDATA[STEP89]]>
+            </line>
+            <line>
+              <![CDATA[STEP90]]>
+            </line>
+            <line>
+              <![CDATA[STEP91]]>
+            </line>
+            <line>
+              <![CDATA[STEP92]]>
+            </line>
+            <line>
+              <![CDATA[STEP93]]>
+            </line>
+            <line>
+              <![CDATA[STEP94]]>
+            </line>
+            <line>
+              <![CDATA[STEP95]]>
+            </line>
+            <line>
+              <![CDATA[STEP96]]>
+            </line>
+            <line>
+              <![CDATA[STEP97]]>
+            </line>
+            <line>
+              <![CDATA[STEP98]]>
+            </line>
+            <line>
+              <![CDATA[STEP99]]>
+            </line>
+            <line>
+              <![CDATA[STEP100]]>
+            </line>
+            <line>
+              <![CDATA[STEP101]]>
+            </line>
+            <line>
+              <![CDATA[STEP102]]>
+            </line>
+            <line>
+              <![CDATA[STEP103]]>
+            </line>
+            <line>
+              <![CDATA[STEP104]]>
+            </line>
+            <line>
+              <![CDATA[STEP105]]>
+            </line>
+            <line>
+              <![CDATA[STEP106]]>
+            </line>
+            <line>
+              <![CDATA[STEP107]]>
+            </line>
+            <line>
+              <![CDATA[STEP108]]>
+            </line>
+            <line>
+              <![CDATA[STEP109]]>
+            </line>
+            <line>
+              <![CDATA[STEP110]]>
+            </line>
+            <line>
+              <![CDATA[STEP111]]>
+            </line>
+            <line>
+              <![CDATA[STEP112]]>
+            </line>
+            <line>
+              <![CDATA[STEP113]]>
+            </line>
+            <line>
+              <![CDATA[STEP114]]>
+            </line>
+            <line>
+              <![CDATA[STEP115]]>
+            </line>
+            <line>
+              <![CDATA[STEP116]]>
+            </line>
+            <line>
+              <![CDATA[STEP117]]>
+            </line>
+            <line>
+              <![CDATA[STEP118]]>
+            </line>
+            <line>
+              <![CDATA[STEP119]]>
+            </line>
+            <line>
+              <![CDATA[STEP120]]>
+            </line>
+            <line>
+              <![CDATA[STEP121]]>
+            </line>
+            <line>
+              <![CDATA[STEP122]]>
+            </line>
+            <line>
+              <![CDATA[STEP123]]>
+            </line>
+            <line>
+              <![CDATA[STEP124]]>
+            </line>
+            <line>
+              <![CDATA[STEP125]]>
+            </line>
+            <line>
+              <![CDATA[STEP126]]>
+            </line>
+            <line>
+              <![CDATA[STEP127]]>
+            </line>
+            <line>
+              <![CDATA[STEP128]]>
+            </line>
+            <line>
+              <![CDATA[STEP129]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UpdateVirtualMachine -->
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="2" started-at="2017-07-21T15:01:30Z" finished-at="2017-07-21T15:01:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BatchExecution.UpdateVMScenario.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@76a82f33]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractTestNameFromParameters -->
+        <test-method status="PASS" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="236659" started-at="2017-07-21T15:01:30Z" data-provider="UpdateVM_Delete" finished-at="2017-07-21T15:05:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UpdateVM_NewYork_Delete_VMWare_DEV91]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delete]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PRJ0010232]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[VMWare]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Server]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[192.168.20.85]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[192.168.10.227]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[VMWare-AIMS-CNET-01]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[DEV-LNX-APACHE-91]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[STEP130]]>
+            </line>
+            <line>
+              <![CDATA[STEP131]]>
+            </line>
+            <line>
+              <![CDATA[STEP132]]>
+            </line>
+            <line>
+              <![CDATA[STEP133]]>
+            </line>
+            <line>
+              <![CDATA[STEP134]]>
+            </line>
+            <line>
+              <![CDATA[STEP135]]>
+            </line>
+            <line>
+              <![CDATA[STEP136]]>
+            </line>
+            <line>
+              <![CDATA[STEP137]]>
+            </line>
+            <line>
+              <![CDATA[STEP138]]>
+            </line>
+            <line>
+              <![CDATA[STEP139]]>
+            </line>
+            <line>
+              <![CDATA[STEP140]]>
+            </line>
+            <line>
+              <![CDATA[STEP141]]>
+            </line>
+            <line>
+              <![CDATA[STEP142]]>
+            </line>
+            <line>
+              <![CDATA[STEP143]]>
+            </line>
+            <line>
+              <![CDATA[STEP144]]>
+            </line>
+            <line>
+              <![CDATA[STEP145]]>
+            </line>
+            <line>
+              <![CDATA[STEP146]]>
+            </line>
+            <line>
+              <![CDATA[STEP147]]>
+            </line>
+            <line>
+              <![CDATA[STEP148]]>
+            </line>
+            <line>
+              <![CDATA[STEP149]]>
+            </line>
+            <line>
+              <![CDATA[STEP150]]>
+            </line>
+            <line>
+              <![CDATA[STEP151]]>
+            </line>
+            <line>
+              <![CDATA[STEP152]]>
+            </line>
+            <line>
+              <![CDATA[STEP153]]>
+            </line>
+            <line>
+              <![CDATA[STEP154]]>
+            </line>
+            <line>
+              <![CDATA[STEP155]]>
+            </line>
+            <line>
+              <![CDATA[STEP156]]>
+            </line>
+            <line>
+              <![CDATA[STEP157]]>
+            </line>
+            <line>
+              <![CDATA[STEP158]]>
+            </line>
+            <line>
+              <![CDATA[STEP159]]>
+            </line>
+            <line>
+              <![CDATA[STEP160]]>
+            </line>
+            <line>
+              <![CDATA[STEP161]]>
+            </line>
+            <line>
+              <![CDATA[STEP162]]>
+            </line>
+            <line>
+              <![CDATA[STEP163]]>
+            </line>
+            <line>
+              <![CDATA[STEP164]]>
+            </line>
+            <line>
+              <![CDATA[STEP165]]>
+            </line>
+            <line>
+              <![CDATA[STEP166]]>
+            </line>
+            <line>
+              <![CDATA[STEP167]]>
+            </line>
+            <line>
+              <![CDATA[STEP168]]>
+            </line>
+            <line>
+              <![CDATA[STEP169]]>
+            </line>
+            <line>
+              <![CDATA[STEP170]]>
+            </line>
+            <line>
+              <![CDATA[STEP171]]>
+            </line>
+            <line>
+              <![CDATA[STEP172]]>
+            </line>
+            <line>
+              <![CDATA[STEP173]]>
+            </line>
+            <line>
+              <![CDATA[STEP174]]>
+            </line>
+            <line>
+              <![CDATA[STEP175]]>
+            </line>
+            <line>
+              <![CDATA[STEP176]]>
+            </line>
+            <line>
+              <![CDATA[STEP177]]>
+            </line>
+            <line>
+              <![CDATA[STEP178]]>
+            </line>
+            <line>
+              <![CDATA[STEP179]]>
+            </line>
+            <line>
+              <![CDATA[STEP180]]>
+            </line>
+            <line>
+              <![CDATA[STEP181]]>
+            </line>
+            <line>
+              <![CDATA[STEP182]]>
+            </line>
+            <line>
+              <![CDATA[STEP183]]>
+            </line>
+            <line>
+              <![CDATA[STEP184]]>
+            </line>
+            <line>
+              <![CDATA[STEP185]]>
+            </line>
+            <line>
+              <![CDATA[STEP186]]>
+            </line>
+            <line>
+              <![CDATA[STEP187]]>
+            </line>
+            <line>
+              <![CDATA[STEP188]]>
+            </line>
+            <line>
+              <![CDATA[STEP189]]>
+            </line>
+            <line>
+              <![CDATA[STEP190]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UpdateVirtualMachine -->
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-21T15:05:27Z" finished-at="2017-07-21T15:05:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BatchExecution.UpdateVMScenario.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6bab2585]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractTestNameFromParameters -->
+        <test-method status="FAIL" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="22287" started-at="2017-07-21T15:05:27Z" data-provider="UpdateVM_Delete" finished-at="2017-07-21T15:05:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UpdateVM_NewYork_Delete_VMWare_DEV13]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delete]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PRJ0010232]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[VMWare]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Server]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[192.168.20.85]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[192.168.10.227]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[VMWare-AIMS-CNET-01]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[DEV-LNX-GRAPAHANA-13]]>
+              </value>
+            </param>
+          </params>
+          <exception class="atu.testng.reports.exceptions.ATUReporterStepFailedException">
+            <full-stacktrace>
+              <![CDATA[[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- atu.testng.reports.exceptions.ATUReporterStepFailedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[STEP191]]>
+            </line>
+            <line>
+              <![CDATA[STEP192]]>
+            </line>
+            <line>
+              <![CDATA[STEP193]]>
+            </line>
+            <line>
+              <![CDATA[STEP194]]>
+            </line>
+            <line>
+              <![CDATA[STEP195]]>
+            </line>
+            <line>
+              <![CDATA[STEP196]]>
+            </line>
+            <line>
+              <![CDATA[STEP197]]>
+            </line>
+            <line>
+              <![CDATA[STEP198]]>
+            </line>
+            <line>
+              <![CDATA[STEP199]]>
+            </line>
+            <line>
+              <![CDATA[STEP200]]>
+            </line>
+            <line>
+              <![CDATA[STEP201]]>
+            </line>
+            <line>
+              <![CDATA[STEP202]]>
+            </line>
+            <line>
+              <![CDATA[STEP203]]>
+            </line>
+            <line>
+              <![CDATA[STEP204]]>
+            </line>
+            <line>
+              <![CDATA[STEP205]]>
+            </line>
+            <line>
+              <![CDATA[STEP206]]>
+            </line>
+            <line>
+              <![CDATA[STEP207]]>
+            </line>
+            <line>
+              <![CDATA[STEP208]]>
+            </line>
+            <line>
+              <![CDATA[STEP209]]>
+            </line>
+            <line>
+              <![CDATA[STEP210]]>
+            </line>
+            <line>
+              <![CDATA[STEP211]]>
+            </line>
+            <line>
+              <![CDATA[STEP212]]>
+            </line>
+            <line>
+              <![CDATA[STEP213]]>
+            </line>
+            <line>
+              <![CDATA[STEP214]]>
+            </line>
+            <line>
+              <![CDATA[STEP215]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UpdateVirtualMachine -->
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-21T15:05:49Z" finished-at="2017-07-21T15:05:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BatchExecution.UpdateVMScenario.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@74bdc168]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractTestNameFromParameters -->
+        <test-method status="FAIL" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="58" started-at="2017-07-21T15:05:49Z" data-provider="UpdateVM_Delete" finished-at="2017-07-21T15:05:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UpdateVM_NewYork_Delete_VMWare_DEV83]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delete]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PRJ0010232]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[VMWare]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Server]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[192.168.20.85]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[192.168.10.227]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[VMWare-AIMS-CNET-01]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[DEV-WIN-TOMCAT-83]]>
+              </value>
+            </param>
+          </params>
+          <exception class="atu.testng.reports.exceptions.ATUReporterStepFailedException">
+            <full-stacktrace>
+              <![CDATA[[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- atu.testng.reports.exceptions.ATUReporterStepFailedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[STEP216]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UpdateVirtualMachine -->
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="2" started-at="2017-07-21T15:05:49Z" finished-at="2017-07-21T15:05:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BatchExecution.UpdateVMScenario.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@644c78d4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractTestNameFromParameters -->
+        <test-method status="FAIL" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="75" started-at="2017-07-21T15:05:49Z" data-provider="UpdateVM_Delete" finished-at="2017-07-21T15:05:49Z">
           <params>
             <param index="0">
               <value>
@@ -276,83 +1881,11 @@
           </exception> <!-- atu.testng.reports.exceptions.ATUReporterStepFailedException -->
           <reporter-output>
             <line>
-              <![CDATA[STEP8]]>
-            </line>
-            <line>
-              <![CDATA[STEP9]]>
-            </line>
-            <line>
-              <![CDATA[STEP10]]>
-            </line>
-            <line>
-              <![CDATA[STEP11]]>
-            </line>
-            <line>
-              <![CDATA[STEP12]]>
-            </line>
-            <line>
-              <![CDATA[STEP13]]>
-            </line>
-            <line>
-              <![CDATA[STEP14]]>
-            </line>
-            <line>
-              <![CDATA[STEP15]]>
-            </line>
-            <line>
-              <![CDATA[STEP16]]>
-            </line>
-            <line>
-              <![CDATA[STEP17]]>
-            </line>
-            <line>
-              <![CDATA[STEP18]]>
-            </line>
-            <line>
-              <![CDATA[STEP19]]>
-            </line>
-            <line>
-              <![CDATA[STEP20]]>
-            </line>
-            <line>
-              <![CDATA[STEP21]]>
-            </line>
-            <line>
-              <![CDATA[STEP22]]>
-            </line>
-            <line>
-              <![CDATA[STEP23]]>
-            </line>
-            <line>
-              <![CDATA[STEP24]]>
-            </line>
-            <line>
-              <![CDATA[STEP25]]>
-            </line>
-            <line>
-              <![CDATA[STEP26]]>
-            </line>
-            <line>
-              <![CDATA[STEP27]]>
-            </line>
-            <line>
-              <![CDATA[STEP28]]>
-            </line>
-            <line>
-              <![CDATA[STEP29]]>
-            </line>
-            <line>
-              <![CDATA[STEP30]]>
-            </line>
-            <line>
-              <![CDATA[STEP31]]>
-            </line>
-            <line>
-              <![CDATA[STEP32]]>
+              <![CDATA[STEP217]]>
             </line>
           </reporter-output>
         </test-method> <!-- UpdateVirtualMachine -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="4" started-at="2017-07-21T13:20:09Z" finished-at="2017-07-21T13:20:09Z">
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-21T15:05:49Z" finished-at="2017-07-21T15:05:49Z">
           <params>
             <param index="0">
               <value>
@@ -361,14 +1894,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@6e35bc3d]]>
+                <![CDATA[[Ljava.lang.Object;@532a02d9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="FAIL" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="139" started-at="2017-07-21T13:20:09Z" data-provider="UpdateVM_Delete" finished-at="2017-07-21T13:20:09Z">
+        <test-method status="FAIL" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="46" started-at="2017-07-21T15:05:49Z" data-provider="UpdateVM_Delete" finished-at="2017-07-21T15:05:49Z">
           <params>
             <param index="0">
               <value>
@@ -456,11 +1989,11 @@
           </exception> <!-- atu.testng.reports.exceptions.ATUReporterStepFailedException -->
           <reporter-output>
             <line>
-              <![CDATA[STEP33]]>
+              <![CDATA[STEP218]]>
             </line>
           </reporter-output>
         </test-method> <!-- UpdateVirtualMachine -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="2" started-at="2017-07-21T13:20:09Z" finished-at="2017-07-21T13:20:09Z">
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="3" started-at="2017-07-21T15:05:49Z" finished-at="2017-07-21T15:05:49Z">
           <params>
             <param index="0">
               <value>
@@ -469,14 +2002,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@1cdc4c27]]>
+                <![CDATA[[Ljava.lang.Object;@611f8234]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="FAIL" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="252" started-at="2017-07-21T13:20:09Z" data-provider="UpdateVM_Delete" finished-at="2017-07-21T13:20:09Z">
+        <test-method status="FAIL" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="35" started-at="2017-07-21T15:05:49Z" data-provider="UpdateVM_Delete" finished-at="2017-07-21T15:05:49Z">
           <params>
             <param index="0">
               <value>
@@ -564,659 +2097,11 @@
           </exception> <!-- atu.testng.reports.exceptions.ATUReporterStepFailedException -->
           <reporter-output>
             <line>
-              <![CDATA[STEP34]]>
+              <![CDATA[STEP219]]>
             </line>
           </reporter-output>
         </test-method> <!-- UpdateVirtualMachine -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-21T13:20:09Z" finished-at="2017-07-21T13:20:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void BatchExecution.UpdateVMScenario.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@77b14724]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="FAIL" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="125" started-at="2017-07-21T13:20:09Z" data-provider="UpdateVM_Delete" finished-at="2017-07-21T13:20:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[UpdateVM_NewYork_Delete_AWS_DEV91]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Delete]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[PRJ0010232]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[New York]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[AWS]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Server]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[AWS-AIMS-CNET-01]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[DEV-LNX-APACHE-91]]>
-              </value>
-            </param>
-          </params>
-          <exception class="atu.testng.reports.exceptions.ATUReporterStepFailedException">
-            <full-stacktrace>
-              <![CDATA[[ATU Custom Reporter Step Failed Exception]
-	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- atu.testng.reports.exceptions.ATUReporterStepFailedException -->
-          <reporter-output>
-            <line>
-              <![CDATA[STEP35]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- UpdateVirtualMachine -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-21T13:20:09Z" finished-at="2017-07-21T13:20:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void BatchExecution.UpdateVMScenario.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@5d9b7a8a]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="FAIL" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="94" started-at="2017-07-21T13:20:09Z" data-provider="UpdateVM_Delete" finished-at="2017-07-21T13:20:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[UpdateVM_NewYork_Delete_AWS_DEV13]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Delete]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[PRJ0010232]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[New York]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[AWS]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Server]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[AWS-AIMS-CNET-01]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[DEV-LNX-GRAPAHANA-13]]>
-              </value>
-            </param>
-          </params>
-          <exception class="atu.testng.reports.exceptions.ATUReporterStepFailedException">
-            <full-stacktrace>
-              <![CDATA[[ATU Custom Reporter Step Failed Exception]
-	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- atu.testng.reports.exceptions.ATUReporterStepFailedException -->
-          <reporter-output>
-            <line>
-              <![CDATA[STEP36]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- UpdateVirtualMachine -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="7" started-at="2017-07-21T13:20:09Z" finished-at="2017-07-21T13:20:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void BatchExecution.UpdateVMScenario.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@1e8ce150]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="FAIL" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="70" started-at="2017-07-21T13:20:09Z" data-provider="UpdateVM_Delete" finished-at="2017-07-21T13:20:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[UpdateVM_NewYork_Delete_AWS_DEV83]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Delete]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[PRJ0010232]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[New York]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[AWS]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Server]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[AWS-AIMS-CNET-01]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[DEV-WIN-TOMCAT-83]]>
-              </value>
-            </param>
-          </params>
-          <exception class="atu.testng.reports.exceptions.ATUReporterStepFailedException">
-            <full-stacktrace>
-              <![CDATA[[ATU Custom Reporter Step Failed Exception]
-	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- atu.testng.reports.exceptions.ATUReporterStepFailedException -->
-          <reporter-output>
-            <line>
-              <![CDATA[STEP37]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- UpdateVirtualMachine -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-21T13:20:09Z" finished-at="2017-07-21T13:20:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void BatchExecution.UpdateVMScenario.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@604f2bd2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="FAIL" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="58" started-at="2017-07-21T13:20:09Z" data-provider="UpdateVM_Delete" finished-at="2017-07-21T13:20:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[UpdateVM_NewYork_Delete_AWS_DEV84]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Delete]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[PRJ0010232]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[New York]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[AWS]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Server]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[AWS-AIMS-CNET-01]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[DEV-WIN-TOMCAT-84]]>
-              </value>
-            </param>
-          </params>
-          <exception class="atu.testng.reports.exceptions.ATUReporterStepFailedException">
-            <full-stacktrace>
-              <![CDATA[[ATU Custom Reporter Step Failed Exception]
-	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- atu.testng.reports.exceptions.ATUReporterStepFailedException -->
-          <reporter-output>
-            <line>
-              <![CDATA[STEP38]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- UpdateVirtualMachine -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-21T13:20:09Z" finished-at="2017-07-21T13:20:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void BatchExecution.UpdateVMScenario.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@1d3ac898]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="FAIL" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="140" started-at="2017-07-21T13:20:09Z" data-provider="UpdateVM_Delete" finished-at="2017-07-21T13:20:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[UpdateVM_NewYork_Delete_AWS_PRD30]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Delete]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[PRJ0010232]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[New York]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[AWS]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Server]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[AWS-AIMS-CNET-01]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[PRD-LNX-NGNX-30]]>
-              </value>
-            </param>
-          </params>
-          <exception class="atu.testng.reports.exceptions.ATUReporterStepFailedException">
-            <full-stacktrace>
-              <![CDATA[[ATU Custom Reporter Step Failed Exception]
-	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- atu.testng.reports.exceptions.ATUReporterStepFailedException -->
-          <reporter-output>
-            <line>
-              <![CDATA[STEP39]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- UpdateVirtualMachine -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-21T13:20:10Z" finished-at="2017-07-21T13:20:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void BatchExecution.UpdateVMScenario.UpdateVirtualMachine(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.awt.AWTException,java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@1b73be9f]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="FAIL" signature="UpdateVirtualMachine(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="UpdateVirtualMachine" duration-ms="271" started-at="2017-07-21T13:20:10Z" data-provider="UpdateVM_Delete" finished-at="2017-07-21T13:20:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[UpdateVM_NewYork_Delete_VMWare_PRD32]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Delete]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[PRJ0010232]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[New York]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[AWS]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Server]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[AWS-AIMS-CNET-01]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[PRD-WIN-NGNX-32]]>
-              </value>
-            </param>
-          </params>
-          <exception class="atu.testng.reports.exceptions.ATUReporterStepFailedException">
-            <full-stacktrace>
-              <![CDATA[[ATU Custom Reporter Step Failed Exception]
-	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- atu.testng.reports.exceptions.ATUReporterStepFailedException -->
-          <reporter-output>
-            <line>
-              <![CDATA[STEP40]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- UpdateVirtualMachine -->
-        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-21T13:20:10Z" finished-at="2017-07-21T13:20:10Z">
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="extractTestNameFromParameters" is-config="true" duration-ms="1" started-at="2017-07-21T15:05:49Z" finished-at="2017-07-21T15:05:49Z">
           <params>
             <param index="0">
               <value>
@@ -1225,18 +2110,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@628c4ac0]]>
+                <![CDATA[[Ljava.lang.Object;@7bb3a9fe]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractTestNameFromParameters -->
-        <test-method status="PASS" signature="cNetLogoutScenario()[pri:3, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="cNetLogoutScenario" duration-ms="93" started-at="2017-07-21T13:20:10Z" finished-at="2017-07-21T13:20:10Z">
+        <test-method status="PASS" signature="cNetLogoutScenario()[pri:3, instance:BatchExecution.UpdateVMScenario@d8355a8]" test-instance-name="cNetLogoutScenario" name="cNetLogoutScenario" duration-ms="38" started-at="2017-07-21T15:05:49Z" finished-at="2017-07-21T15:05:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cNetLogoutScenario -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" name="tearDown" is-config="true" duration-ms="4" started-at="2017-07-21T13:20:10Z" finished-at="2017-07-21T13:20:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BatchExecution.UpdateVMScenario@d8355a8]" name="tearDown" is-config="true" duration-ms="3" started-at="2017-07-21T15:05:49Z" finished-at="2017-07-21T15:05:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

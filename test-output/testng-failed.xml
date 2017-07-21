@@ -6,7 +6,7 @@
       <class name="BatchExecution.UpdateVMScenario">
         <methods>
           <include name="setup"/>
-          <include name="UpdateVirtualMachine" invocation-numbers="3"/>
+          <include name="UpdateVirtualMachine" invocation-numbers="6"/>
           <include name="extractTestNameFromParameters"/>
           <include name="tearDown"/>
         </methods>
