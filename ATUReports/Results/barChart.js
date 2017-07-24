@@ -1,10 +1,10 @@
             $(document).ready(function(){
-                var s1 = [3,2,2,0,2,8,5,10,5,25];
-                var s2 = [10,10,9,0,12,6,5,0,5,1];
+                var s1 = [2,3,10,2,18,38,38,38,34,10];
+                var s2 = [32,7,0,8,16,0,0,0,0,0];
                 var s3 = [0,0,0,0,0,0,0,0,0,0];
 
-var ticks = [26,27,28,29,30,31,32,33,34,35];    $.jqplot('bar', [s1, s2, s3], {
-        animate: true,axesDefaults:{min:0,tickInterval: 6},        seriesColors: ["#7BB661", "#E03C31", "#21ABCD"],
+var ticks = [6,7,8,9,10,11,12,13,14,15];    $.jqplot('bar', [s1, s2, s3], {
+        animate: true,axesDefaults:{min:0,tickInterval: 3},        seriesColors: ["#7BB661", "#E03C31", "#21ABCD"],
         stackSeries: false,
         seriesDefaults: {
             renderer: $.jqplot.BarRenderer,

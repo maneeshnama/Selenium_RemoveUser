@@ -312,6 +312,79 @@ public class Functional_Libraries {
 			} 
 		}
 	
+		public void SwitchtoWindowsSelectUser(WebDriver driver, String text, String UserName, String input, String Description, String ExpectedResult, String ActualResults,String Screenshot ) throws IOException, InterruptedException
+		{
+			try {
+				
+				input1 = new FileInputStream("Configuration\\Object_Repository.properties");
+				prop.load(input1);
+				
+				// To get the main window handle
+				String mainWindow= driver.getWindowHandle();
+				
+				//System.out.println("Current Window Page Window Handler ="+ mainWindow );
+						
+				String windowTitle  = driver.getTitle();
+				
+				//System.out.println("Current Page Tile ="+ windowTitle );
+				
+				// To get all windows handles 
+				Set<String> allWindowHandles = driver.getWindowHandles();
+				
+				//System.out.println("ALL Window Page Window Handler ="+ allWindowHandles );
+				for (String currentWindowHandle : allWindowHandles) {
+					
+					if (!currentWindowHandle.equals(mainWindow)) {
+						
+						driver.switchTo().window(currentWindowHandle);
+						
+						//driver.manage().window().maximize();
+					
+						try {
+							FluentWait<WebDriver> waitforelement  = new FluentWait<WebDriver>(driver)
+								       .withTimeout(60, TimeUnit.SECONDS)
+								       .pollingEvery(10, TimeUnit.SECONDS)
+								       .ignoring(NoSuchElementException.class);
+							waitforelement.until(ExpectedConditions.elementToBeClickable(By.xpath(text)));
+													
+							enterValuebyXpath(driver, text, UserName, prop.getProperty("SearchUserXpath"), "Passed The RequestNumber", "Search for Requests", "Successful", "N");
+							
+							Thread.sleep(3000);
+							
+							driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+							
+							PressEnterKeyUsingXpath(driver, prop.getProperty("SearchUserXpath"));
+							
+							driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+							
+							clickByxpath(driver, prop.getProperty("UserXpathSelect"), prop.getProperty("UserXpathSelect"),"Clicked RequestNumber", "Click on request Number", "Successful", "N");
+							
+							driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+							
+							reportStep(input, Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);
+							} catch (NoSuchElementException exc) {
+								exc.printStackTrace();
+								reportStep(input, Description, "FAILED", ExpectedResult, ActualResults, Screenshot);
+							} catch (WebDriverException e) {
+								e.printStackTrace();
+								reportStep(input, Description, "FAILED", ExpectedResult, ActualResults, Screenshot);
+							}
+					
+						}
+				}
+				
+				driver.switchTo().window(mainWindow);
+				
+			
+			} catch (NoSuchElementException exc) {
+				exc.printStackTrace();
+				reportStep("", Description, "FAILED", ExpectedResult, ActualResults, Screenshot);
+			} catch (WebDriverException e) {
+				e.printStackTrace();
+				reportStep("", Description, "FAILED", ExpectedResult, ActualResults, Screenshot);
+			} 
+		}
+	
 			
 		public void SwitchtoWindows(WebDriver driver,  String Description, String ExpectedResult, String ActualResults,String Screenshot ) throws IOException, InterruptedException
 		{
@@ -388,7 +461,7 @@ public class Functional_Libraries {
 						try {
 							//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 							
-						    clickByxpath(driver, prop.getProperty("UpdateServerxpath"),prop.getProperty("UpdateServerxpath") ,"", "", "", "");
+						    clickByID(driver, prop.getProperty("UpdateServerID"),prop.getProperty("UpdateServerID") ,"", "", "", "");
 							
 						    
 							//WaitForSpinner(driver, prop.getProperty("Spinner"));
@@ -397,13 +470,7 @@ public class Functional_Libraries {
 													
 							RefreshButton(driver, prop.getProperty("RefreshButtonXpath"), "", "", "", "", "");
 							//RefreshButtonuntilEndButtonEnable(driver);
-								
-							
-							
 							Scroll_PageTo_BottomofAPage(driver, "", "", "", "");
-							
-							
-							
 							driver.switchTo().window(currentWindowHandle).close();
 							
 							
@@ -525,7 +592,6 @@ public class Functional_Libraries {
 				waitforelement.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));
 				WebElement element = driver.findElement(By.xpath(xpath));
 				element.sendKeys(Keys.ENTER);
-				
 				} catch (NoSuchElementException exc) {
 					exc.printStackTrace();
 				} 
