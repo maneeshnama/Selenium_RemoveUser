@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var data = [['Passed', 25], ['Failed', 9], ['Skipped', 0]];
+    var data = [['Passed', 2], ['Failed', 4], ['Skipped', 0]];
     jQuery.jqplot('chart', [data],
             {seriesColors: ["#7BB661", "#E03C31", "#21ABCD"],
                 seriesDefaults: {
