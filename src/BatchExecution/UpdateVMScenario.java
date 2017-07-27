@@ -68,35 +68,35 @@ public class UpdateVMScenario extends BrowserConfig {
 			input = new FileInputStream("Configuration\\Object_Repository.properties");
 			prop.load(input);
 
-			/*
-			 * if(Control.equalsIgnoreCase("Y")){
-			 * fC.AIMSLaunchApplication(driver);
-			 * fC.UpdateVirtualMachine_Update(driver, ProjectInformation,
-			 * Project, PrimaryDatacenter, PrimaryCloudPlatform, VcenterHost,
-			 * ESXIHOST, SelectCluster, SelectServer, Serversize, Storage,
-			 * StorageProvier, StorageName, AggregateName, VServer, Size,
-			 * SizeUnits, Protocol, OpenPort, Port, FromPort, ToPort, AllowForm,
-			 * IP, FromIP, ToIP, AddMonitering, InstallAgentMonitering,
-			 * InstandEnablSNMP, ChangeDefaultCommString, CommunityString );
-			 * fC.getRequestNumber(driver); fL.SwitchFrames(driver,
-			 * prop.getProperty("MainframeID"), "", "", "", "", ""); String
-			 * RequestText = fC.getRequestID(driver,
-			 * prop.getProperty("RequestLinkID"));
-			 * System.out.println(RequestText); fC.ImpersonateUser(driver);
-			 * String replaceReqNum = fC.ReplaceRequestNumber(driver,
-			 * RequestText); System.out.println(replaceReqNum); String
-			 * finalreplaceReqNum = fC.getRITMNUMBEr(driver, replaceReqNum);
-			 * System.out.println(finalreplaceReqNum);
-			 * fC.RequestApproval(driver, RequestText, finalreplaceReqNum);
-			 * 
-			 * fC.ShowWorkFlow(driver);
-			 * 
-			 * fC.Search_cmdb_ci_server_list(driver);
-			 * 
-			 * getTestName().equals(UpdateVM_Scenario);
-			 * 
-			 * }
-			 */
+			
+			  if(Control.equalsIgnoreCase("Y")){
+			  fC.AIMSLaunchApplication(driver);
+			  fC.UpdateVirtualMachine_Update(driver, ProjectInformation,
+			  Project, PrimaryDatacenter, PrimaryCloudPlatform, VcenterHost,
+			  ESXIHOST, SelectCluster, SelectServer, Serversize, Storage,
+			  StorageProvier, StorageName, AggregateName, VServer, Size,
+			  SizeUnits, Protocol, OpenPort, Port, FromPort, ToPort, AllowForm,
+			  IP, FromIP, ToIP, AddMonitering, InstallAgentMonitering,
+			  InstandEnablSNMP, ChangeDefaultCommString, CommunityString );
+			  fC.getRequestNumber(driver); fL.SwitchFrames(driver,
+			  prop.getProperty("MainframeID"), "", "", "", "", ""); String
+			  RequestText = fC.getRequestID(driver,
+			  prop.getProperty("RequestLinkID"));
+			  System.out.println(RequestText); fC.ImpersonateUser(driver);
+			  String replaceReqNum = fC.ReplaceRequestNumber(driver,
+			  RequestText); System.out.println(replaceReqNum); String
+			  finalreplaceReqNum = fC.getRITMNUMBEr(driver, replaceReqNum);
+			  System.out.println(finalreplaceReqNum);
+			  fC.RequestApproval(driver, RequestText, finalreplaceReqNum);
+			  
+			  fC.ShowWorkFlow(driver);
+			  
+			  fC.Search_cmdb_ci_server_list(driver);
+			  
+			  getTestName().equals(UpdateVM_Scenario);
+			  
+			  }
+			 
 		} catch (NoSuchElementException exc) {
 			exc.printStackTrace();
 		} catch (WebDriverException e) {
@@ -116,28 +116,28 @@ public class UpdateVMScenario extends BrowserConfig {
 			prop.load(input);
 
 			if (Control.equalsIgnoreCase("Y")) {
-				// fC.AIMSLaunchApplication(driver);
-				// fC.UpdateVirtualMachine_Delete(driver, ProjectInformation,
-				// Project, PrimaryDatacenter, PrimaryCloudPlatform,
-				// TypeofDecommission, VcenterHost, ESXIHOST, SelectCluster,
-				// SelectServer);
-				// fC.getRequestNumber(driver);
-				// fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "",
-				// "", "", "", "");
-				// String RequestText = fC.getRequestID(driver,
-				// prop.getProperty("RequestLinkID"));
-				// System.out.println(RequestText);
-				// fC.ImpersonateUser(driver);
-				// String replaceReqNum = fC.ReplaceRequestNumber(driver,
-				// RequestText);
-				// System.out.println(replaceReqNum);
-				// String finalreplaceReqNum = fC.getRITMNUMBEr(driver,
-				// replaceReqNum);
-				// System.out.println(finalreplaceReqNum);
-				// fC.RequestApproval(driver, RequestText, finalreplaceReqNum);
-				// fC.ShowWorkFlow(driver);
-				// fC.Search_cmdb_ci_server_list(driver);
-				// getTestName().equals(UpdateVM_Scenario);
+				 fC.AIMSLaunchApplication(driver);
+				 fC.UpdateVirtualMachine_Delete(driver, ProjectInformation,
+				 Project, PrimaryDatacenter, PrimaryCloudPlatform,
+				 TypeofDecommission, VcenterHost, ESXIHOST, SelectCluster,
+				 SelectServer);
+				 fC.getRequestNumber(driver);
+				 fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "",
+				 "", "", "", "");
+				 String RequestText = fC.getRequestID(driver,
+				 prop.getProperty("RequestLinkID"));
+				 System.out.println(RequestText);
+				 fC.ImpersonateUser(driver);
+				 String replaceReqNum = fC.ReplaceRequestNumber(driver,
+				 RequestText);
+				 System.out.println(replaceReqNum);
+				 String finalreplaceReqNum = fC.getRITMNUMBEr(driver,
+				 replaceReqNum);
+				 System.out.println(finalreplaceReqNum);
+				 fC.RequestApproval(driver, RequestText, finalreplaceReqNum);
+				 fC.ShowWorkFlow(driver);
+				 fC.Search_cmdb_ci_server_list(driver);
+				 getTestName().equals(UpdateVM_Scenario);
 
 			}
 		} catch (NoSuchElementException exc) {
@@ -159,23 +159,23 @@ public class UpdateVMScenario extends BrowserConfig {
 			prop.load(input);
 
 			if (Control.equalsIgnoreCase("Y")) {
-//				fC.AIMSLaunchApplication(driver);
-//				fC.UpdateVirtualMachine_AddUser(driver, ProjectInformation, Project, PrimaryDatacenter,
-//						PrimaryCloudPlatform, VcenterHost, ESXIHOST, SelectCluster, SelectServer, Email, Value,
-//						PCICompliance);
-//				fC.getRequestNumber(driver);
-//				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "", "", "", "", "");
-//				String RequestText = fC.getRequestID(driver, prop.getProperty("RequestLinkID"));
-//				System.out.println(RequestText);
-//				fC.ImpersonateUser(driver);
-//				String replaceReqNum = fC.ReplaceRequestNumber(driver, RequestText);
-//				System.out.println(replaceReqNum);
-//				String finalreplaceReqNum = fC.getRITMNUMBEr(driver, replaceReqNum);
-//				System.out.println(finalreplaceReqNum);
-//				fC.RequestApproval(driver, RequestText, finalreplaceReqNum);
-//				fC.ShowWorkFlow(driver);
-//				fC.Search_cmdb_ci_server_list(driver);
-//				getTestName().equals(UpdateVM_Scenario);
+				fC.AIMSLaunchApplication(driver);
+				fC.UpdateVirtualMachine_AddUser(driver, ProjectInformation, Project, PrimaryDatacenter,
+						PrimaryCloudPlatform, VcenterHost, ESXIHOST, SelectCluster, SelectServer, Email, Value,
+						PCICompliance);
+				fC.getRequestNumber(driver);
+				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "", "", "", "", "");
+				String RequestText = fC.getRequestID(driver, prop.getProperty("RequestLinkID"));
+				System.out.println(RequestText);
+				fC.ImpersonateUser(driver);
+				String replaceReqNum = fC.ReplaceRequestNumber(driver, RequestText);
+				System.out.println(replaceReqNum);
+				String finalreplaceReqNum = fC.getRITMNUMBEr(driver, replaceReqNum);
+				System.out.println(finalreplaceReqNum);
+				fC.RequestApproval(driver, RequestText, finalreplaceReqNum);
+				fC.ShowWorkFlow(driver);
+				fC.Search_cmdb_ci_server_list(driver);
+				getTestName().equals(UpdateVM_Scenario);
 
 			}
 		} catch (NoSuchElementException exc) {
