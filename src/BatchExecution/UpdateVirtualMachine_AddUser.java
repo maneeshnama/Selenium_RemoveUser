@@ -56,7 +56,7 @@ public class UpdateVirtualMachine_AddUser extends BrowserConfig{
 
 	    @UseAsTestName(idx=1)
 		@Test(dataProvider = "AddUser", priority=1)
-		public void UpdateVirtualMachine(String Control, String UpdateVM_Scenario, String ProjectInformation, String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String VcenterHost, String ESXIHOST, String SelectCluster, String	SelectServer, String Email, String Value,  String PCICompliance) throws AWTException, InterruptedException, IOException
+		public void UpdateVirtualMachine(String Control, String UpdateVM_Scenario, String ProjectInformation, String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String EnvironmentData, String VcenterHost, String ESXIHOST, String SelectCluster, String	SelectServer, String Email, String Value,  String PCICompliance) throws AWTException, InterruptedException, IOException
 		{
 			setAuthorInfoReports();
 			try{
@@ -65,9 +65,9 @@ public class UpdateVirtualMachine_AddUser extends BrowserConfig{
 			
 			if(Control.equalsIgnoreCase("Y")){
 				fC.AIMSLaunchApplication(driver);
-				fC.UpdateVirtualMachine_AddUser(driver, ProjectInformation, Project, PrimaryDatacenter, PrimaryCloudPlatform, VcenterHost, ESXIHOST, SelectCluster, SelectServer, Email, Value, PCICompliance);
+				fC.UpdateVirtualMachine_AddUser(driver, ProjectInformation, Project, PrimaryDatacenter, PrimaryCloudPlatform, EnvironmentData, VcenterHost, ESXIHOST, SelectCluster, SelectServer, Email, Value, PCICompliance);
 				fC.getRequestNumber(driver);	
-				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "", "", "", "", "");
+				/*fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "", "", "", "", "");
 				String RequestText = fC.getRequestID(driver, prop.getProperty("RequestLinkID"));
 				System.out.println(RequestText);
 				fC.ImpersonateUser(driver);
@@ -77,7 +77,7 @@ public class UpdateVirtualMachine_AddUser extends BrowserConfig{
 				System.out.println(finalreplaceReqNum);
 				fC.RequestApproval(driver, RequestText, finalreplaceReqNum);
 				fC.ShowWorkFlow(driver);
-				fC.Search_cmdb_ci_server_list(driver);
+				fC.Search_cmdb_ci_server_list(driver);*/
 				getTestName().equals(UpdateVM_Scenario);
 				
 			}		

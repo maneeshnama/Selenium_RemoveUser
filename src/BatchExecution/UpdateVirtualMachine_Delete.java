@@ -45,8 +45,7 @@ public class UpdateVirtualMachine_Delete extends BrowserConfig{
 				prop.load(input);
 				
 				fC.CNetLogin(driver);
-						
-				
+					
 				} catch (NoSuchElementException exc) {
 					exc.printStackTrace();
 				} catch (WebDriverException e) {
@@ -56,7 +55,7 @@ public class UpdateVirtualMachine_Delete extends BrowserConfig{
 		
 	    @UseAsTestName(idx=1)
 		@Test(dataProvider = "UpdateVM_Delete", priority=1)
-		public void UpdateVirtualMachine(String Control, String UpdateVM_Scenario, String ProjectInformation, String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String TypeofDecommission, String VcenterHost, String ESXIHOST, String SelectCluster, String	SelectServer) throws AWTException, InterruptedException, IOException
+		public void UpdateVirtualMachine(String Control, String UpdateVM_Scenario, String ProjectInformation, String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String EnvironmentData, String TypeofDecommission, String VcenterHost, String ESXIHOST, String SelectCluster, String	SelectServer) throws AWTException, InterruptedException, IOException
 		{
 			setAuthorInfoReports();
 			try{
@@ -65,7 +64,7 @@ public class UpdateVirtualMachine_Delete extends BrowserConfig{
 			
 			if(Control.equalsIgnoreCase("Y")){
 				fC.AIMSLaunchApplication(driver);
-				fC.UpdateVirtualMachine_Delete(driver, ProjectInformation, Project, PrimaryDatacenter, PrimaryCloudPlatform, TypeofDecommission, VcenterHost, ESXIHOST, SelectCluster, SelectServer);
+				fC.UpdateVirtualMachine_Delete(driver, ProjectInformation, Project, PrimaryDatacenter, PrimaryCloudPlatform, EnvironmentData, TypeofDecommission, VcenterHost, ESXIHOST, SelectCluster, SelectServer);
 //				fC.getRequestNumber(driver);	
 //				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "", "", "", "", "");
 //				String RequestText = fC.getRequestID(driver, prop.getProperty("RequestLinkID"));

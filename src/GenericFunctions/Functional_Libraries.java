@@ -245,7 +245,6 @@ public class Functional_Libraries {
 				WebElement element = driver.findElement(By.id(id));
 				Select dropDownElement = new Select(element);
 				dropDownElement.selectByVisibleText(text);
-				
 				reportStep(input, Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);
 				} catch (NoSuchElementException exc) {
 					exc.printStackTrace();
@@ -454,23 +453,34 @@ public class Functional_Libraries {
 						
 						driver.switchTo().window(currentWindowHandle);
 						
-						//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-						
-						//System.out.println(currentWindowHandle);
+						driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 						
 						try {
 							//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 							
-						    clickByID(driver, prop.getProperty("UpdateServerID"),prop.getProperty("UpdateServerID") ,"", "", "", "");
-							
+						   //clickByxpath(driver, prop.getProperty("UpdateServerxpath"),prop.getProperty("UpdateServerxpath") ,"", "", "", "");
+						
+						    WebElement element= driver.findElement(By.xpath(prop.getProperty("UpdateServerxpath")));
+
+						    JavascriptExecutor executor = (JavascriptExecutor) driver;
+						    executor.executeScript("arguments[0].click();", element);
+						    
+						    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 						    
 							//WaitForSpinner(driver, prop.getProperty("Spinner"));
 							
 							//WaitForLoader(driver, prop.getProperty("Loader"));
-													
-							RefreshButton(driver, prop.getProperty("RefreshButtonXpath"), "", "", "", "", "");
+									
+						    WebElement Refreshelement= driver.findElement(By.xpath(prop.getProperty("RefreshButtonXpath")));
+
+						    JavascriptExecutor Refreshexecutor = (JavascriptExecutor) driver;
+						    Refreshexecutor.executeScript("arguments[0].click();", Refreshelement);
+						    
+							//RefreshButton(driver, prop.getProperty("RefreshButtonXpath"), "", "", "", "", "");
 							//RefreshButtonuntilEndButtonEnable(driver);
+						    
 							Scroll_PageTo_BottomofAPage(driver, "", "", "", "");
+							
 							driver.switchTo().window(currentWindowHandle).close();
 							
 							

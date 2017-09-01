@@ -56,7 +56,7 @@ public class UpdateVMScenario extends BrowserConfig {
 	@UseAsTestName(idx = 1)
 	@Test(dataProvider = "UpdateVM_Update", priority = 1)
 	public void UpdateVirtualMachine(String Control, String UpdateVM_Scenario, String ProjectInformation,
-			String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String VcenterHost, String ESXIHOST,
+			String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String EnvironmentData, String VcenterHost, String ESXIHOST,
 			String SelectCluster, String SelectServer, String Serversize, String Storage, String StorageProvier,
 			String StorageName, String AggregateName, String VServer, String Size, String SizeUnits, String Protocol,
 			String OpenPort, String Port, String FromPort, String ToPort, String AllowForm, String IP, String FromIP,
@@ -72,7 +72,7 @@ public class UpdateVMScenario extends BrowserConfig {
 			  if(Control.equalsIgnoreCase("Y")){
 			  fC.AIMSLaunchApplication(driver);
 			  fC.UpdateVirtualMachine_Update(driver, ProjectInformation,
-			  Project, PrimaryDatacenter, PrimaryCloudPlatform, VcenterHost,
+			  Project, PrimaryDatacenter, PrimaryCloudPlatform,EnvironmentData, VcenterHost,
 			  ESXIHOST, SelectCluster, SelectServer, Serversize, Storage,
 			  StorageProvier, StorageName, AggregateName, VServer, Size,
 			  SizeUnits, Protocol, OpenPort, Port, FromPort, ToPort, AllowForm,
@@ -107,7 +107,7 @@ public class UpdateVMScenario extends BrowserConfig {
 	@UseAsTestName(idx = 1)
 	@Test(dataProvider = "UpdateVM_Delete", priority = 2)
 	public void UpdateVirtualMachine(String Control, String UpdateVM_Scenario, String ProjectInformation,
-			String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String TypeofDecommission,
+			String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String EnvironmentData, String TypeofDecommission,
 			String VcenterHost, String ESXIHOST, String SelectCluster, String SelectServer)
 			throws AWTException, InterruptedException, IOException {
 		setAuthorInfoReports();
@@ -118,7 +118,7 @@ public class UpdateVMScenario extends BrowserConfig {
 			if (Control.equalsIgnoreCase("Y")) {
 				 fC.AIMSLaunchApplication(driver);
 				 fC.UpdateVirtualMachine_Delete(driver, ProjectInformation,
-				 Project, PrimaryDatacenter, PrimaryCloudPlatform,
+				 Project, PrimaryDatacenter, PrimaryCloudPlatform, EnvironmentData,
 				 TypeofDecommission, VcenterHost, ESXIHOST, SelectCluster,
 				 SelectServer);
 				 fC.getRequestNumber(driver);
@@ -150,7 +150,7 @@ public class UpdateVMScenario extends BrowserConfig {
 	@UseAsTestName(idx = 1)
 	@Test(dataProvider = "AddUser", priority = 3)
 	public void UpdateVirtualMachine(String Control, String UpdateVM_Scenario, String ProjectInformation,
-			String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String VcenterHost, String ESXIHOST,
+			String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String EnvironmentData, String VcenterHost, String ESXIHOST,
 			String SelectCluster, String SelectServer, String Email, String Value, String PCICompliance)
 			throws AWTException, InterruptedException, IOException {
 		setAuthorInfoReports();
@@ -161,7 +161,7 @@ public class UpdateVMScenario extends BrowserConfig {
 			if (Control.equalsIgnoreCase("Y")) {
 				fC.AIMSLaunchApplication(driver);
 				fC.UpdateVirtualMachine_AddUser(driver, ProjectInformation, Project, PrimaryDatacenter,
-						PrimaryCloudPlatform, VcenterHost, ESXIHOST, SelectCluster, SelectServer, Email, Value,
+						PrimaryCloudPlatform, EnvironmentData, VcenterHost, ESXIHOST, SelectCluster, SelectServer, Email, Value,
 						PCICompliance);
 				fC.getRequestNumber(driver);
 				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "", "", "", "", "");
@@ -188,7 +188,7 @@ public class UpdateVMScenario extends BrowserConfig {
 	@UseAsTestName(idx = 1)
 	@Test(dataProvider = "RemoveUser", priority = 4)
 	public void UpdateVirtualMachine1(String Control, String UpdateVM_Scenario, String ProjectInformation,
-			String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String VcenterHost, String ESXIHOST,
+			String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String EnvironmentData, String VcenterHost, String ESXIHOST,
 			String SelectCluster, String SelectServer,String Email, String Value, String PCICompliance) throws AWTException, InterruptedException, IOException {
 		setAuthorInfoReports();
 		try {
@@ -198,7 +198,7 @@ public class UpdateVMScenario extends BrowserConfig {
 			if (Control.equalsIgnoreCase("Y")) {
 				fC.AIMSLaunchApplication(driver);
 				fC.UpdateVirtualMachine_RemoveUser(driver, ProjectInformation, Project, PrimaryDatacenter,
-						PrimaryCloudPlatform, VcenterHost, ESXIHOST, SelectCluster, SelectServer,Email, Value,
+						PrimaryCloudPlatform, EnvironmentData, VcenterHost, ESXIHOST, SelectCluster, SelectServer,Email, Value,
 						PCICompliance);
 				fC.getRequestNumber(driver);
 				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "", "", "", "", "");

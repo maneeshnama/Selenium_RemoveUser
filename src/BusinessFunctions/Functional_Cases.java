@@ -9,6 +9,7 @@ import java.util.Calendar;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -103,7 +104,7 @@ public class Functional_Cases {
 	 		}	
 	}
 	
-	public void UpdateVirtualMachine_Update(WebDriver driver, String ProjectInformation, String Project, String PrimaryDatacenter, String PrimaryCloudPlatform,  String VcenterHost, String ESXIHOST, String SelectCluster, String	SelectServer, String Serversize, String Storage, String StorageProvier, String StorageName, String AggregateName, String VServer,	String Size, String SizeUnits, String Protocol, String	OpenPort, String Port,  String FromPort, String ToPort, String AllowForm, String IP, String FromIP, String ToIP, String AddMonitering,	String InstallAgentMonitering,	String InstandEnablSNMP, String ChangeDefaultCommString, String	CommunityString ) throws AWTException, InterruptedException, IOException
+	public void UpdateVirtualMachine_Update(WebDriver driver, String ProjectInformation, String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String EnvironmentData, String VcenterHost, String ESXIHOST, String SelectCluster, String	SelectServer, String Serversize, String Storage, String StorageProvier, String StorageName, String AggregateName, String VServer,	String Size, String SizeUnits, String Protocol, String	OpenPort, String Port,  String FromPort, String ToPort, String AllowForm, String IP, String FromIP, String ToIP, String AddMonitering,	String InstallAgentMonitering,	String InstandEnablSNMP, String ChangeDefaultCommString, String	CommunityString ) throws AWTException, InterruptedException, IOException
 	{
 		try{
 			
@@ -140,6 +141,10 @@ public class Functional_Cases {
 					
 					fL.selectDropdownbyID(driver, prop.getProperty("ESXIHOST"), ESXIHOST, ESXIHOST, "Selected ESXIHOST", "Select ESXIHOST", "Select Successful", "N");
 				}
+				
+				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
+				
+				fL.selectDropdownbyID(driver, prop.getProperty("EnvrionmentUpdateVM"), EnvironmentData, prop.getProperty("EnvrionmentUpdateVM"), "Selected Envrionment", "Select Envrionment Dropdown", "Select Envrionment Dropdown field was successfully selected ", "N");
 				
 				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 				
@@ -208,7 +213,7 @@ public class Functional_Cases {
 	}
 	
 	public void UpdateVirtualMachine_AddUser(WebDriver driver, String ProjectInformation, String Project,
-			String PrimaryDatacenter, String PrimaryCloudPlatform, String VcenterHost,
+			String PrimaryDatacenter, String PrimaryCloudPlatform, String EnvironmentData, String VcenterHost,
 			String ESXIHOST, String SelectCluster, String SelectServer, String Email, String Value, String PCICompliance)
 			throws AWTException, InterruptedException, IOException {
 		try {
@@ -221,6 +226,8 @@ public class Functional_Cases {
 			fL.clickByxpath(driver, prop.getProperty("UpdateVM"),prop.getProperty("UpdateVM") ,"Clicked the UpdateVM", "Select UpdateVM from AIMS", "Successfully Selected", "N");
 
 			fL.selectDropdownbyID(driver, prop.getProperty("ProjectInformationID"), ProjectInformation, prop.getProperty("ProjectInformationID"), "Type of ServerOperation Field Choosen", "Select Update Field", "ServerOperation field was successfully selected ", "N");
+			
+			//fL.selectDropdownbyID(driver, prop.getProperty("EnvrionmentUpdateVM"), EnvironmentData, prop.getProperty("EnvrionmentUpdateVM"), "Selected Envrionment", "Select Envrionment Dropdown", "Select Envrionment Dropdown field was successfully selected ", "N");
 			
 			fL.clickByxpath(driver, prop.getProperty("ProjectFiledXpath"),prop.getProperty("ProjectFiledXpath"), "Selected Project lookup field", "Hit the Project LookupField", "Successfully selected", "N");
 			
@@ -238,6 +245,8 @@ public class Functional_Cases {
 			
 			fL.HandleMultipleWindows(driver, PrimaryCloudPlatform, PrimaryCloudPlatform, "Choosen PrimaryCloud Field", "Choose PrimaryCloud Field", "Successfully Selected", "N");
 			
+			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
+			
 			if(PrimaryCloudPlatform.equalsIgnoreCase("VMWare")){
 				
 				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
@@ -246,6 +255,10 @@ public class Functional_Cases {
 				
 				fL.selectDropdownbyID(driver, prop.getProperty("ESXIHOST"), ESXIHOST, ESXIHOST, "Selected ESXIHOST", "Select ESXIHOST", "Select Successful", "N");
 			}
+			
+			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
+			
+			fL.selectDropdownbyID(driver, prop.getProperty("EnvrionmentUpdateVM"), EnvironmentData, prop.getProperty("EnvrionmentUpdateVM"), "Selected Envrionment", "Select Envrionment Dropdown", "Select Envrionment Dropdown field was successfully selected ", "N");
 			
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 			
@@ -276,7 +289,7 @@ public class Functional_Cases {
 	
 	
 	public void UpdateVirtualMachine_RemoveUser(WebDriver driver, String ProjectInformation, String Project,
-			String PrimaryDatacenter, String PrimaryCloudPlatform, String VcenterHost,
+			String PrimaryDatacenter, String PrimaryCloudPlatform, String EnvironmentData, String VcenterHost,
 			String ESXIHOST, String SelectCluster, String SelectServer, String Email, String Value, String PCICompliance)
 			throws AWTException, InterruptedException, IOException {
 		try {
@@ -315,6 +328,10 @@ public class Functional_Cases {
 				fL.selectDropdownbyID(driver, prop.getProperty("ESXIHOST"), ESXIHOST, ESXIHOST, "Selected ESXIHOST", "Select ESXIHOST", "Select Successful", "N");
 			}
 			
+			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
+			
+			fL.selectDropdownbyID(driver, prop.getProperty("EnvrionmentUpdateVM"), EnvironmentData, prop.getProperty("EnvrionmentUpdateVM"), "Selected Envrionment", "Select Envrionment Dropdown", "Select Envrionment Dropdown field was successfully selected ", "N");
+				
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 			
 			fL.clickByxpath(driver, prop.getProperty("SelectCulsterxpath"),prop.getProperty("SelectCulsterxpath"), "Selected cluster field", "click on Cluster Lookup field", "Successfully hit the field", "N");
@@ -347,7 +364,7 @@ public class Functional_Cases {
 
 
 	public void UpdateVirtualMachine_Delete(WebDriver driver, String ProjectInformation, String Project,
-			String PrimaryDatacenter, String PrimaryCloudPlatform, String TypeofDecommission, String VcenterHost,
+			String PrimaryDatacenter, String PrimaryCloudPlatform, String EnvironmentData, String TypeofDecommission, String VcenterHost,
 			String ESXIHOST, String SelectCluster, String SelectServer)
 			throws AWTException, InterruptedException, IOException {
 		try {
@@ -404,7 +421,12 @@ public class Functional_Cases {
 						"Select ESXIHOST", "Select Successful", "N");
 
 			}
-
+			
+fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
+			
+			fL.selectDropdownbyID(driver, prop.getProperty("EnvrionmentUpdateVM"), EnvironmentData, prop.getProperty("EnvrionmentUpdateVM"), "Selected Envrionment", "Select Envrionment Dropdown", "Select Envrionment Dropdown field was successfully selected ", "N");
+			
+			
 			if (TypeofDecommission.equalsIgnoreCase("Cluster")) {
 
 				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"),
@@ -604,6 +626,12 @@ public class Functional_Cases {
 			
 			fL.clickByID(driver, prop.getProperty("UpdateButtonID"),prop.getProperty("UpdateButtonID"), "Updated form", "click update button", "Successfull", "N");
 			
+			// Switching to Alert        
+	        Alert alert = driver.switchTo().alert();
+	        
+	        // Accepting alert		
+	        alert.accept();		
+	        
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 			
 			//RITMNumber(driver);
@@ -612,7 +640,17 @@ public class Functional_Cases {
 			
 			//fL.ClickByLinkText(driver, replaceReqNum, replaceReqNum, "Replaced he request from REQ to RITM", "Replace RITM", "Successful", "N");
 			
-			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			
+			fL.clickByxpath(driver, prop.getProperty("Approvalxpath"),prop.getProperty("Approvalxpath"), "Clicked on approval tab on RITM", "Manager Approval", "Successful", "N");
+				
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			
+			ApprovalRequestNewTab(driver, prop.getProperty("Approvallink"));
+			
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			
+			/*fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 			
 			fL.clickByxpath(driver, prop.getProperty("ApprovalTabxpath"),prop.getProperty("ApprovalTabxpath"), "Clicked on approval tab on RITM", "Manager Approval", "Successful", "N");
 	
@@ -620,15 +658,7 @@ public class Functional_Cases {
 			
 			ApprovalRequestTabLinkText(driver, prop.getProperty("ApprovalStatusLink"));
 			
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			
-			fL.clickByxpath(driver, prop.getProperty("ApprovalTabxpath"),prop.getProperty("ApprovalTabxpath"), "Clicked on approval tab on RITM", "Manager Approval", "Successful", "N");
-				
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			
-			ApprovalRequestNewTab(driver, prop.getProperty("ApprovalStatusLink"));
-			
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);*/
 		
 		 } catch (WebDriverException e) {
 			////System.out.println(e.getMessage());
@@ -642,9 +672,7 @@ public class Functional_Cases {
 		
 		if(element.isDisplayed()){
 			fL.rightClick(driver, element);
-			
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			
 			WebElement elementEdit =driver.findElement(By.xpath(prop.getProperty("ApproveButtonXpath")));
 			elementEdit.click();
 			System.out.println("Success");
@@ -677,17 +705,15 @@ public class Functional_Cases {
 			prop.load(input);
 	
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
-			
-			
-			
+						
 			fL.clickByID(driver, prop.getProperty("showworkflowID"),prop.getProperty("showworkflowID"), "Clicked on Workflow in RITM Form", "Show the workflow", "Workflow clicked Successful", "N");
 						
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			
-			fL.SwitchtoAnotherWindows(driver, prop.getProperty("UpdateServerID"), "Selected updateserver tab on workflow", "click on updateserver tab", "successful", "N");
+			fL.SwitchtoAnotherWindows(driver, prop.getProperty("UpdateServerxpath"), "Selected updateserver tab on workflow", "click on updateserver tab", "successful", "N");
 			
 		 } catch (WebDriverException e) {
-			////System.out.println(e.getMessage());
+			//System.out.println(e.getMessage());
 	 	}	
 	}
 
