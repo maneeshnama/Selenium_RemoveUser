@@ -61,7 +61,7 @@ public class UpdateVMScenario extends BrowserConfig {
 			String StorageName, String AggregateName, String VServer, String Size, String SizeUnits, String Protocol,
 			String OpenPort, String Port, String FromPort, String ToPort, String AllowForm, String IP, String FromIP,
 			String ToIP, String AddMonitering, String InstallAgentMonitering, String InstandEnablSNMP,
-			String ChangeDefaultCommString, String CommunityString)
+			String ChangeDefaultCommString, String CommunityString, String Moniteringtype)
 			throws AWTException, InterruptedException, IOException {
 		setAuthorInfoReports();
 		try {
@@ -77,7 +77,7 @@ public class UpdateVMScenario extends BrowserConfig {
 			  StorageProvier, StorageName, AggregateName, VServer, Size,
 			  SizeUnits, Protocol, OpenPort, Port, FromPort, ToPort, AllowForm,
 			  IP, FromIP, ToIP, AddMonitering, InstallAgentMonitering,
-			  InstandEnablSNMP, ChangeDefaultCommString, CommunityString );
+			  InstandEnablSNMP, ChangeDefaultCommString, CommunityString, Moniteringtype );
 			  fC.getRequestNumber(driver); fL.SwitchFrames(driver,
 			  prop.getProperty("MainframeID"), "", "", "", "", ""); String
 			  RequestText = fC.getRequestID(driver,

@@ -66,8 +66,8 @@ public class UpdateVirtualMachine_AddUser extends BrowserConfig{
 			if(Control.equalsIgnoreCase("Y")){
 				fC.AIMSLaunchApplication(driver);
 				fC.UpdateVirtualMachine_AddUser(driver, ProjectInformation, Project, PrimaryDatacenter, PrimaryCloudPlatform, EnvironmentData, VcenterHost, ESXIHOST, SelectCluster, SelectServer, Email, Value, PCICompliance);
-				fC.getRequestNumber(driver);	
-				/*fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "", "", "", "", "");
+				/*fC.getRequestNumber(driver);	
+				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "", "", "", "", "");
 				String RequestText = fC.getRequestID(driver, prop.getProperty("RequestLinkID"));
 				System.out.println(RequestText);
 				fC.ImpersonateUser(driver);

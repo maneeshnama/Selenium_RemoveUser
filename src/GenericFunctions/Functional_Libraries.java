@@ -253,7 +253,7 @@ public class Functional_Libraries {
 			}
 		
 		
-		public void HandleMultipleWindows(WebDriver driver, String text,String input, String Description, String ExpectedResult, String ActualResults,String Screenshot ) throws IOException, InterruptedException
+		public void HandleMultipleWindows(WebDriver driver, String text, String input, String Description, String ExpectedResult, String ActualResults,String Screenshot ) throws IOException, InterruptedException
 		{
 			try {
 				
@@ -276,9 +276,7 @@ public class Functional_Libraries {
 					if (!currentWindowHandle.equals(mainWindow)) {
 						
 						driver.switchTo().window(currentWindowHandle);
-						
-						//driver.manage().window().maximize();
-							
+					
 						try {
 							FluentWait<WebDriver> waitforelement  = new FluentWait<WebDriver>(driver)
 								       .withTimeout(60, TimeUnit.SECONDS)
@@ -286,7 +284,6 @@ public class Functional_Libraries {
 								       .ignoring(NoSuchElementException.class);
 							waitforelement.until(ExpectedConditions.elementToBeClickable(By.linkText(text)));
 							driver.findElement(By.linkText(text)).click();
-							
 							reportStep(input, Description, "SUCCESS", ExpectedResult, ActualResults, Screenshot);
 							} catch (NoSuchElementException exc) {
 								exc.printStackTrace();

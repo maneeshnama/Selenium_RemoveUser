@@ -104,7 +104,7 @@ public class Functional_Cases {
 	 		}	
 	}
 	
-	public void UpdateVirtualMachine_Update(WebDriver driver, String ProjectInformation, String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String EnvironmentData, String VcenterHost, String ESXIHOST, String SelectCluster, String	SelectServer, String Serversize, String Storage, String StorageProvier, String StorageName, String AggregateName, String VServer,	String Size, String SizeUnits, String Protocol, String	OpenPort, String Port,  String FromPort, String ToPort, String AllowForm, String IP, String FromIP, String ToIP, String AddMonitering,	String InstallAgentMonitering,	String InstandEnablSNMP, String ChangeDefaultCommString, String	CommunityString ) throws AWTException, InterruptedException, IOException
+	public void UpdateVirtualMachine_Update(WebDriver driver, String ProjectInformation, String Project, String PrimaryDatacenter, String PrimaryCloudPlatform, String EnvironmentData, String VcenterHost, String ESXIHOST, String SelectCluster, String	SelectServer, String Serversize, String Storage, String StorageProvier, String StorageName, String AggregateName, String VServer,	String Size, String SizeUnits, String Protocol, String	OpenPort, String Port,  String FromPort, String ToPort, String AllowForm, String IP, String FromIP, String ToIP, String AddMonitering,	String InstallAgentMonitering,	String InstandEnablSNMP, String ChangeDefaultCommString, String	CommunityString, String Moniteringtype ) throws AWTException, InterruptedException, IOException
 	{
 		try{
 			
@@ -160,7 +160,11 @@ public class Functional_Cases {
 				
 				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 				
-				fL.selectDropdownbyID(driver, prop.getProperty("ServerSize"), Serversize, Serversize, "Selected Service Size", "Select one Size", "Select Successful", "N");
+				fL.clickByxpath(driver, prop.getProperty("ServerSizeXpath"),prop.getProperty("ServerSizeXpath"), "Selected Server field ", "click on Server Lookup field", "Successfully hit the field", "N");
+				
+				fL.HandleMultipleWindows(driver, Serversize, Serversize, "Selected DEV-LNX-APACHE-63 ", "Select One Server", "Server Select Successful", "N");
+				
+				//fL.selectDropdownbyID(driver, prop.getProperty("ServerSize"), Serversize, Serversize, "Selected Service Size", "Select one Size", "Select Successful", "N");
 				
 				if(Storage.equalsIgnoreCase("Yes")){
 				
@@ -182,9 +186,13 @@ public class Functional_Cases {
 				
 				//fL.selectDropdownbyID(driver, prop.getProperty("ProtocolID"), "Custom",prop.getProperty("ProtocolID"), "Selected Additional Storage", "You need addition storage??", "Yes Selected", "N");
 
-				FirewalPortRules(driver, Protocol, OpenPort, Port, AllowForm, IP, FromPort, ToPort, FromIP, ToIP);
+				//FirewalPortRules(driver, Protocol, OpenPort, Port, AllowForm, IP, FromPort, ToPort, FromIP, ToIP);
 				
-				MonitoringInformation(driver, AddMonitering, InstallAgentMonitering,InstandEnablSNMP,ChangeDefaultCommString, CommunityString);
+				//NewMonitoringInformation(driver, Moniteringtype);
+				
+				//fL.selectDropdownbyID(driver, prop.getProperty("MonitorTypeid"), Moniteringtype, "", "", "", "", "");
+				
+				//MonitoringInformation(driver, AddMonitering, InstallAgentMonitering,InstandEnablSNMP,ChangeDefaultCommString, CommunityString);
 				
 				//fL.clickByID(driver, prop.getProperty("OrderNow"),prop.getProperty("OrderNow") ,"Clicked OrderNow", "Place Your order", "Successful", "N");
 					
@@ -194,9 +202,13 @@ public class Functional_Cases {
 					
 					fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 					
-					FirewalPortRules(driver, Protocol, OpenPort, Port, AllowForm, IP, FromPort, ToPort, FromIP, ToIP);
+					//FirewalPortRules(driver, Protocol, OpenPort, Port, AllowForm, IP, FromPort, ToPort, FromIP, ToIP);
 					
-					MonitoringInformation(driver, AddMonitering, InstallAgentMonitering,InstandEnablSNMP,ChangeDefaultCommString, CommunityString);
+					//MonitoringInformation(driver, AddMonitering, InstallAgentMonitering,InstandEnablSNMP,ChangeDefaultCommString, CommunityString);
+					
+					//NewMonitoringInformation(driver, Moniteringtype);
+					
+					//fL.selectDropdownbyID(driver, prop.getProperty("MonitorTypeid"), Moniteringtype, "", "", "", "", "");
 					
 				//	fL.clickByID(driver, prop.getProperty("OrderNow"),prop.getProperty("OrderNow") ,"Clicked OrderNow", "Place Your order", "Successful", "N");
 				}
@@ -225,25 +237,25 @@ public class Functional_Cases {
 			
 			fL.clickByxpath(driver, prop.getProperty("UpdateVM"),prop.getProperty("UpdateVM") ,"Clicked the UpdateVM", "Select UpdateVM from AIMS", "Successfully Selected", "N");
 
-			fL.selectDropdownbyID(driver, prop.getProperty("ProjectInformationID"), ProjectInformation, prop.getProperty("ProjectInformationID"), "Type of ServerOperation Field Choosen", "Select Update Field", "ServerOperation field was successfully selected ", "N");
+			fL.selectDropdownbyID(driver, prop.getProperty("ProjectInformationID"), ProjectInformation, prop.getProperty("ProjectInformationID"), "Type of ServerOperation Field Choosen", "Select Update Field", "ServerOperation field was successfully selected ", "Y");
 			
 			//fL.selectDropdownbyID(driver, prop.getProperty("EnvrionmentUpdateVM"), EnvironmentData, prop.getProperty("EnvrionmentUpdateVM"), "Selected Envrionment", "Select Envrionment Dropdown", "Select Envrionment Dropdown field was successfully selected ", "N");
 			
 			fL.clickByxpath(driver, prop.getProperty("ProjectFiledXpath"),prop.getProperty("ProjectFiledXpath"), "Selected Project lookup field", "Hit the Project LookupField", "Successfully selected", "N");
 			
-			fL.HandleMultipleWindows(driver, Project, Project, "Choosen the Project", "Choose One Project", "PRJ0010232 Selected", "");
+			fL.HandleMultipleWindows(driver, Project, Project, "Choosen the Project", "Choose One Project", "PRJ0010232 Selected", "Y");
 			
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 			
 			fL.clickByxpath(driver, prop.getProperty("PrimaryDataCenterXpath"),prop.getProperty("PrimaryDataCenterXpath"), "Selected PrimaryDataCenter lookup field", "Hit the PrimaryDataCenter LookupField", "PrimaryDataCenterServerOperation field was successfully selected", "N");
 			
-			fL.HandleMultipleWindows(driver, PrimaryDatacenter, PrimaryDatacenter, "Dallas Was Selected", "Choose one PrimarydataCenter", "Successfully Selected", "N");
+			fL.HandleMultipleWindows(driver, PrimaryDatacenter, PrimaryDatacenter, "Dallas Was Selected", "Choose one PrimarydataCenter", "Successfully Selected", "Y");
 			
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 			
 			fL.clickByxpath(driver, prop.getProperty("PrimaryCloudPlatformxpath"),prop.getProperty("PrimaryCloudPlatformxpath"), "Selected PrimaryCloudPlatform lookup field", "Hit the PrimaryCloudPlatform LookupField", "PrimaryCloudPlatform field was successfully selected ", "N");
 			
-			fL.HandleMultipleWindows(driver, PrimaryCloudPlatform, PrimaryCloudPlatform, "Choosen PrimaryCloud Field", "Choose PrimaryCloud Field", "Successfully Selected", "N");
+			fL.HandleMultipleWindows(driver, PrimaryCloudPlatform, PrimaryCloudPlatform, "Choosen PrimaryCloud Field", "Choose PrimaryCloud Field", "Successfully Selected", "Y");
 			
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 			
@@ -251,26 +263,26 @@ public class Functional_Cases {
 				
 				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 				
-				fL.selectDropdownbyID(driver, prop.getProperty("VcenterHost"), VcenterHost, VcenterHost, "Selected VcenterHost", "Select VcenterHost", "Select Successful", "N");
+				fL.selectDropdownbyID(driver, prop.getProperty("VcenterHost"), VcenterHost, VcenterHost, "Selected VcenterHost", "Select VcenterHost", "Select Successful", "Y");
 				
-				fL.selectDropdownbyID(driver, prop.getProperty("ESXIHOST"), ESXIHOST, ESXIHOST, "Selected ESXIHOST", "Select ESXIHOST", "Select Successful", "N");
+				fL.selectDropdownbyID(driver, prop.getProperty("ESXIHOST"), ESXIHOST, ESXIHOST, "Selected ESXIHOST", "Select ESXIHOST", "Select Successful", "Y");
 			}
 			
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 			
-			fL.selectDropdownbyID(driver, prop.getProperty("EnvrionmentUpdateVM"), EnvironmentData, prop.getProperty("EnvrionmentUpdateVM"), "Selected Envrionment", "Select Envrionment Dropdown", "Select Envrionment Dropdown field was successfully selected ", "N");
+			fL.selectDropdownbyID(driver, prop.getProperty("EnvrionmentUpdateVM"), EnvironmentData, prop.getProperty("EnvrionmentUpdateVM"), "Selected Envrionment", "Select Envrionment Dropdown", "Select Envrionment Dropdown field was successfully selected ", "Y");
 			
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 			
 			fL.clickByxpath(driver, prop.getProperty("SelectCulsterxpath"),prop.getProperty("SelectCulsterxpath"), "Selected cluster field", "click on Cluster Lookup field", "Successfully hit the field", "N");
 			
-			fL.HandleMultipleWindows(driver, SelectCluster, SelectCluster, "Selected OpenStack-Aims", "Select one Cluster", "Cluster select Successful", "N");
+			fL.HandleMultipleWindows(driver, SelectCluster, SelectCluster, "Selected OpenStack-Aims", "Select one Cluster", "Cluster select Successful", "Y");
 			
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 			
 			fL.clickByxpath(driver, prop.getProperty("SelectServerXpath"),prop.getProperty("SelectServerXpath"), "Selected Server field ", "click on Server Lookup field", "Successfully hit the field", "N");
 			
-			fL.HandleMultipleWindows(driver, SelectServer, SelectServer, "Selected DEV-LNX-APACHE-63 ", "Select One Server", "Server Select Successful", "N");
+			fL.HandleMultipleWindows(driver, SelectServer, SelectServer, "Selected DEV-LNX-APACHE-63 ", "Select One Server", "Server Select Successful", "Y");
 			
 			//fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 		
@@ -280,7 +292,7 @@ public class Functional_Cases {
 					"Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 
 			fL.clickByID(driver, prop.getProperty("OrderNow"), prop.getProperty("OrderNow"), "Clicked OrderNow",
-					"Place Your order", "Successful", "N");
+					"Place Your order", "Successful", "Y");
 
 		} catch (WebDriverException e) {
 			System.out.println(e.getMessage());
@@ -345,11 +357,10 @@ public class Functional_Cases {
 			fL.HandleMultipleWindows(driver, SelectServer, SelectServer, "Selected DEV-LNX-APACHE-63 ", "Select One Server", "Server Select Successful", "N");
 			
 			//fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
-		
-		
 
 			ServerAccessAndPermissions(driver, Email, Value, PCICompliance);
 
+			
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"),
 					"Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 
@@ -498,7 +509,7 @@ fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("Mainf
 	
 
 	
-	public void ServerAccessAndPermissions(WebDriver driver, String UserName, String Value, String PCICompliance) throws AWTException, InterruptedException, IOException
+	public void ServerAccessAndPermissions(WebDriver driver, String UserName, String ServerAccountDetails, String PCICompliance) throws AWTException, InterruptedException, IOException
 	{
 		try{
 			
@@ -509,13 +520,11 @@ fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("Mainf
 			
 			fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("MainframeID"), "Swicthing to Main Frame", "Main Frame should be activited", "Mainframe actitivited", "N");
 			
-			//fL.SwitchtoWindows(driver, "", "", "", "");
-			
 			fL.clickByID(driver, prop.getProperty("LockID"),prop.getProperty("LockID"), "Clicked User Menu", "Select An User", "Select Successful", "N");
 			
 			fL.clickByID(driver, prop.getProperty("LockSearchID"),prop.getProperty("LockSearchID"), "Clicked User Menu", "Select An User", "Select Successful", "N");
 			
-			fL.SwitchtoWindowsSelectUser(driver, prop.getProperty("SearchUserXpath"), UserName, "", "", "", "", "");
+			fL.HandleMultipleWindows(driver, UserName, UserName, "Dallas Was Selected", "Choose one PrimarydataCenter", "Successfully Selected", "Y");
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			
@@ -525,11 +534,13 @@ fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("Mainf
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			
-			fL.enterValuebyID(driver, prop.getProperty("ServiceAccountid"), Value, Value, "", "", "", "");
-	
-			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			fL.clickByxpath(driver, prop.getProperty("ServiceAccountxpath"),prop.getProperty("ServiceAccountxpath"), "Selected PrimaryDataCenter lookup field", "Hit the PrimaryDataCenter LookupField", "PrimaryDataCenterServerOperation field was successfully selected", "N");
 			
-			fL.selectDropdownbyID(driver, prop.getProperty("PCIComplianceid"), PCICompliance, PCICompliance, "Selected VcenterHost", "Select VcenterHost", "Select Successful", "N");
+			fL.HandleMultipleWindows(driver, ServerAccountDetails, ServerAccountDetails, "Dallas Was Selected", "Choose one PrimarydataCenter", "Successfully Selected", "Y");
+				
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+			//fL.selectDropdownbyID(driver, prop.getProperty("PCIComplianceid"), PCICompliance, PCICompliance, "Selected VcenterHost", "Select VcenterHost", "Select Successful", "N");
 			
 		 } catch (WebDriverException e) {
 			////System.out.println(e.getMessage());
@@ -1035,6 +1046,20 @@ fL.SwitchFrames(driver, prop.getProperty("MainframeID"), prop.getProperty("Mainf
 	 		}	
 	}
 	
+	public void NewMonitoringInformation(WebDriver driver, String Moniteringtype) throws AWTException, InterruptedException, IOException
+	{
+		try{
+			
+			input = new FileInputStream("Configuration\\Object_Repository.properties");
+			prop.load(input);
+						
+			fL.selectDropdownbyID(driver, prop.getProperty("MonitorTypeid"), Moniteringtype, "", "", "", "", "");
+							
+		 } catch (WebDriverException e) {
+			//System.out.println(e.getMessage());
+	 		}	
+	}
+
 	public void Logout(WebDriver driver) throws AWTException, InterruptedException, IOException
 	{
 		try{

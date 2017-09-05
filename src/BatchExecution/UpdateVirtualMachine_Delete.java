@@ -65,18 +65,18 @@ public class UpdateVirtualMachine_Delete extends BrowserConfig{
 			if(Control.equalsIgnoreCase("Y")){
 				fC.AIMSLaunchApplication(driver);
 				fC.UpdateVirtualMachine_Delete(driver, ProjectInformation, Project, PrimaryDatacenter, PrimaryCloudPlatform, EnvironmentData, TypeofDecommission, VcenterHost, ESXIHOST, SelectCluster, SelectServer);
-//				fC.getRequestNumber(driver);	
-//				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "", "", "", "", "");
-//				String RequestText = fC.getRequestID(driver, prop.getProperty("RequestLinkID"));
-//				System.out.println(RequestText);
-//				fC.ImpersonateUser(driver);
-//				String replaceReqNum = fC.ReplaceRequestNumber(driver, RequestText);
-//				System.out.println(replaceReqNum);
-//				String finalreplaceReqNum = fC.getRITMNUMBEr(driver, replaceReqNum);
-//				System.out.println(finalreplaceReqNum);
-//				fC.RequestApproval(driver, RequestText, finalreplaceReqNum);
-//				fC.ShowWorkFlow(driver);
-//				fC.Search_cmdb_ci_server_list(driver);
+				fC.getRequestNumber(driver);	
+				fL.SwitchFrames(driver, prop.getProperty("MainframeID"), "", "", "", "", "");
+				String RequestText = fC.getRequestID(driver, prop.getProperty("RequestLinkID"));
+				System.out.println(RequestText);
+				fC.ImpersonateUser(driver);
+				String replaceReqNum = fC.ReplaceRequestNumber(driver, RequestText);
+				System.out.println(replaceReqNum);
+				String finalreplaceReqNum = fC.getRITMNUMBEr(driver, replaceReqNum);
+				System.out.println(finalreplaceReqNum);
+				fC.RequestApproval(driver, RequestText, finalreplaceReqNum);
+				fC.ShowWorkFlow(driver);
+				fC.Search_cmdb_ci_server_list(driver);
 				
 			 getTestName().equals(UpdateVM_Scenario);
 				
